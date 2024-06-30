@@ -1,0 +1,955 @@
+[2024-06-29 18:40:17,620] [kometa.py:259]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,621] [kometa.py:260]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:17,621] [kometa.py:261]             [INFO]     |                   __  ___  ______    ___  ___   _______  __________    ___                         |
+[2024-06-29 18:40:17,621] [kometa.py:262]             [INFO]     |                  |  |/  / /  __  \  |   \/   | |   ____||          |  /   \                        |
+[2024-06-29 18:40:17,621] [kometa.py:263]             [INFO]     |                  |  '  / |  |  |  | |  \  /  | |  |__   `---|  |---` /  ^  \                       |
+[2024-06-29 18:40:17,621] [kometa.py:264]             [INFO]     |                  |    <  |  |  |  | |  |\/|  | |   __|      |  |    /  /_\  \                      |
+[2024-06-29 18:40:17,621] [kometa.py:265]             [INFO]     |                  |  .  \ |  `--`  | |  |  |  | |  |____     |  |   /  _____  \                     |
+[2024-06-29 18:40:17,621] [kometa.py:266]             [INFO]     |                  |__|\__\ \______/  |__|  |__| |_______|    |__|  /__/     \__\                    |
+[2024-06-29 18:40:17,621] [kometa.py:267]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:17,622] [kometa.py:273]             [INFO]     |     Version: 2.0.2 (Docker: master)                                                                |
+[2024-06-29 18:40:17,704] [kometa.py:276]             [INFO]     |     Platform: Linux-5.10.0-21-amd64-x86_64-with-glibc2.28                                          |
+[2024-06-29 18:40:17,704] [kometa.py:277]             [INFO]     |     Total Memory: 8 GB                                                                             |
+[2024-06-29 18:40:17,705] [kometa.py:278]             [INFO]     |     Available Memory: 6 GB                                                                         |
+[2024-06-29 18:40:17,705] [kometa.py:309]             [DEBUG]    |====================================================================================================|
+[2024-06-29 18:40:17,705] [kometa.py:310]             [DEBUG]    | Run Command: kometa.py --run-files Arrested-Development.yml                                        |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --config (KOMETA_CONFIG): None                                                                     |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --times (KOMETA_TIMES): "05:00"                                                                    |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --run (KOMETA_RUN): False                                                                          |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --tests (KOMETA_TESTS): False                                                                      |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --debug (KOMETA_DEBUG): False                                                                      |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --trace (KOMETA_TRACE): False                                                                      |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --log-requests (KOMETA_LOG_REQUESTS): False                                                        |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --timeout (KOMETA_TIMEOUT): 180                                                                    |
+[2024-06-29 18:40:17,705] [kometa.py:314]             [DEBUG]    | --no-verify-ssl (KOMETA_NO_VERIFY_SSL): False                                                      |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --collections-only (KOMETA_COLLECTIONS_ONLY): False                                                |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --metadata-only (KOMETA_METADATA_ONLY): False                                                      |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --playlists-only (KOMETA_PLAYLISTS_ONLY): False                                                    |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --operations-only (KOMETA_OPERATIONS_ONLY): False                                                  |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --overlays-only (KOMETA_OVERLAYS_ONLY): False                                                      |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --run-collections (KOMETA_RUN_COLLECTIONS): None                                                   |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --run-libraries (KOMETA_RUN_LIBRARIES): None                                                       |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --run-files (KOMETA_RUN_FILES): "Arrested-Development.yml"                                         |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --ignore-schedules (KOMETA_IGNORE_SCHEDULES): False                                                |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --ignore-ghost (KOMETA_IGNORE_GHOST): False                                                        |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --delete-collections (KOMETA_DELETE_COLLECTIONS): False                                            |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --delete-labels (KOMETA_DELETE_LABELS): False                                                      |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --resume (KOMETA_RESUME): None                                                                     |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --no-countdown (KOMETA_NO_COUNTDOWN): False                                                        |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --no-missing (KOMETA_NO_MISSING): False                                                            |
+[2024-06-29 18:40:17,706] [kometa.py:314]             [DEBUG]    | --no-report (KOMETA_NO_REPORT): False                                                              |
+[2024-06-29 18:40:17,707] [kometa.py:314]             [DEBUG]    | --read-only-config (KOMETA_READ_ONLY_CONFIG): False                                                |
+[2024-06-29 18:40:17,707] [kometa.py:314]             [DEBUG]    | --divider (KOMETA_DIVIDER): "="                                                                    |
+[2024-06-29 18:40:17,707] [kometa.py:314]             [DEBUG]    | --width (KOMETA_WIDTH): 100                                                                        |
+[2024-06-29 18:40:17,707] [kometa.py:315]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,707] [kometa.py:321]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,707] [kometa.py:321]             [INFO]     |                                            Starting Run                                            |
+[2024-06-29 18:40:17,707] [kometa.py:321]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,707] [config.py:144]             [INFO]     | Locating config...                                                                                 |
+[2024-06-29 18:40:17,707] [config.py:150]             [INFO]     | Using //config/config.yml as config                                                                |
+[2024-06-29 18:40:17,715] [config.py:191]             [DEBUG]    |========================================= Redacted Config ==========================================|
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    | libraries:                                                                                         |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    | ########################################                                                           |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    | #   MUST MATCH THE PLEX LIBRARY NAME   #                                                           |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    | ########################################                                                           |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |   Movies:                                                                                          |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/movies/                                                            |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
+[2024-06-29 18:40:17,716] [config.py:193]             [DEBUG]    |     - folder: //config/collections/movies/                                                         |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/movies/                                                     |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |       overlay_files: //config/overlays/movies/                                                     |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |       remove_overlays: true                                                                        |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         PG: 12                                                                                     |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         PG-13: 13                                                                                  |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         TV-14: 15                                                                                  |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         NR: 17                                                                                     |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         Not Rated: 17                                                                              |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |         R: 18                                                                                      |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Movies.yml                                                        |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,717] [config.py:193]             [DEBUG]    |   Music:                                                                                           |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/music/                                                             |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/music/                                                      |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Music.yml                                                         |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |   Shows:                                                                                           |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/shows/                                                             |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     - folder: //config/collections/shows/                                                          |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |     - default: country                                                                             |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |         use_other: false                                                                           |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |         use_separator: false                                                                       |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |         sep_style: purple                                                                          |
+[2024-06-29 18:40:17,718] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         include:                                                                                   |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         - gb                                                                                       |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         - kr                                                                                       |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         sort_by: title.asc                                                                         |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |     - default: emmy                                                                                |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         collection_order: alpha                                                                    |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         data:                                                                                      |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |           starting: current_year-5                                                                 |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |           ending: current_year                                                                     |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |     - default: trakt                                                                               |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         use_collected: false                                                                       |
+[2024-06-29 18:40:17,719] [config.py:193]             [DEBUG]    |         use_popular: false                                                                         |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         use_recommended: false                                                                     |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         use_watched: false                                                                         |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         limit: 20                                                                                  |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_library_trending: true                                                             |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_home_trending: false                                                               |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_shared_trending: true                                                              |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |     - default: basic                                                                               |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         use_episodes: false                                                                        |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         use_released: true                                                                         |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         in_the_last_released: 120                                                                  |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_library_released: true                                                             |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_home_released: false                                                               |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |         visible_shared_released: false                                                             |
+[2024-06-29 18:40:17,720] [config.py:193]             [DEBUG]    |       settings:                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         asset_directory: config/assets/shows                                                       |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         asset_folders: true                                                                        |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         overlay_files: //config/overlays/shows/                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         remove_overlays: true                                                                      |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-Y: 4                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-Y7: 7                                                                                   |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-G: 7                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-PG: 12                                                                                  |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-14: 14                                                                                  |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |         TV-MA: 18                                                                                  |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Shows.yml                                                         |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    | playlist_files:                                                                                    |
+[2024-06-29 18:40:17,721] [config.py:193]             [DEBUG]    | - folder: //config/playlists/                                                                      |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    | settings:                                                                                          |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   cache: true                                                                                      |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   asset_folders: true                                                                              |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   asset_depth: 5                                                                                   |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   create_asset_folders: true                                                                       |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   prioritize_assets: true                                                                          |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   dimensional_asset_rename: false                                                                  |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   download_url_assets: true                                                                        |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   show_missing_season_assets: true                                                                 |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   show_missing_episode_assets: false                                                               |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   show_asset_not_needed: true                                                                      |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   sync_mode: append                                                                                |
+[2024-06-29 18:40:17,722] [config.py:193]             [DEBUG]    |   minimum_items: 2                                                                                 |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   default_collection_order:                                                                        |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   delete_below_minimum: true                                                                       |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   delete_not_scheduled: false                                                                      |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   run_again_delay: 2                                                                               |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   missing_only_released: false                                                                     |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   only_filter_missing: false                                                                       |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   show_unmanaged: true                                                                             |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   show_filtered: false                                                                             |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   show_options: false                                                                              |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   show_missing: false                                                                              |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   show_missing_assets: true                                                                        |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   save_report: true                                                                                |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   tvdb_language: eng                                                                               |
+[2024-06-29 18:40:17,723] [config.py:193]             [DEBUG]    |   ignore_ids:                                                                                      |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   ignore_imdb_ids:                                                                                 |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   item_refresh_delay: 0                                                                            |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   playlist_sync_to_user:                                                                           |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   playlist_report: false                                                                           |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   verify_ssl: true                                                                                 |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   custom_repo:                                                                                     |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   check_nightly: false                                                                             |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   show_unconfigured: true                                                                          |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   playlist_exclude_users:                                                                          |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   run_order:                                                                                       |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   - operations                                                                                     |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   - metadata                                                                                       |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   - collections                                                                                    |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   - overlays                                                                                       |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   overlay_artwork_filetype: jpg                                                                    |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   overlay_artwork_quality:                                                                         |
+[2024-06-29 18:40:17,724] [config.py:193]             [DEBUG]    |   asset_directory:                                                                                 |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    | webhooks:                            # Can be individually specified per library as well           |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   error: (redacted)                                                                                |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   version:                                                                                         |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   run_start:                                                                                       |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   run_end:                                                                                         |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   changes: (redacted)                                                                              |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   delete: (redacted)                                                                               |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    | plex:                                                                                              |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   timeout: 60                                                                                      |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   clean_bundles: false                                                                             |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   empty_trash: false                                                                               |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   optimize: false                                                                                  |
+[2024-06-29 18:40:17,725] [config.py:193]             [DEBUG]    |   verify_ssl:                                                                                      |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   db_cache:                                                                                        |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    | tmdb:                                                   # REQUIRED for the script to run           |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   language: en                                                                                     |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   region:gotify:                                                                                   |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   token:                                                                                           |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   region:                                                                                          |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    | trakt:                                                                                             |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   client_id: (redacted)                                                                            |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   client_secret: (redacted)                                                                        |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   pin:                                                                                             |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |   authorization:                          # everything below is autofilled by the script           |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |     access_token: (redacted)                                                                       |
+[2024-06-29 18:40:17,726] [config.py:193]             [DEBUG]    |     token_type: Bearer                                                                             |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |     expires_in: 7889238                                                                            |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |     refresh_token: (redacted)                                                                      |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |     scope: public                                                                                  |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |     created_at: 1718539537                                                                         |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | mdblist:                                                                                           |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | gotify:                                                                                            |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | # radarr:                                                                                          |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
+[2024-06-29 18:40:17,727] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/movies                                                                    |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   monitor: true                                                                                  |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   availability: announced                                                                        |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   radarr_path:                                                                                   |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | # sonarr:                                                                                          |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
+[2024-06-29 18:40:17,728] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/shows                                                                     |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   monitor: all                                                                                   |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   language_profile: English                                                                      |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   series_type: standard                                                                          |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   season_folder: true                                                                            |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   cutoff_search: false                                                                           |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   sonarr_path:                                                                                   |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
+[2024-06-29 18:40:17,729] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2024-06-29 18:40:17,729] [config.py:194]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:17,764] [config.py:525]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,766] [cache.py:17]               [INFO]     | Initializing cache database at //config/config.cache                                               |
+[2024-06-29 18:40:17,767] [config.py:533]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,767] [config.py:550]             [INFO]     | notifiarr attribute not found                                                                      |
+[2024-06-29 18:40:17,767] [config.py:554]             [INFO]     | Connecting to Gotify...                                                                            |
+[2024-06-29 18:40:17,900] [gotify.py:15]              [INFO]     | Gotify Version: 2.2.0                                                                              |
+[2024-06-29 18:40:17,900] [config.py:566]             [INFO]     | Gotify Connection Successful                                                                       |
+[2024-06-29 18:40:17,900] [config.py:588]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:17,900] [config.py:593]             [INFO]     | Connecting to TMDb...                                                                              |
+[2024-06-29 18:40:18,001] [config.py:602]             [INFO]     | TMDb Connection Successful                                                                         |
+[2024-06-29 18:40:18,001] [config.py:606]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:18,002] [config.py:623]             [INFO]     | omdb attribute not found                                                                           |
+[2024-06-29 18:40:18,002] [config.py:625]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:18,002] [config.py:629]             [INFO]     | Connecting to MDBList...                                                                           |
+[2024-06-29 18:40:20,899] [config.py:635]             [INFO]     | MDBList Connection Successful                                                                      |
+[2024-06-29 18:40:20,899] [config.py:645]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:20,899] [config.py:649]             [INFO]     | Connecting to Trakt...                                                                             |
+[2024-06-29 18:40:21,318] [config.py:663]             [INFO]     | Trakt Connection Successful                                                                        |
+[2024-06-29 18:40:21,318] [config.py:667]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,318] [config.py:688]             [INFO]     | mal attribute not found                                                                            |
+[2024-06-29 18:40:21,318] [config.py:720]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,319] [config.py:729]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,319] [config.py:730]             [INFO]     | Reading in Playlist Files                                                                          |
+[2024-06-29 18:40:21,319] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,319] [util.py:325]               [INFO]     | Reading folder: //config/playlists/                                                                |
+[2024-06-29 18:40:21,319] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,319] [meta.py:71]                [INFO]     | Loading Playlist File File: //config/playlists/video.yml                                           |
+[2024-06-29 18:40:21,320] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,320] [config.py:743]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,320] [config.py:744]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,320] [config.py:744]             [INFO]     |                                    Skipping video Playlist File                                    |
+[2024-06-29 18:40:21,320] [config.py:744]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,477] [config.py:756]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,477] [config.py:758]             [INFO]     | Connecting to Plex Libraries...                                                                    |
+[2024-06-29 18:40:21,477] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,478] [config.py:829]             [INFO]     |                                        Movies Configuration                                        |
+[2024-06-29 18:40:21,478] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,478] [config.py:830]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,478] [config.py:831]             [INFO]     | Connecting to Movies Library...                                                                    |
+[2024-06-29 18:40:21,478] [config.py:874]             [INFO]     |===================================== Operation Configuration ======================================|
+[2024-06-29 18:40:21,478] [config.py:878]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,478] [config.py:879]             [INFO]     | Operation 1/1                                                                                      |
+[2024-06-29 18:40:21,479] [config.py:881]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
+[2024-06-29 18:40:21,479] [config.py:881]             [INFO]     |     content_rating_mapper: {'PG': 12, 'PG-13': 13, 'TV-14': 15, 'NR': 17, 'Not Rated': 17, 'R': 18} |
+[2024-06-29 18:40:21,479] [config.py:1016]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,479] [config.py:1017]            [INFO]     | Reading in Collection Files                                                                        |
+[2024-06-29 18:40:21,479] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,479] [util.py:325]               [INFO]     | Reading folder: //config/collections/movies/                                                       |
+[2024-06-29 18:40:21,480] [config.py:1031]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,480] [config.py:1032]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-06-29 18:40:21,480] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,480] [util.py:325]               [INFO]     | Reading folder: //config/metadata/movies/                                                          |
+[2024-06-29 18:40:21,480] [config.py:1154]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,480] [config.py:1155]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-06-29 18:40:21,482] [library.py:140]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,482] [library.py:142]            [INFO]     | Using Asset Directory: //config/assets/movies/                                                     |
+[2024-06-29 18:40:21,489] [plex.py:465]               [INFO]     | Connected to server Davison Cinema version 1.40.3.8555-fef15d30c                                   |
+[2024-06-29 18:40:21,489] [plex.py:466]               [INFO]     | Running on Linux version 11 (bullseye)                                                             |
+[2024-06-29 18:40:21,498] [plex.py:470]               [INFO]     | Plex DB cache setting: 4096 MB                                                                     |
+[2024-06-29 18:40:21,498] [plex.py:487]               [INFO]     | PlexPass: True on Public update channel.                                                           |
+[2024-06-29 18:40:21,498] [plex.py:489]               [INFO]     | Scheduled maintenance running between 2:00 and 5:00                                                |
+[2024-06-29 18:40:21,511] [plex.py:537]               [INFO]     | Connected to library Movies                                                                        |
+[2024-06-29 18:40:21,511] [plex.py:538]               [INFO]     | Type: Movie                                                                                        |
+[2024-06-29 18:40:21,511] [plex.py:539]               [INFO]     | Agent: tv.plex.agents.movie                                                                        |
+[2024-06-29 18:40:21,511] [plex.py:540]               [INFO]     | Scanner: Plex Movie                                                                                |
+[2024-06-29 18:40:21,512] [plex.py:541]               [INFO]     | Ratings Source: Rotten Tomatoes                                                                    |
+[2024-06-29 18:40:21,512] [config.py:1181]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,512] [config.py:1182]            [INFO]     | Movies Library Connection Successful                                                               |
+[2024-06-29 18:40:21,512] [config.py:1183]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,512] [config.py:1184]            [INFO]     |========================================== Scanning Files ==========================================|
+[2024-06-29 18:40:21,512] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,512] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Charts.yml                               |
+[2024-06-29 18:40:21,512] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,513] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,513] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,513] [library.py:161]            [INFO]     |                                  Skipping Charts Collection File                                   |
+[2024-06-29 18:40:21,513] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,513] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,513] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Studios.yml                              |
+[2024-06-29 18:40:21,513] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,513] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,513] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,513] [library.py:161]            [INFO]     |                                  Skipping Studios Collection File                                  |
+[2024-06-29 18:40:21,514] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,514] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,514] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/People.yml                               |
+[2024-06-29 18:40:21,514] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,514] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,514] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,514] [library.py:161]            [INFO]     |                                  Skipping People Collection File                                   |
+[2024-06-29 18:40:21,514] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,514] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,514] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Countries.yml                            |
+[2024-06-29 18:40:21,514] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,515] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |                                 Skipping Countries Collection File                                 |
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,515] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,515] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Specialty.yml                            |
+[2024-06-29 18:40:21,515] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,515] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |                                 Skipping Specialty Collection File                                 |
+[2024-06-29 18:40:21,515] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,516] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,516] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Franchises.yml                           |
+[2024-06-29 18:40:21,516] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,516] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,516] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,516] [library.py:161]            [INFO]     |                                Skipping Franchises Collection File                                 |
+[2024-06-29 18:40:21,516] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,516] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,516] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/movies/Holidays.yml                             |
+[2024-06-29 18:40:21,516] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,516] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,517] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,517] [library.py:161]            [INFO]     |                                 Skipping Holidays Collection File                                  |
+[2024-06-29 18:40:21,517] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,517] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,517] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/J-L.yml                                       |
+[2024-06-29 18:40:21,517] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,517] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,517] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,517] [library.py:174]            [INFO]     |                                     Skipping J-L Metadata File                                     |
+[2024-06-29 18:40:21,517] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,518] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,518] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/S.yml                                         |
+[2024-06-29 18:40:21,518] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,518] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,518] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,518] [library.py:174]            [INFO]     |                                      Skipping S Metadata File                                      |
+[2024-06-29 18:40:21,518] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,518] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,518] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/G-I.yml                                       |
+[2024-06-29 18:40:21,518] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,518] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |                                     Skipping G-I Metadata File                                     |
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,519] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,519] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/A-C.yml                                       |
+[2024-06-29 18:40:21,519] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,519] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |                                     Skipping A-C Metadata File                                     |
+[2024-06-29 18:40:21,519] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,519] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/P-R.yml                                       |
+[2024-06-29 18:40:21,520] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,520] [library.py:174]            [INFO]     |                                     Skipping P-R Metadata File                                     |
+[2024-06-29 18:40:21,520] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,520] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/M-O.yml                                       |
+[2024-06-29 18:40:21,520] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,520] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,521] [library.py:174]            [INFO]     |                                     Skipping M-O Metadata File                                     |
+[2024-06-29 18:40:21,521] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,521] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,521] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/T-Z.yml                                       |
+[2024-06-29 18:40:21,521] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,521] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,521] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,521] [library.py:174]            [INFO]     |                                     Skipping T-Z Metadata File                                     |
+[2024-06-29 18:40:21,521] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,521] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,521] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/movies/D-F.yml                                       |
+[2024-06-29 18:40:21,521] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,522] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,522] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,522] [library.py:174]            [INFO]     |                                     Skipping D-F Metadata File                                     |
+[2024-06-29 18:40:21,522] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,522] [config.py:1278]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,522] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,522] [config.py:829]             [INFO]     |                                        Music Configuration                                         |
+[2024-06-29 18:40:21,522] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,523] [config.py:830]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,523] [config.py:831]             [INFO]     | Connecting to Music Library...                                                                     |
+[2024-06-29 18:40:21,523] [config.py:1031]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,523] [config.py:1032]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-06-29 18:40:21,523] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,523] [util.py:325]               [INFO]     | Reading folder: //config/metadata/music/                                                           |
+[2024-06-29 18:40:21,524] [config.py:1154]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,524] [config.py:1155]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-06-29 18:40:21,525] [library.py:140]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,525] [library.py:142]            [INFO]     | Using Asset Directory: //config/assets/music/                                                      |
+[2024-06-29 18:40:21,528] [plex.py:465]               [INFO]     | Connected to server Davison Cinema version 1.40.3.8555-fef15d30c                                   |
+[2024-06-29 18:40:21,528] [plex.py:466]               [INFO]     | Running on Linux version 11 (bullseye)                                                             |
+[2024-06-29 18:40:21,537] [plex.py:470]               [INFO]     | Plex DB cache setting: 4096 MB                                                                     |
+[2024-06-29 18:40:21,537] [plex.py:487]               [INFO]     | PlexPass: True on Public update channel.                                                           |
+[2024-06-29 18:40:21,537] [plex.py:489]               [INFO]     | Scheduled maintenance running between 2:00 and 5:00                                                |
+[2024-06-29 18:40:21,548] [plex.py:537]               [INFO]     | Connected to library Music                                                                         |
+[2024-06-29 18:40:21,548] [plex.py:538]               [INFO]     | Type: Artist                                                                                       |
+[2024-06-29 18:40:21,548] [plex.py:539]               [INFO]     | Agent: tv.plex.agents.music                                                                        |
+[2024-06-29 18:40:21,548] [plex.py:540]               [INFO]     | Scanner: Plex Music                                                                                |
+[2024-06-29 18:40:21,548] [plex.py:541]               [INFO]     | Ratings Source: N/A                                                                                |
+[2024-06-29 18:40:21,549] [config.py:1181]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,549] [config.py:1182]            [INFO]     | Music Library Connection Successful                                                                |
+[2024-06-29 18:40:21,549] [config.py:1183]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,549] [config.py:1184]            [INFO]     |========================================== Scanning Files ==========================================|
+[2024-06-29 18:40:21,549] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,549] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/music/Fixes.yml                                      |
+[2024-06-29 18:40:21,549] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,549] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,549] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,550] [library.py:174]            [INFO]     |                                    Skipping Fixes Metadata File                                    |
+[2024-06-29 18:40:21,550] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,550] [config.py:1278]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,550] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,550] [config.py:829]             [INFO]     |                                        Shows Configuration                                         |
+[2024-06-29 18:40:21,550] [config.py:829]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,550] [config.py:830]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,551] [config.py:831]             [INFO]     | Connecting to Shows Library...                                                                     |
+[2024-06-29 18:40:21,551] [config.py:874]             [INFO]     |===================================== Operation Configuration ======================================|
+[2024-06-29 18:40:21,551] [config.py:878]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,551] [config.py:879]             [INFO]     | Operation 1/1                                                                                      |
+[2024-06-29 18:40:21,551] [config.py:881]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
+[2024-06-29 18:40:21,551] [config.py:881]             [INFO]     |     content_rating_mapper: {'TV-Y': 4, 'TV-Y7': 7, 'TV-G': 7, 'TV-PG': 12, 'TV-14': 14, 'TV-MA': 18} |
+[2024-06-29 18:40:21,551] [config.py:1016]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,552] [config.py:1017]            [INFO]     | Reading in Collection Files                                                                        |
+[2024-06-29 18:40:21,552] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,552] [util.py:325]               [INFO]     | Reading folder: //config/collections/shows/                                                        |
+[2024-06-29 18:40:21,552] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,552] [util.py:306]               [INFO]     | Reading default: country                                                                           |
+[2024-06-29 18:40:21,552] [util.py:345]               [INFO]     | Template Variables: {'use_other': False, 'use_separator': False, 'sep_style': 'purple', 'collection_mode': 'hide', 'include': ['gb', 'kr'], 'sort_by': 'title.asc'} |
+[2024-06-29 18:40:21,552] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,552] [util.py:306]               [INFO]     | Reading default: emmy                                                                              |
+[2024-06-29 18:40:21,552] [util.py:345]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'collection_order': 'alpha', 'data': {'starting': 'current_year-5', 'ending': 'current_year'}} |
+[2024-06-29 18:40:21,553] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,553] [util.py:306]               [INFO]     | Reading default: trakt                                                                             |
+[2024-06-29 18:40:21,553] [util.py:345]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_collected': False, 'use_popular': False, 'use_recommended': False, 'use_watched': False, 'limit': 20, 'visible_library_trending': True, 'visible_home_trending': False, 'visible_shared_trending': True} |
+[2024-06-29 18:40:21,553] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,553] [util.py:306]               [INFO]     | Reading default: basic                                                                             |
+[2024-06-29 18:40:21,553] [util.py:345]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_episodes': False, 'use_released': True, 'in_the_last_released': 120, 'visible_library_released': True, 'visible_home_released': False, 'visible_shared_released': False} |
+[2024-06-29 18:40:21,553] [config.py:1031]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,553] [config.py:1032]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-06-29 18:40:21,553] [util.py:301]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,553] [util.py:325]               [INFO]     | Reading folder: //config/metadata/shows/                                                           |
+[2024-06-29 18:40:21,554] [config.py:1154]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,554] [config.py:1155]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-06-29 18:40:21,558] [plex.py:465]               [INFO]     | Connected to server Davison Cinema version 1.40.3.8555-fef15d30c                                   |
+[2024-06-29 18:40:21,558] [plex.py:466]               [INFO]     | Running on Linux version 11 (bullseye)                                                             |
+[2024-06-29 18:40:21,567] [plex.py:470]               [INFO]     | Plex DB cache setting: 4096 MB                                                                     |
+[2024-06-29 18:40:21,567] [plex.py:487]               [INFO]     | PlexPass: True on Public update channel.                                                           |
+[2024-06-29 18:40:21,567] [plex.py:489]               [INFO]     | Scheduled maintenance running between 2:00 and 5:00                                                |
+[2024-06-29 18:40:21,579] [plex.py:537]               [INFO]     | Connected to library Shows                                                                         |
+[2024-06-29 18:40:21,579] [plex.py:538]               [INFO]     | Type: Show                                                                                         |
+[2024-06-29 18:40:21,579] [plex.py:539]               [INFO]     | Agent: tv.plex.agents.series                                                                       |
+[2024-06-29 18:40:21,579] [plex.py:540]               [INFO]     | Scanner: Plex TV Series                                                                            |
+[2024-06-29 18:40:21,579] [plex.py:541]               [INFO]     | Ratings Source: N/A                                                                                |
+[2024-06-29 18:40:21,580] [config.py:1181]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,580] [config.py:1182]            [INFO]     | Shows Library Connection Successful                                                                |
+[2024-06-29 18:40:21,580] [config.py:1183]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,580] [config.py:1184]            [INFO]     |========================================== Scanning Files ==========================================|
+[2024-06-29 18:40:21,580] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,580] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/shows/Specialty.yml                             |
+[2024-06-29 18:40:21,580] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,580] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,580] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,580] [library.py:161]            [INFO]     |                                 Skipping Specialty Collection File                                 |
+[2024-06-29 18:40:21,581] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,581] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,581] [meta.py:71]                [INFO]     | Loading Collection File File: //config/collections/shows/Franchises.yml                            |
+[2024-06-29 18:40:21,581] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,581] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,581] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,581] [library.py:161]            [INFO]     |                                Skipping Franchises Collection File                                 |
+[2024-06-29 18:40:21,581] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,581] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,581] [meta.py:71]                [INFO]     | Loading Collection File Default: country                                                           |
+[2024-06-29 18:40:21,581] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,581] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |                                  Skipping country Collection File                                  |
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,582] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,582] [meta.py:71]                [INFO]     | Loading Collection File Default: emmy                                                              |
+[2024-06-29 18:40:21,582] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,582] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |                                   Skipping emmy Collection File                                    |
+[2024-06-29 18:40:21,582] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,582] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [meta.py:71]                [INFO]     | Loading Collection File Default: trakt                                                             |
+[2024-06-29 18:40:21,583] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,583] [library.py:161]            [INFO]     |                                   Skipping trakt Collection File                                   |
+[2024-06-29 18:40:21,583] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,583] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [meta.py:71]                [INFO]     | Loading Collection File Default: basic                                                             |
+[2024-06-29 18:40:21,583] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [library.py:160]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,583] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,584] [library.py:161]            [INFO]     |                                   Skipping basic Collection File                                   |
+[2024-06-29 18:40:21,584] [library.py:161]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,584] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,584] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Flight-of-the-Conchords.yml                    |
+[2024-06-29 18:40:21,584] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,584] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,584] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,584] [library.py:174]            [INFO]     |                           Skipping Flight-of-the-Conchords Metadata File                           |
+[2024-06-29 18:40:21,584] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,584] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,584] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Little-Women_2017.yml                          |
+[2024-06-29 18:40:21,584] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,585] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |                              Skipping Little-Women_2017 Metadata File                              |
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,585] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,585] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Chappelles-Show.yml                            |
+[2024-06-29 18:40:21,585] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,585] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |                               Skipping Chappelles-Show Metadata File                               |
+[2024-06-29 18:40:21,585] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,586] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,586] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Why-Didnt-They-Ask-Evans.yml                   |
+[2024-06-29 18:40:21,586] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,586] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,586] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,586] [library.py:174]            [INFO]     |                          Skipping Why-Didnt-They-Ask-Evans Metadata File                           |
+[2024-06-29 18:40:21,586] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,586] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,586] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Long-Way-Down.yml                              |
+[2024-06-29 18:40:21,586] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,586] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |                                Skipping Long-Way-Down Metadata File                                |
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,587] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,587] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/blank-show-template.yml                        |
+[2024-06-29 18:40:21,587] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,587] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |                             Skipping blank-show-template Metadata File                             |
+[2024-06-29 18:40:21,587] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,587] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,587] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Exterminate-All-The-Brutes.yml                 |
+[2024-06-29 18:40:21,588] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,588] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,588] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,588] [library.py:174]            [INFO]     |                         Skipping Exterminate-All-The-Brutes Metadata File                          |
+[2024-06-29 18:40:21,588] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,588] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,588] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Dave_Ramsey-FPU.yml                            |
+[2024-06-29 18:40:21,588] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,588] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,588] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,588] [library.py:174]            [INFO]     |                               Skipping Dave_Ramsey-FPU Metadata File                               |
+[2024-06-29 18:40:21,589] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,589] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,589] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Star-Wars-Rebels.yml                           |
+[2024-06-29 18:40:21,589] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,589] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,589] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,589] [library.py:174]            [INFO]     |                              Skipping Star-Wars-Rebels Metadata File                               |
+[2024-06-29 18:40:21,589] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,589] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,589] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Seinfeld.yml                                   |
+[2024-06-29 18:40:21,589] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,589] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,590] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,590] [library.py:174]            [INFO]     |                                  Skipping Seinfeld Metadata File                                   |
+[2024-06-29 18:40:21,590] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,590] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,590] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Arrested-Development.yml                       |
+[2024-06-29 18:40:21,590] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,590] [meta.py:773]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,590] [meta.py:774]               [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,590] [meta.py:774]               [INFO]     |            Loading Metadata File File: //config/metadata/shows/Arrested-Development.yml            |
+[2024-06-29 18:40:21,590] [meta.py:774]               [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,590] [meta.py:775]               [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,602] [meta.py:160]               [DEBUG]    | File Loaded From: //config/metadata/shows/Arrested-Development.yml                                 |
+[2024-06-29 18:40:21,602] [meta.py:1352]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,602] [meta.py:1353]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2024-06-29 18:40:21,602] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,602] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/30_Rock.yml                                    |
+[2024-06-29 18:40:21,602] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,602] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,602] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,602] [library.py:174]            [INFO]     |                                   Skipping 30_Rock Metadata File                                   |
+[2024-06-29 18:40:21,603] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,603] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,603] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/The First Lady.yml                             |
+[2024-06-29 18:40:21,603] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,603] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,603] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,603] [library.py:174]            [INFO]     |                               Skipping The First Lady Metadata File                                |
+[2024-06-29 18:40:21,603] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,603] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,603] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Dr-Katz_Professional-Therapist.yml             |
+[2024-06-29 18:40:21,603] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |                       Skipping Dr-Katz_Professional-Therapist Metadata File                        |
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,604] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Long-Way-Round.yml                             |
+[2024-06-29 18:40:21,604] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |                               Skipping Long-Way-Round Metadata File                                |
+[2024-06-29 18:40:21,604] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,604] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,604] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/GI-Joe.yml                                     |
+[2024-06-29 18:40:21,605] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,605] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,605] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,605] [library.py:174]            [INFO]     |                                   Skipping GI-Joe Metadata File                                    |
+[2024-06-29 18:40:21,605] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,605] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,605] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/Everything-Else.yml                            |
+[2024-06-29 18:40:21,605] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,605] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,605] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,605] [library.py:174]            [INFO]     |                               Skipping Everything-Else Metadata File                               |
+[2024-06-29 18:40:21,606] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,606] [meta.py:70]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,606] [meta.py:71]                [INFO]     | Loading Metadata File File: //config/metadata/shows/The-Simpsons.yml                               |
+[2024-06-29 18:40:21,606] [meta.py:72]                [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,606] [library.py:173]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,606] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,606] [library.py:174]            [INFO]     |                                Skipping The-Simpsons Metadata File                                 |
+[2024-06-29 18:40:21,606] [library.py:174]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,606] [config.py:1278]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,607] [config.py:1281]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,607] [config.py:1286]            [INFO]     | 3 Plex Library Connections Successful                                                              |
+[2024-06-29 18:40:21,607] [config.py:1290]            [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,607] [kometa.py:586]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,607] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,607] [kometa.py:587]             [INFO]     |                                           Movies Library                                           |
+[2024-06-29 18:40:21,607] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:21,607] [kometa.py:589]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:21,608] [kometa.py:590]             [DEBUG]    | Library Name: Movies                                                                               |
+[2024-06-29 18:40:21,608] [kometa.py:591]             [DEBUG]    | Run Order: operations, metadata, collections, overlays                                             |
+[2024-06-29 18:40:21,608] [kometa.py:592]             [DEBUG]    | Folder Name: Movies                                                                                |
+[2024-06-29 18:40:21,608] [kometa.py:594]             [DEBUG]    | Asset Directory: //config/assets/movies/                                                           |
+[2024-06-29 18:40:21,608] [kometa.py:595]             [DEBUG]    | Asset Folders: True                                                                                |
+[2024-06-29 18:40:21,608] [kometa.py:596]             [DEBUG]    | Asset Depth: 5                                                                                     |
+[2024-06-29 18:40:21,608] [kometa.py:597]             [DEBUG]    | Create Asset Folders: True                                                                         |
+[2024-06-29 18:40:21,608] [kometa.py:598]             [DEBUG]    | Prioritize Assets: True                                                                            |
+[2024-06-29 18:40:21,608] [kometa.py:599]             [DEBUG]    | Dimensional Asset Rename: False                                                                    |
+[2024-06-29 18:40:21,608] [kometa.py:600]             [DEBUG]    | Download URL Assets: True                                                                          |
+[2024-06-29 18:40:21,608] [kometa.py:601]             [DEBUG]    | Show Missing Assets: True                                                                          |
+[2024-06-29 18:40:21,608] [kometa.py:602]             [DEBUG]    | Show Missing Season Assets: True                                                                   |
+[2024-06-29 18:40:21,608] [kometa.py:603]             [DEBUG]    | Show Missing Episode Assets: False                                                                 |
+[2024-06-29 18:40:21,609] [kometa.py:604]             [DEBUG]    | Show Assets Not Needed: True                                                                       |
+[2024-06-29 18:40:21,609] [kometa.py:605]             [DEBUG]    | Sync Mode: append                                                                                  |
+[2024-06-29 18:40:21,609] [kometa.py:606]             [DEBUG]    | Minimum Items: 2                                                                                   |
+[2024-06-29 18:40:21,609] [kometa.py:607]             [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2024-06-29 18:40:21,609] [kometa.py:608]             [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2024-06-29 18:40:21,609] [kometa.py:609]             [DEBUG]    | Default Collection Order: None                                                                     |
+[2024-06-29 18:40:21,609] [kometa.py:610]             [DEBUG]    | Missing Only Released: False                                                                       |
+[2024-06-29 18:40:21,609] [kometa.py:611]             [DEBUG]    | Only Filter Missing: False                                                                         |
+[2024-06-29 18:40:21,609] [kometa.py:612]             [DEBUG]    | Show Unmanaged: True                                                                               |
+[2024-06-29 18:40:21,609] [kometa.py:613]             [DEBUG]    | Show Unconfigured: True                                                                            |
+[2024-06-29 18:40:21,609] [kometa.py:614]             [DEBUG]    | Show Filtered: False                                                                               |
+[2024-06-29 18:40:21,609] [kometa.py:615]             [DEBUG]    | Show Options: False                                                                                |
+[2024-06-29 18:40:21,609] [kometa.py:616]             [DEBUG]    | Show Missing: False                                                                                |
+[2024-06-29 18:40:21,610] [kometa.py:617]             [DEBUG]    | Save Report: True                                                                                  |
+[2024-06-29 18:40:21,610] [kometa.py:618]             [DEBUG]    | Report Path: /config/reports/Movies.yml                                                            |
+[2024-06-29 18:40:21,610] [kometa.py:619]             [DEBUG]    | Ignore IDs: []                                                                                     |
+[2024-06-29 18:40:21,610] [kometa.py:620]             [DEBUG]    | Ignore IMDb IDs: []                                                                                |
+[2024-06-29 18:40:21,610] [kometa.py:621]             [DEBUG]    | Item Refresh Delay: 0                                                                              |
+[2024-06-29 18:40:21,610] [kometa.py:622]             [DEBUG]    | Clean Bundles: False                                                                               |
+[2024-06-29 18:40:21,610] [kometa.py:623]             [DEBUG]    | Empty Trash: False                                                                                 |
+[2024-06-29 18:40:21,610] [kometa.py:624]             [DEBUG]    | Optimize: False                                                                                    |
+[2024-06-29 18:40:21,610] [kometa.py:625]             [DEBUG]    | Timeout: 60                                                                                        |
+[2024-06-29 18:40:21,611] [library.py:389]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,611] [library.py:390]            [INFO]     |=================================== Caching Movies Library Items ===================================|
+[2024-06-29 18:40:21,611] [library.py:391]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:21,611] [plex.py:604]               [INFO]     | Loading All Movies from Library: Movies                                                            |
+[2024-06-29 18:40:26,889] [plex.py:624]               [INFO]     | Loaded 1729 Movies                                                                                 |
+[2024-06-29 18:40:26,955] [kometa.py:671]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:26,955] [kometa.py:672]             [INFO]     |====================================== Mapping Movies Library ======================================|
+[2024-06-29 18:40:26,955] [kometa.py:673]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,354] [convert.py:410]            [INFO]     | Mapping Error | local://34054                                  | No match in Plex for "The Langoliers" |
+[2024-06-29 18:40:27,713] [library.py:446]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,713] [library.py:447]            [INFO]     | Processed 1729 Movies                                                                              |
+[2024-06-29 18:40:27,713] [kometa.py:586]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,713] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:27,713] [kometa.py:587]             [INFO]     |                                           Music Library                                            |
+[2024-06-29 18:40:27,713] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:27,713] [kometa.py:589]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:27,713] [kometa.py:590]             [DEBUG]    | Library Name: Music                                                                                |
+[2024-06-29 18:40:27,714] [kometa.py:591]             [DEBUG]    | Run Order: operations, metadata, collections, overlays                                             |
+[2024-06-29 18:40:27,714] [kometa.py:592]             [DEBUG]    | Folder Name: Music                                                                                 |
+[2024-06-29 18:40:27,714] [kometa.py:594]             [DEBUG]    | Asset Directory: //config/assets/music/                                                            |
+[2024-06-29 18:40:27,714] [kometa.py:595]             [DEBUG]    | Asset Folders: True                                                                                |
+[2024-06-29 18:40:27,714] [kometa.py:596]             [DEBUG]    | Asset Depth: 5                                                                                     |
+[2024-06-29 18:40:27,714] [kometa.py:597]             [DEBUG]    | Create Asset Folders: True                                                                         |
+[2024-06-29 18:40:27,714] [kometa.py:598]             [DEBUG]    | Prioritize Assets: True                                                                            |
+[2024-06-29 18:40:27,714] [kometa.py:599]             [DEBUG]    | Dimensional Asset Rename: False                                                                    |
+[2024-06-29 18:40:27,714] [kometa.py:600]             [DEBUG]    | Download URL Assets: True                                                                          |
+[2024-06-29 18:40:27,714] [kometa.py:601]             [DEBUG]    | Show Missing Assets: True                                                                          |
+[2024-06-29 18:40:27,714] [kometa.py:602]             [DEBUG]    | Show Missing Season Assets: True                                                                   |
+[2024-06-29 18:40:27,714] [kometa.py:603]             [DEBUG]    | Show Missing Episode Assets: False                                                                 |
+[2024-06-29 18:40:27,714] [kometa.py:604]             [DEBUG]    | Show Assets Not Needed: True                                                                       |
+[2024-06-29 18:40:27,714] [kometa.py:605]             [DEBUG]    | Sync Mode: append                                                                                  |
+[2024-06-29 18:40:27,714] [kometa.py:606]             [DEBUG]    | Minimum Items: 2                                                                                   |
+[2024-06-29 18:40:27,714] [kometa.py:607]             [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2024-06-29 18:40:27,714] [kometa.py:608]             [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2024-06-29 18:40:27,715] [kometa.py:609]             [DEBUG]    | Default Collection Order: None                                                                     |
+[2024-06-29 18:40:27,715] [kometa.py:610]             [DEBUG]    | Missing Only Released: False                                                                       |
+[2024-06-29 18:40:27,715] [kometa.py:611]             [DEBUG]    | Only Filter Missing: False                                                                         |
+[2024-06-29 18:40:27,715] [kometa.py:612]             [DEBUG]    | Show Unmanaged: True                                                                               |
+[2024-06-29 18:40:27,715] [kometa.py:613]             [DEBUG]    | Show Unconfigured: True                                                                            |
+[2024-06-29 18:40:27,715] [kometa.py:614]             [DEBUG]    | Show Filtered: False                                                                               |
+[2024-06-29 18:40:27,715] [kometa.py:615]             [DEBUG]    | Show Options: False                                                                                |
+[2024-06-29 18:40:27,715] [kometa.py:616]             [DEBUG]    | Show Missing: False                                                                                |
+[2024-06-29 18:40:27,715] [kometa.py:617]             [DEBUG]    | Save Report: True                                                                                  |
+[2024-06-29 18:40:27,715] [kometa.py:618]             [DEBUG]    | Report Path: /config/reports/Music.yml                                                             |
+[2024-06-29 18:40:27,715] [kometa.py:619]             [DEBUG]    | Ignore IDs: []                                                                                     |
+[2024-06-29 18:40:27,715] [kometa.py:620]             [DEBUG]    | Ignore IMDb IDs: []                                                                                |
+[2024-06-29 18:40:27,715] [kometa.py:621]             [DEBUG]    | Item Refresh Delay: 0                                                                              |
+[2024-06-29 18:40:27,715] [kometa.py:622]             [DEBUG]    | Clean Bundles: False                                                                               |
+[2024-06-29 18:40:27,715] [kometa.py:623]             [DEBUG]    | Empty Trash: False                                                                                 |
+[2024-06-29 18:40:27,715] [kometa.py:624]             [DEBUG]    | Optimize: False                                                                                    |
+[2024-06-29 18:40:27,715] [kometa.py:625]             [DEBUG]    | Timeout: 60                                                                                        |
+[2024-06-29 18:40:27,716] [library.py:389]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,716] [library.py:390]            [INFO]     |=================================== Caching Music Library Items ====================================|
+[2024-06-29 18:40:27,716] [library.py:391]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,716] [plex.py:604]               [INFO]     | Loading All Artists from Library: Music                                                            |
+[2024-06-29 18:40:27,761] [plex.py:624]               [INFO]     | Loaded 31 Artists                                                                                  |
+[2024-06-29 18:40:27,762] [kometa.py:586]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,762] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:27,762] [kometa.py:587]             [INFO]     |                                           Shows Library                                            |
+[2024-06-29 18:40:27,762] [kometa.py:587]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:27,762] [kometa.py:589]             [DEBUG]    |                                                                                                    |
+[2024-06-29 18:40:27,762] [kometa.py:590]             [DEBUG]    | Library Name: Shows                                                                                |
+[2024-06-29 18:40:27,762] [kometa.py:591]             [DEBUG]    | Run Order: operations, metadata, collections, overlays                                             |
+[2024-06-29 18:40:27,762] [kometa.py:592]             [DEBUG]    | Folder Name: Shows                                                                                 |
+[2024-06-29 18:40:27,762] [kometa.py:595]             [DEBUG]    | Asset Folders: True                                                                                |
+[2024-06-29 18:40:27,762] [kometa.py:596]             [DEBUG]    | Asset Depth: 5                                                                                     |
+[2024-06-29 18:40:27,762] [kometa.py:597]             [DEBUG]    | Create Asset Folders: True                                                                         |
+[2024-06-29 18:40:27,762] [kometa.py:598]             [DEBUG]    | Prioritize Assets: True                                                                            |
+[2024-06-29 18:40:27,762] [kometa.py:599]             [DEBUG]    | Dimensional Asset Rename: False                                                                    |
+[2024-06-29 18:40:27,763] [kometa.py:600]             [DEBUG]    | Download URL Assets: True                                                                          |
+[2024-06-29 18:40:27,763] [kometa.py:601]             [DEBUG]    | Show Missing Assets: True                                                                          |
+[2024-06-29 18:40:27,763] [kometa.py:602]             [DEBUG]    | Show Missing Season Assets: True                                                                   |
+[2024-06-29 18:40:27,763] [kometa.py:603]             [DEBUG]    | Show Missing Episode Assets: False                                                                 |
+[2024-06-29 18:40:27,763] [kometa.py:604]             [DEBUG]    | Show Assets Not Needed: True                                                                       |
+[2024-06-29 18:40:27,763] [kometa.py:605]             [DEBUG]    | Sync Mode: append                                                                                  |
+[2024-06-29 18:40:27,763] [kometa.py:606]             [DEBUG]    | Minimum Items: 2                                                                                   |
+[2024-06-29 18:40:27,763] [kometa.py:607]             [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2024-06-29 18:40:27,763] [kometa.py:608]             [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2024-06-29 18:40:27,763] [kometa.py:609]             [DEBUG]    | Default Collection Order: None                                                                     |
+[2024-06-29 18:40:27,763] [kometa.py:610]             [DEBUG]    | Missing Only Released: False                                                                       |
+[2024-06-29 18:40:27,763] [kometa.py:611]             [DEBUG]    | Only Filter Missing: False                                                                         |
+[2024-06-29 18:40:27,763] [kometa.py:612]             [DEBUG]    | Show Unmanaged: True                                                                               |
+[2024-06-29 18:40:27,763] [kometa.py:613]             [DEBUG]    | Show Unconfigured: True                                                                            |
+[2024-06-29 18:40:27,763] [kometa.py:614]             [DEBUG]    | Show Filtered: False                                                                               |
+[2024-06-29 18:40:27,763] [kometa.py:615]             [DEBUG]    | Show Options: False                                                                                |
+[2024-06-29 18:40:27,763] [kometa.py:616]             [DEBUG]    | Show Missing: False                                                                                |
+[2024-06-29 18:40:27,763] [kometa.py:617]             [DEBUG]    | Save Report: True                                                                                  |
+[2024-06-29 18:40:27,763] [kometa.py:618]             [DEBUG]    | Report Path: /config/reports/Shows.yml                                                             |
+[2024-06-29 18:40:27,764] [kometa.py:619]             [DEBUG]    | Ignore IDs: []                                                                                     |
+[2024-06-29 18:40:27,764] [kometa.py:620]             [DEBUG]    | Ignore IMDb IDs: []                                                                                |
+[2024-06-29 18:40:27,764] [kometa.py:621]             [DEBUG]    | Item Refresh Delay: 0                                                                              |
+[2024-06-29 18:40:27,764] [kometa.py:622]             [DEBUG]    | Clean Bundles: False                                                                               |
+[2024-06-29 18:40:27,764] [kometa.py:623]             [DEBUG]    | Empty Trash: False                                                                                 |
+[2024-06-29 18:40:27,764] [kometa.py:624]             [DEBUG]    | Optimize: False                                                                                    |
+[2024-06-29 18:40:27,764] [kometa.py:625]             [DEBUG]    | Timeout: 60                                                                                        |
+[2024-06-29 18:40:27,764] [library.py:389]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,764] [library.py:390]            [INFO]     |=================================== Caching Shows Library Items ====================================|
+[2024-06-29 18:40:27,765] [library.py:391]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:27,765] [plex.py:604]               [INFO]     | Loading All Shows from Library: Shows                                                              |
+[2024-06-29 18:40:28,333] [plex.py:624]               [INFO]     | Loaded 322 Shows                                                                                   |
+[2024-06-29 18:40:28,334] [kometa.py:671]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,334] [kometa.py:672]             [INFO]     |====================================== Mapping Shows Library =======================================|
+[2024-06-29 18:40:28,334] [kometa.py:673]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,366] [convert.py:410]            [INFO]     | Mapping Error | local://26006                                  | No match in Plex for "Dave Ramsey's Financial Peace University" |
+[2024-06-29 18:40:28,490] [library.py:446]            [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,490] [library.py:447]            [INFO]     | Processed 322 Shows                                                                                |
+[2024-06-29 18:40:28,490] [kometa.py:731]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,490] [kometa.py:732]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,490] [kometa.py:732]             [INFO]     |                             Running Arrested-Development Metadata File                             |
+[2024-06-29 18:40:28,490] [kometa.py:732]             [INFO]     |                          //config/metadata/shows/Arrested-Development.yml                          |
+[2024-06-29 18:40:28,491] [kometa.py:732]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,491] [meta.py:1512]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,491] [meta.py:1513]              [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,491] [meta.py:1513]              [INFO]     |                                       Running Metadata File                                        |
+[2024-06-29 18:40:28,491] [meta.py:1513]              [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,491] [meta.py:1514]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,491] [meta.py:1520]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,491] [meta.py:1521]              [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,491] [meta.py:1521]              [INFO]     |                                        72173 Metadata File                                         |
+[2024-06-29 18:40:28,491] [meta.py:1521]              [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,491] [meta.py:1594]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,491] [meta.py:1595]              [INFO]     | TVDb ID Mapping: 72173                                                                             |
+[2024-06-29 18:40:28,528] [meta.py:1709]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,528] [meta.py:1710]              [INFO]     |================================== Updating Arrested Development ===================================|
+[2024-06-29 18:40:28,528] [meta.py:1711]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,764] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,765] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,765] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/posters/5c6c6bd1ea050.jpg          |
+[2024-06-29 18:40:28,765] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,766] [meta.py:1875]              [INFO]     | Show: 72173 Metadata Update Not Needed                                                             |
+[2024-06-29 18:40:28,779] [meta.py:1917]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,779] [meta.py:1918]              [INFO]     | Updating season 1 of 72173...                                                                      |
+[2024-06-29 18:40:28,810] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,811] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,811] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/seasons/72173-1.jpg                |
+[2024-06-29 18:40:28,811] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,811] [meta.py:1964]              [INFO]     | Season 1 of 72173 Metadata Update Not Needed                                                       |
+[2024-06-29 18:40:28,811] [meta.py:1917]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,811] [meta.py:1918]              [INFO]     | Updating season 2 of 72173...                                                                      |
+[2024-06-29 18:40:28,844] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,844] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,844] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/seasons/72173-2.jpg                |
+[2024-06-29 18:40:28,845] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,845] [meta.py:1964]              [INFO]     | Season 2 of 72173 Metadata Update Not Needed                                                       |
+[2024-06-29 18:40:28,845] [meta.py:1917]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,845] [meta.py:1918]              [INFO]     | Updating season 3 of 72173...                                                                      |
+[2024-06-29 18:40:28,876] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,876] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,876] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/seasons/72173-3.jpg                |
+[2024-06-29 18:40:28,877] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,877] [meta.py:1964]              [INFO]     | Season 3 of 72173 Metadata Update Not Needed                                                       |
+[2024-06-29 18:40:28,877] [meta.py:1917]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,877] [meta.py:1918]              [INFO]     | Updating season 4 of 72173...                                                                      |
+[2024-06-29 18:40:28,911] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,912] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,912] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/seasons/72173-4-5.jpg              |
+[2024-06-29 18:40:28,912] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,912] [meta.py:1964]              [INFO]     | Season 4 of 72173 Metadata Update Not Needed                                                       |
+[2024-06-29 18:40:28,912] [meta.py:1917]              [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,913] [meta.py:1918]              [INFO]     | Updating season 5 of 72173...                                                                      |
+[2024-06-29 18:40:28,944] [plex.py:1330]              [WARNING]  | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                          |
+[2024-06-29 18:40:28,944] [library.py:283]            [DEBUG]    | 1 poster found:                                                                                    |
+[2024-06-29 18:40:28,945] [library.py:285]            [DEBUG]    | Method: url_poster Poster: https://artworks.thetvdb.com/banners/v4/season/1877437/posters/6093fb3da77e7.jpg |
+[2024-06-29 18:40:28,945] [library.py:217]            [INFO]     | Metadata: poster update not needed                                                                 |
+[2024-06-29 18:40:28,945] [meta.py:1964]              [INFO]     | Season 5 of 72173 Metadata Update Not Needed                                                       |
+[2024-06-29 18:40:28,945] [kometa.py:532]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,946] [kometa.py:533]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,946] [kometa.py:533]             [INFO]     |                                              Summary                                               |
+[2024-06-29 18:40:28,946] [kometa.py:533]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,946] [kometa.py:535]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,946] [kometa.py:536]             [INFO]     |========================================== Movies Summary ==========================================|
+[2024-06-29 18:40:28,946] [kometa.py:537]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,946] [kometa.py:538]             [INFO]     | Title                       | Run Time |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:539]             [INFO]     | =========================== | ======== |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:542]             [INFO]     | Library Loading and Mapping |  0:00:06 |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:542]             [INFO]     | Library Images Files        |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:542]             [INFO]     | Library Metadata Files      |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:542]             [INFO]     | Library Collection Files    |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,946] [kometa.py:543]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,946] [kometa.py:522]             [INFO]     |        Title         |   +   |   =   |   -   | Run Time | Status                                   |
+[2024-06-29 18:40:28,947] [kometa.py:524]             [INFO]     |======================|=======|=======|=======|==========|==========================================|
+[2024-06-29 18:40:28,947] [kometa.py:535]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,947] [kometa.py:536]             [INFO]     |========================================== Music Summary ===========================================|
+[2024-06-29 18:40:28,947] [kometa.py:537]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,947] [kometa.py:538]             [INFO]     | Title                       | Run Time |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:539]             [INFO]     | =========================== | ======== |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:542]             [INFO]     | Library Loading and Mapping |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:542]             [INFO]     | Library Images Files        |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:542]             [INFO]     | Library Metadata Files      |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:542]             [INFO]     | Library Collection Files    |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,947] [kometa.py:543]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,947] [kometa.py:522]             [INFO]     |        Title         |   +   |   =   |   -   | Run Time | Status                                   |
+[2024-06-29 18:40:28,947] [kometa.py:524]             [INFO]     |======================|=======|=======|=======|==========|==========================================|
+[2024-06-29 18:40:28,947] [kometa.py:535]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,947] [kometa.py:536]             [INFO]     |========================================== Shows Summary ===========================================|
+[2024-06-29 18:40:28,947] [kometa.py:537]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,948] [kometa.py:538]             [INFO]     | Title                       | Run Time |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:539]             [INFO]     | =========================== | ======== |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:542]             [INFO]     | Library Loading and Mapping |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:542]             [INFO]     | Library Images Files        |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:542]             [INFO]     | Library Metadata Files      |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:542]             [INFO]     | Library Collection Files    |  0:00:00 |                                                           |
+[2024-06-29 18:40:28,948] [kometa.py:543]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,948] [kometa.py:522]             [INFO]     |        Title         |   +   |   =   |   -   | Run Time | Status                                   |
+[2024-06-29 18:40:28,948] [kometa.py:524]             [INFO]     |======================|=======|=======|=======|==========|==========================================|
+[2024-06-29 18:40:28,948] [kometa.py:336]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,949] [kometa.py:411]             [INFO]     |========================================= Warning Summary ==========================================|
+[2024-06-29 18:40:28,949] [kometa.py:413]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,949] [kometa.py:414]             [INFO]     | Count | Message                                                                                    |
+[2024-06-29 18:40:28,949] [kometa.py:415]             [INFO]     |=======|============================================================================================|
+[2024-06-29 18:40:28,949] [kometa.py:417]             [INFO]     |     6 | Asset Warning: Unable to find asset folder: 'Arrested Development (2003)'                  |
+[2024-06-29 18:40:28,949] [kometa.py:418]             [INFO]     |                                                                                                    |
+[2024-06-29 18:40:28,949] [kometa.py:423]             [INFO]     |====================================================================================================|
+[2024-06-29 18:40:28,949] [kometa.py:423]             [INFO]     |                                            Finished Run                                            |
+[2024-06-29 18:40:28,949] [kometa.py:423]             [INFO]     |                                           Version: 2.0.2                                           |
+[2024-06-29 18:40:28,949] [kometa.py:423]             [INFO]     |                          Finished: 18:40:28 2024-06-29 Run Time: 0:00:11                           |
+[2024-06-29 18:40:28,950] [kometa.py:423]             [INFO]     |====================================================================================================|

@@ -1,0 +1,248 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  749395: # Agatha and the Midnight Murders
+    content_rating: 15
+
+  348: # Alien
+    sort_title: Alien 1
+
+  679: # Aliens
+    sort_title: Alien 2
+
+  8077: # Alien 3
+    sort_title: Alien 3
+
+  8078: # Alien Resurrection
+    sort_title: Alien 4
+
+  70981: # Prometheus
+    alt_title: Alien Prometheus
+    sort_title: Alien 5
+
+  126889: # Alien: Covenant
+    sort_title: Alien 6
+
+  410199: # ARQ
+    url_poster: https://www.themoviedb.org/t/p/original/mU4VeXVK18JtCZsy7i0zczlA9p7.jpg
+
+  395: # Alien vs. Predator
+    alt_title: AVP Alien vs. Predator
+    sort_title: AVP 1
+
+  440: # Aliens vs. Predator: Requiem
+    sort_title: AVP 2
+
+  729623: # All Its Name Implies
+    content_rating: 12
+
+  10514: # The Andromeda Strain
+    url_poster: https://theposterdb.com/api/assets/76544
+
+  494895: # Anne of Green Gables: The Good Stars
+    title: Anne of Green Gables - The Good Stars
+    url_poster: https://theposterdb.com/api/assets/85045
+
+  102899: # Ant-Man
+    url_poster: https://theposterdb.com/api/assets/9786
+
+  363088: # Ant-Man and the Wasp
+    url_poster: https://theposterdb.com/api/assets/9795
+
+  640146: # Ant-Man and the Wasp: Quantumania 
+    url_poster: https://www.themoviedb.org/t/p/original/hp8WX1GpZBmziDGvIOW7IwFN4Gl.jpg
+
+  24428: # The Avengers
+    url_poster: https://theposterdb.com/api/assets/9779
+
+  99861: # Avengers: Age of Ultron
+    url_poster: https://theposterdb.com/api/assets/9785
+
+  299534: # Avengers: Endgame
+    url_poster: https://theposterdb.com/api/assets/9797
+
+  299536: # Avengers: Infinity War
+    url_poster: https://theposterdb.com/api/assets/9794
+
+  537996: # The Ballad of Buster Scruggs
+    url_poster: https://theposterdb.com/api/assets/284748
+
+  913290: # Barbarian
+    url_poster: https://theposterdb.com/api/assets/267452
+
+  749059: # Barbarian Utopia: Encounters on the Appalachian Trail
+    content_rating: 14
+
+  414906: # The Batman (2022)
+    url_poster: https://theposterdb.com/api/assets/185105
+
+  11548: # *batteries not included
+    sort_title: Batteries Not Included
+
+  1685: # Beneath the Planet of the Apes
+    url_poster: https://theposterdb.com/api/assets/258307
+
+  96: # Beverly Hills Cop 2
+    url_poster: https://www.themoviedb.org/t/p/original/yPXAvRwhstvr8gSmAb8sfJTCORS.jpg
+
+  798727: # Biking Borders
+    content_rating: 14
+
+  1648: # Bill & Ted's Excellent Adventure
+    sort_title: Bill and Ted 1
+
+  1649: # Bill & Ted's Bogus Journey
+    sort_title: Bill and Ted 2
+
+  501979: # Bill & Ted Face the Music
+    sort_title: Bill and Ted 3
+
+  194662: # Birdman or (The Unexpected Virtue of Ignorance)
+    url_poster: https://theposterdb.com/api/assets/214684
+
+  284054: # Black Panther
+    url_poster: https://theposterdb.com/api/assets/9792
+
+  505642: # Black Panther: Wakanda Forever
+    url_poster: https://theposterdb.com/api/assets/286152
+
+  497698: # Black Widow
+    url_poster: https://theposterdb.com/api/assets/54982
+
+  8338: # Blindness
+    url_poster: https://www.themoviedb.org/t/p/original/deBsx5IxyqCC217j3VY24TkkE0Z.jpg
+
+  4722: # Body Snatchers
+    url_poster: https://www.themoviedb.org/t/p/original/s8WdtuOBvfEsuPtbQVpNfEgd5aR.jpg
+
+  20504: # The Book of Eli
+    url_poster: https://theposterdb.com/api/assets/165333
+
+  2501: # The Bourne Identity
+    sort_title: Bourne 1
+    url_poster: https://theposterdb.com/api/assets/16465
+
+  49040: # The Bourne Legacy
+    sort_title: Bourne 4
+    url_poster: https://theposterdb.com/api/assets/16468
+
+  2502: # The Bourne Supremacy
+    sort_title: Bourne 2
+    url_poster: https://theposterdb.com/api/assets/16466
+
+  2503: # The Bourne Ultimatum
+    sort_title: Bourne 3
+    url_poster: https://theposterdb.com/api/assets/16467
+
+  62177: # Brave (2012)
+    url_poster: https://theposterdb.com/api/assets/60698
+
+  11064: # Brewster's Millions (1985)
+    url_poster: https://www.themoviedb.org/t/p/original/7z5PMgpczjXDT5scdrlLt38mnKJ.jpg
+
+  794095: # Brian Regan: On The Rocks
+    content_rating: 12
+
+  22564: # Brian Regan: Standing Up
+    content_rating: 12
+
+  10206: # Buffy the Vampire Slayer
+    url_poster: https://www.themoviedb.org/t/p/original/q72hZtWIxmHuJASMGUWQSqujyxY.jpg
+
+  287: # Bull Durham
+    url_poster: https://theposterdb.com/api/assets/119865
+
+  11974: # The 'Burbs
+    sort_title: Burbs
+    url_poster: https://theposterdb.com/api/assets/25872
+
+  102780: # Byzantium
+    url_poster: https://theposterdb.com/api/assets/93471
+
+  11977: # Caddyshack
+    url_poster: https://theposterdb.com/api/assets/143409
+
+  11286: # The Cannonball Run
+    url_poster: https://theposterdb.com/api/assets/72226
+
+  271110: # Captain America: Civil War
+    sort_title: Captain America 3
+    url_poster: https://theposterdb.com/api/assets/9787
+
+  1771: # Captain America: The First Avenger
+    sort_title: Captain America 1
+    url_poster: https://theposterdb.com/api/assets/9778
+
+  100402: # Captain America: The Winter Soldier
+    sort_title: Captain America 2
+    url_poster: https://theposterdb.com/api/assets/9783
+
+  299537: # Captain Marvel
+    url_poster: https://theposterdb.com/api/assets/9796
+
+  34069: # Cargo
+    url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg
+
+  25769: # Carriers
+    url_poster: https://theposterdb.com/api/assets/105507
+
+  289: # Casablanca
+    url_poster: https://image.tmdb.org/t/p/original//5K7cOHoay2mZusSLezBOY0Qxh8a.jpg
+
+  12208: # Casino Royale (1967)
+    url_poster: https://theposterdb.com/api/assets/115689
+
+  36557: # Casino Royale (2006)
+    url_poster: https://theposterdb.com/api/assets/115684
+
+  10515: # Castle In The Sky
+    url_poster: https://theposterdb.com/api/assets/111923
+
+  10694: # The Chase
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lEmGW4Fc9wMRLIKq6NRojZnTbdp.jpg
+
+  10823: # Children of the Corn
+    url_poster: https://theposterdb.com/api/assets/279826
+
+  902: # The City of Lost Children
+    url_poster: https://image.tmdb.org/t/p/original//whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg
+
+  384521: # The Cloverfield Paradox
+    url_poster: https://theposterdb.com/api/assets/413423
+
+  9612: # Coneheads
+    url_poster: https://theposterdb.com/api/assets/67311
+
+  39538: # Contagion
+    url_poster: https://theposterdb.com/api/assets/51763
+
+  11362: # The Count of Monte Cristo
+    url_poster: https://theposterdb.com/api/assets/117112
+
+  35659: # Countdown to Looking Glass
+    content_rating: 14
+
+  11839: # The Court Jester
+    url_poster: https://image.tmdb.org/t/p/original//pPCOAipDP0sm8SLChpTMBPdCiqB.jpg
+
+  16281: # Creepshow
+    url_poster: https://theposterdb.com/api/assets/108982
+
+  16288: # Creepshow 2
+    url_poster: https://www.themoviedb.org/t/p/original/rfPwZFtqGHiOvfMhN00sNyO2Umb.jpg
+
+  9495: # The Crow
+    url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg

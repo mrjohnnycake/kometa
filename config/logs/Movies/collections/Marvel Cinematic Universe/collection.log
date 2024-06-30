@@ -1,0 +1,111 @@
+[2024-04-25 05:06:15,843] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:06:15,843] [builder.py:193]            [INFO]     |                           Marvel Cinematic Universe Collection in Movies                           |
+[2024-04-25 05:06:15,843] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:06:15,843] [builder.py:194]            [INFO]     |                                                                                                    |
+[2024-04-25 05:06:15,843] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2024-04-25 05:06:15,843] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:15,843] [builder.py:216]            [DEBUG]    | Templates Called: Franchise                                                                        |
+[2024-04-25 05:06:15,843] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:15,844] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2024-04-25 05:06:15,845] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:15,845] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/162885', 'sort_title': '++++_Marvel Cinematic Universe', 'collection_mode': 'hide', 'collection_order': 'release', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2024-04-25 05:06:15,845] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:15,845] [builder.py:233]            [INFO]     |========================= Validating Marvel Cinematic Universe Attributes ==========================|
+[2024-04-25 05:06:16,141] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:16,141] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2024-04-25 05:06:16,141] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-25 05:06:16,141] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:16,142] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2024-04-25 05:06:16,142] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-25 05:06:16,142] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:16,142] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2024-04-25 05:06:16,142] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2024-04-25 05:06:16,142] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:16,142] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2024-04-25 05:06:16,142] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2024-04-25 05:06:16,142] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:16,142] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2024-04-25 05:06:16,142] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/list/ls039269245/                                                      |
+[2024-04-25 05:06:17,447] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,448] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2024-04-25 05:06:17,448] [builder.py:720]            [DEBUG]    | Value: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series. |
+[2024-04-25 05:06:17,448] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,448] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2024-04-25 05:06:17,449] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/162885                                                   |
+[2024-04-25 05:06:17,600] [builder.py:918]            [WARNING]  | Collection Warning: No Poster Found at https://theposterdb.com/api/assets/162885                   |
+[2024-04-25 05:06:17,600] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,600] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2024-04-25 05:06:17,600] [builder.py:720]            [DEBUG]    | Value: ++++_Marvel Cinematic Universe                                                              |
+[2024-04-25 05:06:17,600] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,600] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2024-04-25 05:06:17,601] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2024-04-25 05:06:17,601] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,601] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2024-04-25 05:06:17,601] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-25 05:06:17,601] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,601] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2024-04-25 05:06:17,601] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-25 05:06:17,601] [builder.py:885]            [INFO]     |                                                                                                    |
+[2024-04-25 05:06:17,601] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:638]  [INFO]     |=========================== Running Marvel Cinematic Universe Collection ===========================|
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls039269245/', 'limit': 0}                  |
+[2024-04-25 05:06:17,602] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2024-04-25 05:06:17,602] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls039269245/                                       |
+[2024-04-25 05:06:22,098] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:22,098] [builder.py:1666]           [DEBUG]    | 40 IDs Found                                                                                       |
+[2024-04-25 05:06:22,098] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:06:22,109] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,110] [builder.py:2250]           [INFO]     |========================== Adding to Marvel Cinematic Universe Collection ==========================|
+[2024-04-25 05:06:22,110] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,110] [builder.py:2265]           [INFO]     |  1/32 | Marvel Cinematic Universe Collection | = | Iron Man (2008)                                 |
+[2024-04-25 05:06:22,110] [builder.py:2265]           [INFO]     |  2/32 | Marvel Cinematic Universe Collection | = | The Incredible Hulk (2008)                      |
+[2024-04-25 05:06:22,110] [builder.py:2265]           [INFO]     |  3/32 | Marvel Cinematic Universe Collection | = | Iron Man 2 (2010)                               |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  4/32 | Marvel Cinematic Universe Collection | = | Thor (2011)                                     |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  5/32 | Marvel Cinematic Universe Collection | = | Captain America: The First Avenger (2011)       |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  6/32 | Marvel Cinematic Universe Collection | = | The Avengers (2012)                             |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  7/32 | Marvel Cinematic Universe Collection | = | Iron Man 3 (2013)                               |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  8/32 | Marvel Cinematic Universe Collection | = | Thor: The Dark World (2013)                     |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     |  9/32 | Marvel Cinematic Universe Collection | = | Captain America: The Winter Soldier (2014)      |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     | 10/32 | Marvel Cinematic Universe Collection | = | Guardians of the Galaxy (2014)                  |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     | 11/32 | Marvel Cinematic Universe Collection | = | Avengers: Age of Ultron (2015)                  |
+[2024-04-25 05:06:22,111] [builder.py:2265]           [INFO]     | 12/32 | Marvel Cinematic Universe Collection | = | Ant-Man (2015)                                  |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 13/32 | Marvel Cinematic Universe Collection | = | Captain America: Civil War (2016)               |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 14/32 | Marvel Cinematic Universe Collection | = | Doctor Strange (2016)                           |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 15/32 | Marvel Cinematic Universe Collection | = | Guardians of the Galaxy Vol. 2 (2017)           |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 16/32 | Marvel Cinematic Universe Collection | = | Spider-Man: Homecoming (2017)                   |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 17/32 | Marvel Cinematic Universe Collection | = | Thor: Ragnarok (2017)                           |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 18/32 | Marvel Cinematic Universe Collection | = | Black Panther (2018)                            |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 19/32 | Marvel Cinematic Universe Collection | = | Avengers: Infinity War (2018)                   |
+[2024-04-25 05:06:22,112] [builder.py:2265]           [INFO]     | 20/32 | Marvel Cinematic Universe Collection | = | Ant-Man and the Wasp (2018)                     |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 21/32 | Marvel Cinematic Universe Collection | = | Captain Marvel (2019)                           |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 22/32 | Marvel Cinematic Universe Collection | = | Avengers: Endgame (2019)                        |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 23/32 | Marvel Cinematic Universe Collection | = | Spider-Man: Far from Home (2019)                |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 24/32 | Marvel Cinematic Universe Collection | = | Black Widow (2021)                              |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 25/32 | Marvel Cinematic Universe Collection | = | Eternals (2021)                                 |
+[2024-04-25 05:06:22,113] [builder.py:2265]           [INFO]     | 26/32 | Marvel Cinematic Universe Collection | = | Shang-Chi and the Legend of the Ten Rings (2021) |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 27/32 | Marvel Cinematic Universe Collection | = | Spider-Man: No Way Home (2021)                  |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 28/32 | Marvel Cinematic Universe Collection | = | Doctor Strange in the Multiverse of Madness (2022) |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 29/32 | Marvel Cinematic Universe Collection | = | Thor: Love and Thunder (2022)                   |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 30/32 | Marvel Cinematic Universe Collection | = | Black Panther: Wakanda Forever (2022)           |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 31/32 | Marvel Cinematic Universe Collection | = | Ant-Man and the Wasp: Quantumania (2023)        |
+[2024-04-25 05:06:22,114] [builder.py:2265]           [INFO]     | 32/32 | Marvel Cinematic Universe Collection | = | Guardians of the Galaxy Vol. 3 (2023)           |
+[2024-04-25 05:06:22,115] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,115] [builder.py:2287]           [INFO]     | 32 Movies Processed 0 Movies Added                                                                 |
+[2024-04-25 05:06:22,143] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,143] [builder.py:2423]           [INFO]     | 8 Movies Missing                                                                                   |
+[2024-04-25 05:06:22,883] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,884] [builder.py:2624]           [INFO]     |===================== Updating Details of Marvel Cinematic Universe Collection =====================|
+[2024-04-25 05:06:22,884] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2024-04-25 05:06:22,892] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2024-04-25 05:06:22,896] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2024-04-25 05:06:22,896] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Marvel Cinematic Universe/poster.jpg', 'prefix': "Marvel Cinematic Universe's ", 'is_poster': True, 'is_url': False, 'compare': 360675, 'message': "Marvel Cinematic Universe's poster to [File] //config/assets/movies/Marvel Cinematic Universe/poster.jpg"} |
+[2024-04-25 05:06:22,897] [library.py:177]            [INFO]     | Detail: Marvel Cinematic Universe's poster update not needed                                       |
+[2024-04-25 05:06:23,199] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2024-04-25 05:06:23,199] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2024-04-25 05:06:23,199] [plex_meta_manager.py:781]  [INFO]     |                           Finished Marvel Cinematic Universe Collection                            |
+[2024-04-25 05:06:23,199] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2024-04-25 05:06:23,199] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

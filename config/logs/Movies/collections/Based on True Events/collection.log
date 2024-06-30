@@ -1,0 +1,101 @@
+[2024-04-25 05:03:38,098] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:03:38,098] [builder.py:193]            [INFO]     |                             Based on True Events Collection in Movies                              |
+[2024-04-25 05:03:38,098] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:03:38,098] [builder.py:194]            [INFO]     |                                                                                                    |
+[2024-04-25 05:03:38,098] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2024-04-25 05:03:38,098] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,098] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
+[2024-04-25 05:03:38,098] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,099] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2024-04-25 05:03:38,099] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,100] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Based on True Events', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2024-04-25 05:03:38,100] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,100] [builder.py:233]            [INFO]     |============================ Validating Based on True Events Attributes ============================|
+[2024-04-25 05:03:38,364] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,365] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2024-04-25 05:03:38,365] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-25 05:03:38,365] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,365] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2024-04-25 05:03:38,365] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-25 05:03:38,365] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,365] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2024-04-25 05:03:38,365] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2024-04-25 05:03:38,365] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,365] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2024-04-25 05:03:38,366] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events                        |
+[2024-04-25 05:03:38,851] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,851] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2024-04-25 05:03:38,851] [builder.py:720]            [DEBUG]    | Value: Movies based on true events.                                                                |
+[2024-04-25 05:03:38,852] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,852] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2024-04-25 05:03:38,852] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
+[2024-04-25 05:03:38,890] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,890] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2024-04-25 05:03:38,890] [builder.py:720]            [DEBUG]    | Value: Based on True Events                                                                        |
+[2024-04-25 05:03:38,890] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,890] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2024-04-25 05:03:38,890] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-25 05:03:38,890] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,890] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2024-04-25 05:03:38,890] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-25 05:03:38,891] [builder.py:885]            [INFO]     |                                                                                                    |
+[2024-04-25 05:03:38,891] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:638]  [INFO]     |============================= Running Based on True Events Collection ==============================|
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events          |
+[2024-04-25 05:03:38,891] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2024-04-25 05:03:38,891] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events        |
+[2024-04-25 05:03:39,085] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:39,085] [builder.py:1666]           [DEBUG]    | 431 IDs Found                                                                                      |
+[2024-04-25 05:03:39,085] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:03:39,088] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:39,088] [builder.py:2250]           [INFO]     |============================ Adding to Based on True Events Collection =============================|
+[2024-04-25 05:03:39,088] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  1/28 | Based on True Events Collection | = | Schindler's List (1993)                              |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  2/28 | Based on True Events Collection | = | Saving Private Ryan (1998)                           |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  3/28 | Based on True Events Collection | = | Braveheart (1995)                                    |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  4/28 | Based on True Events Collection | = | JFK (1991)                                           |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  5/28 | Based on True Events Collection | = | 12 Years a Slave (2013)                              |
+[2024-04-25 05:03:39,088] [builder.py:2265]           [INFO]     |  6/28 | Based on True Events Collection | = | Hotel Rwanda (2005)                                  |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     |  7/28 | Based on True Events Collection | = | Enemy at the Gates (2001)                            |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     |  8/28 | Based on True Events Collection | = | 300 (2007)                                           |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     |  9/28 | Based on True Events Collection | = | Selma (2015)                                         |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     | 10/28 | Based on True Events Collection | = | The Wolf of Wall Street (2013)                       |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     | 11/28 | Based on True Events Collection | = | Straight Outta Compton (2015)                        |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     | 12/28 | Based on True Events Collection | = | Lincoln (2012)                                       |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     | 13/28 | Based on True Events Collection | = | Into the Wild (2007)                                 |
+[2024-04-25 05:03:39,089] [builder.py:2265]           [INFO]     | 14/28 | Based on True Events Collection | = | Black Hawk Down (2002)                               |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 15/28 | Based on True Events Collection | = | The Birth of a Nation (2016)                         |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 16/28 | Based on True Events Collection | = | Anthropoid (2016)                                    |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 17/28 | Based on True Events Collection | = | Gandhi (1982)                                        |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 18/28 | Based on True Events Collection | = | Jackie (2016)                                        |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 19/28 | Based on True Events Collection | = | The Big Sick (2017)                                  |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 20/28 | Based on True Events Collection | = | Marshall (2017)                                      |
+[2024-04-25 05:03:39,090] [builder.py:2265]           [INFO]     | 21/28 | Based on True Events Collection | = | Tag (2018)                                           |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 22/28 | Based on True Events Collection | = | Being the Ricardos (2021)                            |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 23/28 | Based on True Events Collection | = | Elvis (2022)                                         |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 24/28 | Based on True Events Collection | = | Oppenheimer (2023)                                   |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 25/28 | Based on True Events Collection | = | Devotion (2022)                                      |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 26/28 | Based on True Events Collection | = | Weird: The Al Yankovic Story (2022)                  |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 27/28 | Based on True Events Collection | = | Cocaine Bear (2023)                                  |
+[2024-04-25 05:03:39,091] [builder.py:2265]           [INFO]     | 28/28 | Based on True Events Collection | = | The Last King of Scotland (2007)                     |
+[2024-04-25 05:03:39,092] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:39,092] [builder.py:2287]           [INFO]     | 28 Movies Processed 0 Movies Added                                                                 |
+[2024-04-25 05:03:42,204] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:42,204] [builder.py:2423]           [INFO]     | 385 Movies Missing                                                                                 |
+[2024-04-25 05:03:42,878] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:42,879] [builder.py:2624]           [INFO]     |======================= Updating Details of Based on True Events Collection ========================|
+[2024-04-25 05:03:42,879] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2024-04-25 05:03:42,885] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2024-04-25 05:03:42,888] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2024-04-25 05:03:42,888] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/images/defaults/missing_poster.jpg              |
+[2024-04-25 05:03:42,888] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Based on True Events/poster.jpg', 'prefix': "Based on True Events's ", 'is_poster': True, 'is_url': False, 'compare': 37395, 'message': "Based on True Events's poster to [File] //config/assets/movies/Based on True Events/poster.jpg"} |
+[2024-04-25 05:03:42,889] [library.py:177]            [INFO]     | Detail: Based on True Events's poster update not needed                                            |
+[2024-04-25 05:03:43,154] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2024-04-25 05:03:43,155] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2024-04-25 05:03:43,155] [plex_meta_manager.py:781]  [INFO]     |                              Finished Based on True Events Collection                              |
+[2024-04-25 05:03:43,155] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2024-04-25 05:03:43,155] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

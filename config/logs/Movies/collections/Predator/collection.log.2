@@ -1,0 +1,48 @@
+[2024-04-23 05:06:54,209] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-23 05:06:54,209] [builder.py:193]            [INFO]     |                                   Predator Collection in Movies                                    |
+[2024-04-23 05:06:54,209] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-23 05:06:54,209] [builder.py:194]            [INFO]     |                                                                                                    |
+[2024-04-23 05:06:54,209] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2024-04-23 05:06:54,209] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,209] [builder.py:216]            [DEBUG]    | Templates Called: Franchise                                                                        |
+[2024-04-23 05:06:54,209] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,210] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2024-04-23 05:06:54,210] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,210] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/43447', 'sort_title': '++++_Predator', 'collection_mode': 'hide', 'collection_order': 'release', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2024-04-23 05:06:54,210] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,211] [builder.py:233]            [INFO]     |================================== Validating Predator Attributes ==================================|
+[2024-04-23 05:06:54,358] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,358] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2024-04-23 05:06:54,358] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-23 05:06:54,358] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,359] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2024-04-23 05:06:54,359] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-23 05:06:54,359] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,359] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2024-04-23 05:06:54,359] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2024-04-23 05:06:54,359] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,359] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2024-04-23 05:06:54,359] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2024-04-23 05:06:54,359] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:06:54,359] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2024-04-23 05:06:54,359] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc                                 |
+[2024-04-23 05:06:54,473] [trakt.py:429]              [ERROR]    | Trakt Error: List https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc not found            |
+[2024-04-23 05:06:54,475] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 805, in __init__                                                |
+                                                                 |     self._trakt(method_name, method_data)                                                          |
+                                                                 |   File "/modules/builder.py", line 1515, in _trakt                                                 |
+                                                                 |     trakt_lists = self.config.Trakt.validate_list(method_data)                                     |
+                                                                 |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                     |
+                                                                 |   File "/modules/trakt.py", line 431, in validate_list                                             |
+                                                                 |     raise Failed(f"Trakt Error: No valid Trakt Lists in {values}")                                 |
+                                                                 | modules.util.Failed: Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc'] |
+                                                                 |                                                                                                    |
+[2024-04-23 05:06:54,476] [plex_meta_manager.py:769]  [ERROR]    | Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc'] |
+[2024-04-23 05:06:54,476] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2024-04-23 05:06:54,476] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2024-04-23 05:06:54,476] [plex_meta_manager.py:781]  [INFO]     |                                    Finished Predator Collection                                    |
+[2024-04-23 05:06:54,476] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2024-04-23 05:06:54,477] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

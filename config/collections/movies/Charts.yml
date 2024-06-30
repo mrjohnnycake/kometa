@@ -1,0 +1,66 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Charts:
+    url_poster: <<poster>>
+    collection_mode: hide
+    # collection_order: release
+    # schedule: weekly(sunday)
+    visible_home: false
+    visible_shared: false
+    sync_mode: sync
+
+collections:
+
+############################
+#        TRENDING          #
+############################
+
+  New Releases:
+    template: {name: Charts, poster: https://i.ibb.co/VNwwdZQ/New-Releases.jpg}    
+    trakt_list: https://trakt.tv/users/giladg/lists/latest-releases
+    sort_title: "*101a"
+    smart_label: critic_rating.desc
+    summary: The most recent movie releases.
+
+  Trending:
+    template: {name: Charts, poster: https://theposterdb.com/api/assets/259815}
+    trakt_chart:
+      chart: trending
+      limit: 100
+    sort_title: "*101b"
+    summary: Trending movies on Trakt.com
+
+############################
+#         BEST OF          #
+############################
+
+  IMDb Top 250:
+    template: {name: Charts, poster: https://i.redd.it/gkfygy4k3tr21.jpg}
+    imdb_chart: top_movies
+    collection_order: custom
+    sort_title: ++++++++_IMDb Top 250
+    summary: IMDb's all-time top 250 highest rated movies.
+
+  Best Picture:
+    template: {name: Charts, poster: https://i.imgur.com/nNTPdYS.png}
+    imdb_award:
+      event_id: ev0000003
+      event_year: 1929-current
+      category_filter:
+        - Best Motion Picture of the Year
+        - Best Picture
+        - Best Picture, Production
+        - Best Picture, Unique and Artistic Production
+      winning: true
+    sort_title: "*101c"
+    summary: All of these movies took home the Best Picture Oscar.
+
+  1001 Movies You Must See Before You Die:
+    template: {name: Charts, poster: https://i.imgur.com/wdDPk80.jpeg}
+    trakt_list: https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
+    sort_title: "*101e"
+    summary: 1001 Movies You Must See Before You Die is a film reference book edited by Steven Jay Schneider with original essays on each film contributed by over 70 film critics.

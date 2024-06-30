@@ -1,0 +1,164 @@
+[2024-04-23 05:00:48,833] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-23 05:00:48,833] [builder.py:193]            [INFO]     |                                   Trending Collection in Movies                                    |
+[2024-04-23 05:00:48,833] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-23 05:00:48,833] [builder.py:194]            [INFO]     |                                                                                                    |
+[2024-04-23 05:00:48,833] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2024-04-23 05:00:48,833] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:48,833] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2024-04-23 05:00:48,833] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:48,834] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2024-04-23 05:00:48,834] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:48,834] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/259815', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2024-04-23 05:00:48,834] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:48,835] [builder.py:233]            [INFO]     |================================== Validating Trending Attributes ==================================|
+[2024-04-23 05:00:49,307] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:49,307] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2024-04-23 05:00:49,307] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2024-04-23 05:00:49,307] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:49,307] [builder.py:719]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2024-04-23 05:00:49,307] [builder.py:720]            [DEBUG]    | Value: 100                                                                                         |
+[2024-04-23 05:00:49,307] [builder.py:1551]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2024-04-23 05:00:49,308] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:49,308] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2024-04-23 05:00:49,308] [builder.py:720]            [DEBUG]    | Value: *101b                                                                                       |
+[2024-04-23 05:00:49,308] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:49,308] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2024-04-23 05:00:49,308] [builder.py:720]            [DEBUG]    | Value: Trending movies on Trakt.com                                                                |
+[2024-04-23 05:00:49,308] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:49,308] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2024-04-23 05:00:49,308] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/259815                                                   |
+[2024-04-23 05:00:50,162] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,162] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2024-04-23 05:00:50,162] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2024-04-23 05:00:50,162] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,162] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2024-04-23 05:00:50,162] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-23 05:00:50,162] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,163] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2024-04-23 05:00:50,163] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-23 05:00:50,163] [builder.py:885]            [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,163] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2024-04-23 05:00:50,163] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,163] [plex_meta_manager.py:638]  [INFO]     |=================================== Running Trending Collection ====================================|
+[2024-04-23 05:00:50,163] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,163] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2024-04-23 05:00:50,163] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,164] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 100, 'time_period': None}                     |
+[2024-04-23 05:00:50,164] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,164] [trakt.py:501]              [INFO]     | Processing Trakt Chart: 100 Trending Movies                                                        |
+[2024-04-23 05:00:50,284] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,284] [builder.py:1666]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2024-04-23 05:00:50,284] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2024-04-23 05:00:50,287] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,287] [builder.py:2250]           [INFO]     |================================== Adding to Trending Collection ===================================|
+[2024-04-23 05:00:50,287] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2024-04-23 05:00:50,287] [builder.py:2265]           [INFO]     |  1/46 | Trending Collection | = | Dune (2021)                                                      |
+[2024-04-23 05:00:50,287] [builder.py:2265]           [INFO]     |  2/46 | Trending Collection | = | Rebel Moon - Part One: A Child of Fire (2023)                    |
+[2024-04-23 05:00:50,288] [builder.py:2265]           [INFO]     |  3/46 | Trending Collection | = | Harry Potter and the Sorcerer's Stone (2001)                     |
+[2024-04-23 05:00:50,288] [builder.py:2265]           [INFO]     |  4/46 | Trending Collection | = | Oppenheimer (2023)                                               |
+[2024-04-23 05:00:50,288] [builder.py:2265]           [INFO]     |  5/46 | Trending Collection | = | Interstellar (2014)                                              |
+[2024-04-23 05:00:50,288] [builder.py:2265]           [INFO]     |  6/46 | Trending Collection | = | Harry Potter and the Chamber of Secrets (2002)                   |
+[2024-04-23 05:00:50,288] [builder.py:2265]           [INFO]     |  7/46 | Trending Collection | + | Deadpool (2016)                                                  |
+[2024-04-23 05:00:50,810] [builder.py:2265]           [INFO]     |  8/46 | Trending Collection | = | The Wolf of Wall Street (2013)                                   |
+[2024-04-23 05:00:50,810] [builder.py:2265]           [INFO]     |  9/46 | Trending Collection | = | Moana (2016)                                                     |
+[2024-04-23 05:00:50,810] [builder.py:2265]           [INFO]     | 10/46 | Trending Collection | = | The Lord of the Rings: The Two Towers (2002)                     |
+[2024-04-23 05:00:50,810] [builder.py:2265]           [INFO]     | 11/46 | Trending Collection | + | The Hobbit: An Unexpected Journey (2012)                         |
+[2024-04-23 05:00:51,363] [builder.py:2265]           [INFO]     | 12/46 | Trending Collection | + | The Green Mile (1999)                                            |
+[2024-04-23 05:00:51,829] [builder.py:2265]           [INFO]     | 13/46 | Trending Collection | + | Doctor Strange in the Multiverse of Madness (2022)               |
+[2024-04-23 05:00:52,318] [builder.py:2265]           [INFO]     | 14/46 | Trending Collection | = | Migration (2023)                                                 |
+[2024-04-23 05:00:52,318] [builder.py:2265]           [INFO]     | 15/46 | Trending Collection | + | Guardians of the Galaxy (2014)                                   |
+[2024-04-23 05:00:52,850] [builder.py:2265]           [INFO]     | 16/46 | Trending Collection | + | Inception (2010)                                                 |
+[2024-04-23 05:00:53,338] [builder.py:2265]           [INFO]     | 17/46 | Trending Collection | + | John Wick: Chapter 2 (2017)                                      |
+[2024-04-23 05:00:53,849] [builder.py:2265]           [INFO]     | 18/46 | Trending Collection | = | Frozen (2013)                                                    |
+[2024-04-23 05:00:53,850] [builder.py:2265]           [INFO]     | 19/46 | Trending Collection | + | Zootopia (2016)                                                  |
+[2024-04-23 05:00:54,382] [builder.py:2265]           [INFO]     | 20/46 | Trending Collection | + | Star Wars: Episode IV - A New Hope (1977)                        |
+[2024-04-23 05:00:54,856] [builder.py:2265]           [INFO]     | 21/46 | Trending Collection | + | WALL·E (2008)                                                    |
+[2024-04-23 05:00:55,347] [builder.py:2265]           [INFO]     | 22/46 | Trending Collection | + | Finding Nemo (2003)                                              |
+[2024-04-23 05:00:55,812] [builder.py:2265]           [INFO]     | 23/46 | Trending Collection | + | Harry Potter and the Goblet of Fire (2005)                       |
+[2024-04-23 05:00:56,296] [builder.py:2265]           [INFO]     | 24/46 | Trending Collection | + | Monsters, Inc. (2001)                                            |
+[2024-04-23 05:00:56,754] [builder.py:2265]           [INFO]     | 25/46 | Trending Collection | + | Pirates of the Caribbean: The Curse of the Black Pearl (2003)    |
+[2024-04-23 05:00:57,214] [builder.py:2265]           [INFO]     | 26/46 | Trending Collection | + | The Hunger Games: Catching Fire (2013)                           |
+[2024-04-23 05:00:57,741] [builder.py:2265]           [INFO]     | 27/46 | Trending Collection | + | The Batman (2022)                                                |
+[2024-04-23 05:00:58,037] [builder.py:2265]           [INFO]     | 28/46 | Trending Collection | + | Top Gun: Maverick (2022)                                         |
+[2024-04-23 05:00:58,578] [builder.py:2265]           [INFO]     | 29/46 | Trending Collection | + | Spirited Away (2001)                                             |
+[2024-04-23 05:00:59,049] [builder.py:2265]           [INFO]     | 30/46 | Trending Collection | + | War for the Planet of the Apes (2017)                            |
+[2024-04-23 05:00:59,631] [builder.py:2265]           [INFO]     | 31/46 | Trending Collection | + | The Amazing Spider-Man 2 (2014)                                  |
+[2024-04-23 05:01:00,160] [builder.py:2265]           [INFO]     | 32/46 | Trending Collection | = | Kung Fu Panda (2008)                                             |
+[2024-04-23 05:01:00,161] [builder.py:2265]           [INFO]     | 33/46 | Trending Collection | = | Bullet Train (2022)                                              |
+[2024-04-23 05:01:00,161] [builder.py:2265]           [INFO]     | 34/46 | Trending Collection | + | Black Panther: Wakanda Forever (2022)                            |
+[2024-04-23 05:01:00,710] [builder.py:2265]           [INFO]     | 35/46 | Trending Collection | = | Godzilla vs. Kong (2021)                                         |
+[2024-04-23 05:01:00,710] [builder.py:2265]           [INFO]     | 36/46 | Trending Collection | + | Sonic the Hedgehog (2020)                                        |
+[2024-04-23 05:01:01,185] [builder.py:2265]           [INFO]     | 37/46 | Trending Collection | = | Ghostbusters: Afterlife (2021)                                   |
+[2024-04-23 05:01:01,185] [builder.py:2265]           [INFO]     | 38/46 | Trending Collection | + | Jurassic World Dominion (2022)                                   |
+[2024-04-23 05:01:01,504] [builder.py:2265]           [INFO]     | 39/46 | Trending Collection | = | Wonka (2023)                                                     |
+[2024-04-23 05:01:01,505] [builder.py:2265]           [INFO]     | 40/46 | Trending Collection | + | Hunter Killer (2018)                                             |
+[2024-04-23 05:01:01,776] [builder.py:2265]           [INFO]     | 41/46 | Trending Collection | + | Ponyo (2008)                                                     |
+[2024-04-23 05:01:02,241] [builder.py:2265]           [INFO]     | 42/46 | Trending Collection | + | The Naked Gun: From the Files of Police Squad! (1988)            |
+[2024-04-23 05:01:02,704] [builder.py:2265]           [INFO]     | 43/46 | Trending Collection | + | Minions: The Rise of Gru (2022)                                  |
+[2024-04-23 05:01:02,985] [builder.py:2265]           [INFO]     | 44/46 | Trending Collection | + | Caddyshack (1980)                                                |
+[2024-04-23 05:01:03,220] [builder.py:2265]           [INFO]     | 45/46 | Trending Collection | + | The Boss Baby: Family Business (2021)                            |
+[2024-04-23 05:01:03,495] [builder.py:2265]           [INFO]     | 46/46 | Trending Collection | + | Tad, the Lost Explorer and the Emerald Tablet (2022)             |
+[2024-04-23 05:01:03,936] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:03,936] [builder.py:2287]           [INFO]     | 46 Movies Processed 30 Movies Added                                                                |
+[2024-04-23 05:01:03,936] [builder.py:2295]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:03,936] [builder.py:2296]           [INFO]     |================================= Removed from Trending Collection =================================|
+[2024-04-23 05:01:03,936] [builder.py:2297]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:03,936] [builder.py:2302]           [INFO]     |  1/42 | Trending Collection | - | The Godfather Part II (1974)                                     |
+[2024-04-23 05:01:04,385] [builder.py:2302]           [INFO]     |  2/42 | Trending Collection | - | Blade Runner (1982)                                              |
+[2024-04-23 05:01:04,874] [builder.py:2302]           [INFO]     |  3/42 | Trending Collection | - | Dune (1984)                                                      |
+[2024-04-23 05:01:05,323] [builder.py:2302]           [INFO]     |  4/42 | Trending Collection | - | Aliens (1986)                                                    |
+[2024-04-23 05:01:05,800] [builder.py:2302]           [INFO]     |  5/42 | Trending Collection | - | The Lost World: Jurassic Park (1997)                             |
+[2024-04-23 05:01:06,255] [builder.py:2302]           [INFO]     |  6/42 | Trending Collection | - | Saving Private Ryan (1998)                                       |
+[2024-04-23 05:01:06,716] [builder.py:2302]           [INFO]     |  7/42 | Trending Collection | - | Fight Club (1999)                                                |
+[2024-04-23 05:01:07,174] [builder.py:2302]           [INFO]     |  8/42 | Trending Collection | - | The Lord of the Rings: The Fellowship of the Ring (2001)         |
+[2024-04-23 05:01:07,681] [builder.py:2302]           [INFO]     |  9/42 | Trending Collection | - | Star Wars: Episode II - Attack of the Clones (2002)              |
+[2024-04-23 05:01:08,111] [builder.py:2302]           [INFO]     | 10/42 | Trending Collection | - | Shrek 2 (2004)                                                   |
+[2024-04-23 05:01:08,564] [builder.py:2302]           [INFO]     | 11/42 | Trending Collection | - | Ratatouille (2007)                                               |
+[2024-04-23 05:01:09,021] [builder.py:2302]           [INFO]     | 12/42 | Trending Collection | - | Iron Man (2008)                                                  |
+[2024-04-23 05:01:09,494] [builder.py:2302]           [INFO]     | 13/42 | Trending Collection | - | Star Trek (2009)                                                 |
+[2024-04-23 05:01:10,018] [builder.py:2302]           [INFO]     | 14/42 | Trending Collection | - | Harry Potter and the Half-Blood Prince (2009)                    |
+[2024-04-23 05:01:10,519] [builder.py:2302]           [INFO]     | 15/42 | Trending Collection | - | Shutter Island (2010)                                            |
+[2024-04-23 05:01:10,980] [builder.py:2302]           [INFO]     | 16/42 | Trending Collection | - | The Dark Knight Rises (2012)                                     |
+[2024-04-23 05:01:11,479] [builder.py:2302]           [INFO]     | 17/42 | Trending Collection | - | World War Z (2013)                                               |
+[2024-04-23 05:01:11,978] [builder.py:2302]           [INFO]     | 18/42 | Trending Collection | - | Despicable Me 2 (2013)                                           |
+[2024-04-23 05:01:12,487] [builder.py:2302]           [INFO]     | 19/42 | Trending Collection | - | X-Men: Days of Future Past (2014)                                |
+[2024-04-23 05:01:12,984] [builder.py:2302]           [INFO]     | 20/42 | Trending Collection | - | Edge of Tomorrow (2014)                                          |
+[2024-04-23 05:01:13,450] [builder.py:2302]           [INFO]     | 21/42 | Trending Collection | - | Dawn of the Planet of the Apes (2014)                            |
+[2024-04-23 05:01:13,944] [builder.py:2302]           [INFO]     | 22/42 | Trending Collection | - | Inside Out (2015)                                                |
+[2024-04-23 05:01:14,428] [builder.py:2302]           [INFO]     | 23/42 | Trending Collection | - | Spectre (2015)                                                   |
+[2024-04-23 05:01:15,020] [builder.py:2302]           [INFO]     | 24/42 | Trending Collection | - | The Secret Life of Pets (2016)                                   |
+[2024-04-23 05:01:15,540] [builder.py:2302]           [INFO]     | 25/42 | Trending Collection | - | Alien: Covenant (2017)                                           |
+[2024-04-23 05:01:16,033] [builder.py:2302]           [INFO]     | 26/42 | Trending Collection | - | Spider-Man: Homecoming (2017)                                    |
+[2024-04-23 05:01:16,601] [builder.py:2302]           [INFO]     | 27/42 | Trending Collection | - | Blade Runner 2049 (2017)                                         |
+[2024-04-23 05:01:17,090] [builder.py:2302]           [INFO]     | 28/42 | Trending Collection | - | Coco (2017)                                                      |
+[2024-04-23 05:01:17,599] [builder.py:2302]           [INFO]     | 29/42 | Trending Collection | - | Avengers: Infinity War (2018)                                    |
+[2024-04-23 05:01:18,072] [builder.py:2302]           [INFO]     | 30/42 | Trending Collection | - | Godzilla: King of the Monsters (2019)                            |
+[2024-04-23 05:01:18,542] [builder.py:2302]           [INFO]     | 31/42 | Trending Collection | - | Jumanji: The Next Level (2019)                                   |
+[2024-04-23 05:01:19,017] [builder.py:2302]           [INFO]     | 32/42 | Trending Collection | - | 1917 (2020)                                                      |
+[2024-04-23 05:01:19,513] [builder.py:2302]           [INFO]     | 33/42 | Trending Collection | - | Free Guy (2021)                                                  |
+[2024-04-23 05:01:20,011] [builder.py:2302]           [INFO]     | 34/42 | Trending Collection | - | Encanto (2021)                                                   |
+[2024-04-23 05:01:20,480] [builder.py:2302]           [INFO]     | 35/42 | Trending Collection | - | Spider-Man: No Way Home (2021)                                   |
+[2024-04-23 05:01:20,977] [builder.py:2302]           [INFO]     | 36/42 | Trending Collection | - | Puss in Boots: The Last Wish (2022)                              |
+[2024-04-23 05:01:21,473] [builder.py:2302]           [INFO]     | 37/42 | Trending Collection | - | Avatar: The Way of Water (2022)                                  |
+[2024-04-23 05:01:21,995] [builder.py:2302]           [INFO]     | 38/42 | Trending Collection | - | The Super Mario Bros. Movie (2023)                               |
+[2024-04-23 05:01:22,504] [builder.py:2302]           [INFO]     | 39/42 | Trending Collection | - | Indiana Jones and the Dial of Destiny (2023)                     |
+[2024-04-23 05:01:22,997] [builder.py:2302]           [INFO]     | 40/42 | Trending Collection | - | Mission: Impossible - Dead Reckoning (2023)                      |
+[2024-04-23 05:01:23,496] [builder.py:2302]           [INFO]     | 41/42 | Trending Collection | - | Barbie (2023)                                                    |
+[2024-04-23 05:01:24,015] [builder.py:2302]           [INFO]     | 42/42 | Trending Collection | - | Wish (2023)                                                      |
+[2024-04-23 05:01:24,561] [builder.py:2314]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:24,561] [builder.py:2315]           [INFO]     | 42 Movie Removed                                                                                   |
+[2024-04-23 05:01:26,393] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:26,393] [builder.py:2423]           [INFO]     | 54 Movies Missing                                                                                  |
+[2024-04-23 05:01:26,428] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:26,428] [builder.py:2624]           [INFO]     |============================= Updating Details of Trending Collection ==============================|
+[2024-04-23 05:01:26,428] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2024-04-23 05:01:26,435] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2024-04-23 05:01:26,439] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2024-04-23 05:01:26,439] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/259815                               |
+[2024-04-23 05:01:26,439] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Trending/poster.jpg', 'prefix': "Trending's ", 'is_poster': True, 'is_url': False, 'compare': 207166, 'message': "Trending's poster to [File] //config/assets/movies/Trending/poster.jpg"} |
+[2024-04-23 05:01:26,440] [library.py:177]            [INFO]     | Detail: Trending's poster update not needed                                                        |
+[2024-04-23 05:01:26,796] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2024-04-23 05:01:26,796] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2024-04-23 05:01:26,796] [plex_meta_manager.py:781]  [INFO]     |                                    Finished Trending Collection                                    |
+[2024-04-23 05:01:26,796] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:37                                    |
+[2024-04-23 05:01:26,797] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

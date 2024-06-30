@@ -1,0 +1,30 @@
+metadata:
+  "Ice Cube":
+    albums:
+      "The Predator":
+        tracks:
+          "Gangsta’s Fairytale 2":
+            track: 12
+            disc: 1
+          "Check Yo Self":
+            track: 13
+            disc: 1
+          "Integration (insert)":
+            track: 15
+            disc: 1
+          "Say Hi to the Bad Guy":
+            track: 16
+            disc: 1
+          "Check Yo Self (“The Message” remix)":
+            track: 17
+            disc: 1
+  "The Halluci Nation":
+     alt_title: "A Tribe Called Red"
+     url_poster: https://earth-agency.com/wp-content/uploads/2021/03/logo-We-Are-The-Halluci-Nation-Seal-800x800.png
+     albums:
+       "We Are the Halluci Nation":
+         tracks:
+           "R.E.D. (featuring Yasiin Bey, Narcy & Black Bear)":
+             track: 2
+  "Various Artists":
+     url_poster: https://www.theaudiodb.com/images/media/artist/thumb/vjqm9u1659326549.jpg

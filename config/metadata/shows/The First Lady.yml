@@ -1,0 +1,41 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  389612: # The First Lady
+    title: The First Lady
+    seasons:
+      1:
+        episodes:
+          1:
+            title: That White House
+          2:
+            title: Voices Carry
+          3:
+            title: Please Allow Me
+          4:
+            title: Cracked Pot
+          5:
+            title: See Saw
+          6:
+            title: Shout Out
+          7:
+            title: Nadir
+          8:
+            title: Punch Perfect
+          9:
+            title: Rift
+          10:
+            title: Victory Dance

@@ -1,0 +1,189 @@
+[2024-04-25 05:07:30,935] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:07:30,936] [builder.py:193]            [INFO]     |                                   Halloween Collection in Movies                                   |
+[2024-04-25 05:07:30,936] [builder.py:193]            [INFO]     |====================================================================================================|
+[2024-04-25 05:07:30,936] [builder.py:194]            [INFO]     |                                                                                                    |
+[2024-04-25 05:07:30,936] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2024-04-25 05:07:30,936] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:30,936] [builder.py:216]            [DEBUG]    | Templates Called: Holiday                                                                          |
+[2024-04-25 05:07:30,936] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:30,937] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2024-04-25 05:07:30,937] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:30,937] [meta.py:552]               [DEBUG]    | {'sort_title': 'Halloween', 'url_poster': 'https://theposterdb.com/api/assets/212637', 'collection_order': 'release.desc', 'schedule': 'daily', 'delete_not_scheduled': False, 'run_again': True, 'sync_mode': 'sync'} |
+[2024-04-25 05:07:30,937] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:30,937] [builder.py:233]            [INFO]     |================================= Validating Halloween Attributes ==================================|
+[2024-04-25 05:07:31,276] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,277] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2024-04-25 05:07:31,277] [builder.py:502]            [DEBUG]    | Value: False                                                                                       |
+[2024-04-25 05:07:31,277] [builder.py:519]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,277] [builder.py:520]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2024-04-25 05:07:31,277] [builder.py:524]            [DEBUG]    | Value: daily                                                                                       |
+[2024-04-25 05:07:31,277] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,277] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2024-04-25 05:07:31,277] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2024-04-25 05:07:31,277] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,277] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2024-04-25 05:07:31,277] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2024-04-25 05:07:31,278] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,278] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2024-04-25 05:07:31,278] [builder.py:684]            [DEBUG]    | Value: release.desc                                                                                |
+[2024-04-25 05:07:31,278] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,278] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2024-04-25 05:07:31,278] [builder.py:720]            [DEBUG]    | Value: range(10/01-10/31)                                                                          |
+[2024-04-25 05:07:31,278] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,278] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2024-04-25 05:07:31,279] [builder.py:720]            [DEBUG]    | Value: range(10/01-10/31)                                                                          |
+[2024-04-25 05:07:31,279] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,279] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2024-04-25 05:07:31,279] [builder.py:720]            [DEBUG]    | Value: ['https://trakt.tv/users/triadcool/lists/halloween']                                        |
+[2024-04-25 05:07:31,497] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,497] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2024-04-25 05:07:31,497] [builder.py:720]            [DEBUG]    | Value: This collection revolves around the plot involving Halloween.                               |
+[2024-04-25 05:07:31,498] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,498] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2024-04-25 05:07:31,498] [builder.py:720]            [DEBUG]    | Value: Halloween                                                                                   |
+[2024-04-25 05:07:31,498] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:31,498] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2024-04-25 05:07:31,498] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/212637                                                   |
+[2024-04-25 05:07:32,079] [builder.py:885]            [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,079] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:638]  [INFO]     |=================================== Running Halloween Collection ===================================|
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/triadcool/lists/halloween                              |
+[2024-04-25 05:07:32,079] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,080] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/triadcool/lists/halloween                            |
+[2024-04-25 05:07:32,280] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:32,280] [builder.py:1666]           [DEBUG]    | 506 IDs Found                                                                                      |
+[2024-04-25 05:07:32,280] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2024-04-25 05:07:32,286] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,286] [builder.py:2250]           [INFO]     |================================== Adding to Halloween Collection ==================================|
+[2024-04-25 05:07:32,286] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,286] [builder.py:2265]           [INFO]     |  1/62 | Halloween Collection | = | Children of the Corn (1984)                                     |
+[2024-04-25 05:07:32,286] [builder.py:2265]           [INFO]     |  2/62 | Halloween Collection | = | Creepshow (1982)                                                |
+[2024-04-25 05:07:32,286] [builder.py:2265]           [INFO]     |  3/62 | Halloween Collection | = | The Crow (1994)                                                 |
+[2024-04-25 05:07:32,287] [builder.py:2265]           [INFO]     |  4/62 | Halloween Collection | = | The Monster Squad (1987)                                        |
+[2024-04-25 05:07:32,287] [builder.py:2265]           [INFO]     |  5/62 | Halloween Collection | = | Pet Sematary (1989)                                             |
+[2024-04-25 05:07:32,287] [builder.py:2265]           [INFO]     |  6/62 | Halloween Collection | = | Dead Alive (1992)                                               |
+[2024-04-25 05:07:32,287] [builder.py:2265]           [INFO]     |  7/62 | Halloween Collection | = | The Frighteners (1996)                                          |
+[2024-04-25 05:07:32,288] [builder.py:2265]           [INFO]     |  8/62 | Halloween Collection | = | Needful Things (1993)                                           |
+[2024-04-25 05:07:32,288] [builder.py:2265]           [INFO]     |  9/62 | Halloween Collection | = | Fright Night (1985)                                             |
+[2024-04-25 05:07:32,288] [builder.py:2265]           [INFO]     | 10/62 | Halloween Collection | = | Fright Night (2011)                                             |
+[2024-04-25 05:07:32,288] [builder.py:2265]           [INFO]     | 11/62 | Halloween Collection | = | Critters (1986)                                                 |
+[2024-04-25 05:07:32,288] [builder.py:2265]           [INFO]     | 12/62 | Halloween Collection | = | Near Dark (1987)                                                |
+[2024-04-25 05:07:32,289] [builder.py:2265]           [INFO]     | 13/62 | Halloween Collection | = | In the Mouth of Madness (1995)                                  |
+[2024-04-25 05:07:32,289] [builder.py:2265]           [INFO]     | 14/62 | Halloween Collection | = | The Addams Family (1991)                                        |
+[2024-04-25 05:07:32,289] [builder.py:2265]           [INFO]     | 15/62 | Halloween Collection | = | The Nightmare Before Christmas (1993)                           |
+[2024-04-25 05:07:32,289] [builder.py:2265]           [INFO]     | 16/62 | Halloween Collection | = | Hocus Pocus (1993)                                              |
+[2024-04-25 05:07:32,289] [builder.py:2265]           [INFO]     | 17/62 | Halloween Collection | = | Halloweentown (1998)                                            |
+[2024-04-25 05:07:32,290] [builder.py:2265]           [INFO]     | 18/62 | Halloween Collection | = | Beetlejuice (1988)                                              |
+[2024-04-25 05:07:32,290] [builder.py:2265]           [INFO]     | 19/62 | Halloween Collection | = | Monster House (2006)                                            |
+[2024-04-25 05:07:32,290] [builder.py:2265]           [INFO]     | 20/62 | Halloween Collection | = | E.T. (1982)                                                     |
+[2024-04-25 05:07:32,290] [builder.py:2265]           [INFO]     | 21/62 | Halloween Collection | = | Casper (1995)                                                   |
+[2024-04-25 05:07:32,290] [builder.py:2265]           [INFO]     | 22/62 | Halloween Collection | = | The Sixth Sense (1999)                                          |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 23/62 | Halloween Collection | = | Coraline (2009)                                                 |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 24/62 | Halloween Collection | = | The Witches (1990)                                              |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 25/62 | Halloween Collection | = | Harry Potter and the Prisoner of Azkaban (2004)                 |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 26/62 | Halloween Collection | = | Kiki's Delivery Service (1989)                                  |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 27/62 | Halloween Collection | = | Ghostbusters (1984)                                             |
+[2024-04-25 05:07:32,291] [builder.py:2265]           [INFO]     | 28/62 | Halloween Collection | = | Night of the Living Dead (1968)                                 |
+[2024-04-25 05:07:32,292] [builder.py:2265]           [INFO]     | 29/62 | Halloween Collection | = | Psycho (1960)                                                   |
+[2024-04-25 05:07:32,292] [builder.py:2265]           [INFO]     | 30/62 | Halloween Collection | = | ParaNorman (2012)                                               |
+[2024-04-25 05:07:32,292] [builder.py:2265]           [INFO]     | 31/62 | Halloween Collection | = | The Autopsy of Jane Doe (2016)                                  |
+[2024-04-25 05:07:32,292] [builder.py:2265]           [INFO]     | 32/62 | Halloween Collection | = | The Thing (1982)                                                |
+[2024-04-25 05:07:32,292] [builder.py:2265]           [INFO]     | 33/62 | Halloween Collection | = | The Mummy (1999)                                                |
+[2024-04-25 05:07:32,293] [builder.py:2265]           [INFO]     | 34/62 | Halloween Collection | = | Interview with the Vampire: The Vampire Chronicles (1994)       |
+[2024-04-25 05:07:32,293] [builder.py:2265]           [INFO]     | 35/62 | Halloween Collection | = | Scream (1996)                                                   |
+[2024-04-25 05:07:32,293] [builder.py:2265]           [INFO]     | 36/62 | Halloween Collection | = | An American Werewolf in London (1981)                           |
+[2024-04-25 05:07:32,293] [builder.py:2265]           [INFO]     | 37/62 | Halloween Collection | = | Hotel Transylvania (2012)                                       |
+[2024-04-25 05:07:32,293] [builder.py:2265]           [INFO]     | 38/62 | Halloween Collection | = | The Lost Boys (1987)                                            |
+[2024-04-25 05:07:32,294] [builder.py:2265]           [INFO]     | 39/62 | Halloween Collection | = | The Final Girls (2015)                                          |
+[2024-04-25 05:07:32,294] [builder.py:2265]           [INFO]     | 40/62 | Halloween Collection | = | Batman Forever (1995)                                           |
+[2024-04-25 05:07:32,294] [builder.py:2265]           [INFO]     | 41/62 | Halloween Collection | = | Spaced Invaders (1990)                                          |
+[2024-04-25 05:07:32,294] [builder.py:2265]           [INFO]     | 42/62 | Halloween Collection | = | Creepshow 2 (1987)                                              |
+[2024-04-25 05:07:32,294] [builder.py:2265]           [INFO]     | 43/62 | Halloween Collection | = | Jeepers Creepers (2001)                                         |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 44/62 | Halloween Collection | = | Curious George: A Halloween Boo Fest (2013)                     |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 45/62 | Halloween Collection | = | Silver Bullet (1985)                                            |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 46/62 | Halloween Collection | = | Terrifier (2018)                                                |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 47/62 | Halloween Collection | = | Us (2019)                                                       |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 48/62 | Halloween Collection | = | Pet Sematary (2019)                                             |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 49/62 | Halloween Collection | = | Doctor Sleep (2019)                                             |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 50/62 | Halloween Collection | = | Happy Death Day (2017)                                          |
+[2024-04-25 05:07:32,295] [builder.py:2265]           [INFO]     | 51/62 | Halloween Collection | = | Ready or Not (2019)                                             |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 52/62 | Halloween Collection | = | It (2017)                                                       |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 53/62 | Halloween Collection | = | It Chapter Two (2019)                                           |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 54/62 | Halloween Collection | = | Escape Room (2019)                                              |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 55/62 | Halloween Collection | = | A Quiet Place (2018)                                            |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 56/62 | Halloween Collection | = | Overlord (2018)                                                 |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 57/62 | Halloween Collection | = | Annihilation (2018)                                             |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 58/62 | Halloween Collection | = | Summer of 84 (2018)                                             |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 59/62 | Halloween Collection | = | The Cloverfield Paradox (2018)                                  |
+[2024-04-25 05:07:32,296] [builder.py:2265]           [INFO]     | 60/62 | Halloween Collection | = | Black Box (2020)                                                |
+[2024-04-25 05:07:32,297] [builder.py:2265]           [INFO]     | 61/62 | Halloween Collection | = | I Saw the Devil (2010)                                          |
+[2024-04-25 05:07:32,297] [builder.py:2265]           [INFO]     | 62/62 | Halloween Collection | = | Practical Magic (1998)                                          |
+[2024-04-25 05:07:32,297] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:32,297] [builder.py:2287]           [INFO]     | 62 Movies Processed 0 Movies Added                                                                 |
+[2024-04-25 05:07:35,711] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:35,711] [builder.py:2423]           [INFO]     | 432 Movies Missing                                                                                 |
+[2024-04-25 05:07:36,713] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:36,713] [builder.py:2624]           [INFO]     |============================= Updating Details of Halloween Collection =============================|
+[2024-04-25 05:07:36,713] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:36,719] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2024-04-25 05:07:36,722] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2024-04-25 05:07:36,722] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/212637                               |
+[2024-04-25 05:07:36,722] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Halloween/poster.png', 'prefix': "Halloween's ", 'is_poster': True, 'is_url': False, 'compare': 4453554, 'message': "Halloween's poster to [File] //config/assets/movies/Halloween/poster.png"} |
+[2024-04-25 05:07:36,723] [library.py:177]            [INFO]     | Detail: Halloween's poster update not needed                                                       |
+[2024-04-25 05:07:37,055] [builder.py:2780]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:37,056] [builder.py:2781]           [INFO]     |=================================== Sorting Halloween Collection ===================================|
+[2024-04-25 05:07:37,056] [builder.py:2782]           [INFO]     |                                                                                                    |
+[2024-04-25 05:07:37,443] [builder.py:2809]           [INFO]     | Moving Black Box (2020) to the beginning                                                           |
+[2024-04-25 05:07:37,675] [builder.py:2809]           [INFO]     | Moving Doctor Sleep (2019) after Black Box (2020)                                                  |
+[2024-04-25 05:07:37,908] [builder.py:2809]           [INFO]     | Moving It Chapter Two (2019) after Doctor Sleep (2019)                                             |
+[2024-04-25 05:07:38,141] [builder.py:2809]           [INFO]     | Moving Pet Sematary (2019) after It Chapter Two (2019)                                             |
+[2024-04-25 05:07:38,388] [builder.py:2809]           [INFO]     | Moving Us (2019) after Pet Sematary (2019)                                                         |
+[2024-04-25 05:07:38,620] [builder.py:2809]           [INFO]     | Moving Ready or Not (2019) after Us (2019)                                                         |
+[2024-04-25 05:07:38,850] [builder.py:2809]           [INFO]     | Moving Escape Room (2019) after Ready or Not (2019)                                                |
+[2024-04-25 05:07:39,082] [builder.py:2809]           [INFO]     | Moving Overlord (2018) after Escape Room (2019)                                                    |
+[2024-04-25 05:07:39,312] [builder.py:2809]           [INFO]     | Moving Summer of 84 (2018) after Overlord (2018)                                                   |
+[2024-04-25 05:07:39,541] [builder.py:2809]           [INFO]     | Moving A Quiet Place (2018) after Summer of 84 (2018)                                              |
+[2024-04-25 05:07:39,770] [builder.py:2809]           [INFO]     | Moving Terrifier (2018) after A Quiet Place (2018)                                                 |
+[2024-04-25 05:07:40,007] [builder.py:2809]           [INFO]     | Moving Annihilation (2018) after Terrifier (2018)                                                  |
+[2024-04-25 05:07:40,246] [builder.py:2809]           [INFO]     | Moving The Cloverfield Paradox (2018) after Annihilation (2018)                                    |
+[2024-04-25 05:07:40,475] [builder.py:2809]           [INFO]     | Moving Happy Death Day (2017) after The Cloverfield Paradox (2018)                                 |
+[2024-04-25 05:07:40,706] [builder.py:2809]           [INFO]     | Moving It (2017) after Happy Death Day (2017)                                                      |
+[2024-04-25 05:07:40,937] [builder.py:2809]           [INFO]     | Moving The Autopsy of Jane Doe (2016) after It (2017)                                              |
+[2024-04-25 05:07:41,176] [builder.py:2809]           [INFO]     | Moving The Final Girls (2015) after The Autopsy of Jane Doe (2016)                                 |
+[2024-04-25 05:07:41,408] [builder.py:2809]           [INFO]     | Moving Curious George: A Halloween Boo Fest (2013) after The Final Girls (2015)                    |
+[2024-04-25 05:07:41,639] [builder.py:2809]           [INFO]     | Moving Hotel Transylvania (2012) after Curious George: A Halloween Boo Fest (2013)                 |
+[2024-04-25 05:07:41,871] [builder.py:2809]           [INFO]     | Moving ParaNorman (2012) after Hotel Transylvania (2012)                                           |
+[2024-04-25 05:07:42,104] [builder.py:2809]           [INFO]     | Moving Fright Night (2011) after ParaNorman (2012)                                                 |
+[2024-04-25 05:07:42,335] [builder.py:2809]           [INFO]     | Moving I Saw the Devil (2010) after Fright Night (2011)                                            |
+[2024-04-25 05:07:42,565] [builder.py:2809]           [INFO]     | Moving Coraline (2009) after I Saw the Devil (2010)                                                |
+[2024-04-25 05:07:42,795] [builder.py:2809]           [INFO]     | Moving Monster House (2006) after Coraline (2009)                                                  |
+[2024-04-25 05:07:43,026] [builder.py:2809]           [INFO]     | Moving Harry Potter and the Prisoner of Azkaban (2004) after Monster House (2006)                  |
+[2024-04-25 05:07:43,258] [builder.py:2809]           [INFO]     | Moving Jeepers Creepers (2001) after Harry Potter and the Prisoner of Azkaban (2004)               |
+[2024-04-25 05:07:43,488] [builder.py:2809]           [INFO]     | Moving The Sixth Sense (1999) after Jeepers Creepers (2001)                                        |
+[2024-04-25 05:07:43,724] [builder.py:2809]           [INFO]     | Moving The Mummy (1999) after The Sixth Sense (1999)                                               |
+[2024-04-25 05:07:43,956] [builder.py:2809]           [INFO]     | Moving Halloweentown (1998) after The Mummy (1999)                                                 |
+[2024-04-25 05:07:44,188] [builder.py:2809]           [INFO]     | Moving Practical Magic (1998) after Halloweentown (1998)                                           |
+[2024-04-25 05:07:44,417] [builder.py:2809]           [INFO]     | Moving Scream (1996) after Practical Magic (1998)                                                  |
+[2024-04-25 05:07:44,645] [builder.py:2809]           [INFO]     | Moving The Frighteners (1996) after Scream (1996)                                                  |
+[2024-04-25 05:07:44,873] [builder.py:2809]           [INFO]     | Moving Batman Forever (1995) after The Frighteners (1996)                                          |
+[2024-04-25 05:07:45,105] [builder.py:2809]           [INFO]     | Moving Casper (1995) after Batman Forever (1995)                                                   |
+[2024-04-25 05:07:45,332] [builder.py:2809]           [INFO]     | Moving In the Mouth of Madness (1995) after Casper (1995)                                          |
+[2024-04-25 05:07:45,562] [builder.py:2809]           [INFO]     | Moving Interview with the Vampire: The Vampire Chronicles (1994) after In the Mouth of Madness (1995) |
+[2024-04-25 05:07:45,791] [builder.py:2809]           [INFO]     | Moving The Crow (1994) after Interview with the Vampire: The Vampire Chronicles (1994)             |
+[2024-04-25 05:07:46,031] [builder.py:2809]           [INFO]     | Moving The Nightmare Before Christmas (1993) after The Crow (1994)                                 |
+[2024-04-25 05:07:46,259] [builder.py:2809]           [INFO]     | Moving Needful Things (1993) after The Nightmare Before Christmas (1993)                           |
+[2024-04-25 05:07:46,487] [builder.py:2809]           [INFO]     | Moving Hocus Pocus (1993) after Needful Things (1993)                                              |
+[2024-04-25 05:07:46,717] [builder.py:2809]           [INFO]     | Moving Dead Alive (1992) after Hocus Pocus (1993)                                                  |
+[2024-04-25 05:07:46,948] [builder.py:2809]           [INFO]     | Moving The Addams Family (1991) after Dead Alive (1992)                                            |
+[2024-04-25 05:07:47,181] [builder.py:2809]           [INFO]     | Moving The Witches (1990) after The Addams Family (1991)                                           |
+[2024-04-25 05:07:47,412] [builder.py:2809]           [INFO]     | Moving Spaced Invaders (1990) after The Witches (1990)                                             |
+[2024-04-25 05:07:47,640] [builder.py:2809]           [INFO]     | Moving Kiki's Delivery Service (1989) after Spaced Invaders (1990)                                 |
+[2024-04-25 05:07:47,641] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2024-04-25 05:07:47,641] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2024-04-25 05:07:47,641] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Halloween Collection                                    |
+[2024-04-25 05:07:47,641] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:16                                    |
+[2024-04-25 05:07:47,641] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

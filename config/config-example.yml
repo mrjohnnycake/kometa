@@ -1,0 +1,222 @@
+###
+### THIS IS MY WORKING CONFIG FILE FOR MY SETUP
+###
+### TOKENS AND APIs HAVE BEEN CHANGED FOR MY PRIVACY
+###
+
+libraries:
+
+########################################
+#   MUST MATCH THE PLEX LIBRARY NAME   #
+########################################
+
+  Movies:
+    metadata_files:
+    - folder: //config/metadata/movies/
+    collection_files:
+    - folder: //config/collections/movies/
+    settings:
+      asset_directory: //config/assets/movies/
+      overlay_files: //config/overlays/movies/
+      remove_overlays: true
+    operations:
+      mass_content_rating_update: mdb_commonsense
+      content_rating_mapper:
+        PG: 12
+        PG-13: 13
+        TV-14: 15
+        NR: 17
+        Not Rated: 17
+        R: 18
+    report_path: /config/reports/Movies.yml
+
+  Music:
+    metadata_files:
+    - folder: //config/metadata/music/
+    settings:
+      asset_directory: //config/assets/music/
+    report_path: /config/reports/Music.yml
+
+  Shows:
+    metadata_files:
+    - folder: //config/metadata/shows/
+    collection_files:
+    - folder: //config/collections/shows/
+    - default: country
+      template_variables:
+        use_other: false
+        use_separator: false
+        sep_style: purple
+        collection_mode: hide
+        include:
+        - gb
+        - kr
+        sort_by: title.asc
+    - default: emmy
+      template_variables:
+        collection_mode: hide
+        collection_order: alpha
+        data:
+          starting: current_year-5
+          ending: current_year
+    - default: trakt
+      template_variables:
+        collection_mode: hide
+        use_collected: false
+        use_popular: false
+        use_recommended: false
+        use_watched: false
+        limit: 20
+        visible_library_trending: true
+        visible_home_trending: false
+        visible_shared_trending: true
+    - default: basic
+      template_variables:
+        collection_mode: hide
+        use_episodes: false
+        use_released: true
+        in_the_last_released: 120
+        visible_library_released: true
+        visible_home_released: false
+        visible_shared_released: false
+      settings:
+        asset_directory: config/assets/shows
+        asset_folders: true
+        overlay_files: //config/overlays/shows/
+        remove_overlays: true
+    operations:
+      mass_content_rating_update: mdb_commonsense
+      content_rating_mapper:
+        TV-Y: 4
+        TV-Y7: 7
+        TV-G: 7
+        TV-PG: 12
+        TV-14: 14
+        TV-MA: 18
+    report_path: /config/reports/Shows.yml
+
+playlist_files:
+- folder: //config/playlists/
+
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_folders: true
+  asset_depth: 5
+  create_asset_folders: true
+  prioritize_assets: true
+  dimensional_asset_rename: false
+  download_url_assets: true
+  show_missing_season_assets: true
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 2
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: false
+  show_missing_assets: true
+  save_report: true
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  check_nightly: false
+  show_unconfigured: true
+  playlist_exclude_users:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
+  asset_directory:
+
+webhooks:                            # Can be individually specified per library as well
+  error: gotify
+  version:
+  run_start:
+  run_end:
+  changes: gotify
+  delete: gotify
+
+plex:
+  url: http://your-ip:32400
+  token: your-token
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  verify_ssl:
+  db_cache:
+
+tmdb:                                                   # REQUIRED for the script to run
+  apikey: your-app-key-here
+  language: en
+  cache_expiration: 60
+  region:
+
+trakt:
+  client_id: your-client-id
+  client_secret: your-client-secret
+  pin:
+  authorization:                          # everything below is autofilled by the script
+    access_token: 
+    token_type: 
+    expires_in: 
+    refresh_token: 
+    scope: 
+    created_at: 
+
+mdblist:
+  apikey: your-api-key
+  cache_expiration: 60
+
+gotify:
+  url: https://gotify.yourdomain.com/
+  token: your-gotify-app-token
+
+# radarr:
+#   url: http://192.168.40.45:7878
+#   token: your-token-here
+#   add_missing: false
+#   add_existing: false
+#   root_folder_path: S:/movies
+#   monitor: true
+#   availability: announced
+#   quality_profile: HD-1080p
+#   tag:
+#   search: false
+#   radarr_path:
+#   plex_path:
+#   upgrade_existing: false
+
+# sonarr:
+#   url: http://192.168.40.45:8989
+#   token: your-token-here
+#   add_missing: false
+#   add_existing: false
+#   root_folder_path: S:/shows
+#   monitor: all
+#   quality_profile: HD-1080p
+#   language_profile: English
+#   series_type: standard
+#   season_folder: true
+#   tag:
+#   search: false
+#   cutoff_search: false
+#   sonarr_path:
+#   plex_path:
+#   upgrade_existing: false
