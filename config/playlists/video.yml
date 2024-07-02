@@ -4,6 +4,6 @@ playlists:
     sync_to_users:
     sync_mode: sync
     libraries: Movies, Shows
-    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/dave-s-nod-off-list?sort=title,asc
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/dave-s-nod-off-list
     summary: For some reason, I can fall asleep to these videos easier than other media. Probably because I've seen each so many times.
     url_poster: https://m.media-amazon.com/images/I/710nZSbneDL._SS500_.jpg
