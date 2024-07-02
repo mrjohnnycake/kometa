@@ -21,6 +21,14 @@ templates:
 
 collections:
 
+  4th of July:
+    template: {name: Holiday, holiday: "4th of July", poster: https://theposterdb.com/api/assets/240645}
+    visible_home: range(07/01-07/05)
+    visible_shared: range(07/01-07/05)
+    trakt_list:
+      - https://trakt.tv/users/mrjohnnycake/lists/4th-of-july
+    summary: This collection revolves around the plot involving the Fourth of July.
+
   Christmas: #IMDB lists have been removed as they have all been merged into christmas-static-list
     template: {name: Holiday, holiday: "Christmas", poster: https://theposterdb.com/api/assets/212635}
     visible_home: range(11/29-12/31)
@@ -46,14 +54,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/triadcool/lists/halloween
     summary: This collection revolves around the plot involving Halloween.
-
-  Independence Day:
-    template: {name: Holiday, holiday: "Independence Day", poster: https://theposterdb.com/api/assets/240645}
-    visible_home: range(07/01-07/05)
-    visible_shared: range(07/01-07/05)
-    imdb_list: 
-      - https://www.imdb.com/list/ls552600367/
-    summary: This collection revolves around the plot involving the Fourth of July.
 
   New Year's Eve Movies:
     template: {name: Holiday, holiday: "New Year's Eve", poster: https://i.imgur.com/YCYXhAX.png}
