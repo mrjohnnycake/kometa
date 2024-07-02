@@ -23,8 +23,8 @@ collections:
 
   4th of July:
     template: {name: Holiday, holiday: "4th of July", poster: https://theposterdb.com/api/assets/240645}
-    visible_home: range(07/01-07/05)
-    visible_shared: range(07/01-07/05)
+    visible_home: range(06/27-07/15)
+    visible_shared: range(06/27-07/15)
     trakt_list:
       - https://trakt.tv/users/mrjohnnycake/lists/4th-of-july
     summary: This collection revolves around the plot involving the Fourth of July.
