@@ -96,7 +96,7 @@ libraries:
     report_path: /config/reports/Shows.yml
 
 playlist_files:
-- folder: //config/playlists/
+- file: //config/playlists/video.yml
 
 settings:
   cache: true

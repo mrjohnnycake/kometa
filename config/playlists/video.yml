@@ -1,9 +1,17 @@
 playlists:
 
-  Dave's Nod Off List:
+  Dave's Nod Off List of Movies:
     sync_to_users:
     sync_mode: sync
-    libraries: Movies, Shows
-    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/dave-s-nod-off-list
+    libraries: Movies
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/my-nod-off-list-of-movies
+    summary: For some reason, I can fall asleep to these videos easier than other media. Probably because I've seen each so many times.
+    url_poster: https://m.media-amazon.com/images/I/710nZSbneDL._SS500_.jpg
+
+  Dave's Nod Off List of Shows:
+    sync_to_users:
+    sync_mode: sync
+    libraries: Shows
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/my-nod-off-list-of-shows
     summary: For some reason, I can fall asleep to these videos easier than other media. Probably because I've seen each so many times.
     url_poster: https://m.media-amazon.com/images/I/710nZSbneDL._SS500_.jpg
