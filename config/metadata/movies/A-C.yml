@@ -17,8 +17,34 @@ metadata:
   2756: # The Abyss
     edition: Special Edition
 
+  3049: # Ace Ventura - Pet Detective
+    url_poster: https://image.tmdb.org/t/p/original/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg
+
+  2907: # The Addams Family (1991)
+    sort_title: Addams Family Movie 1
+    url_poster: https://image.tmdb.org/t/p/original/qFf8anju5f2epI0my8RdwwIXFIP.jpg
+
+  2758: # Addams Family Values (1993)
+    sort_title: Addams Family Movie 2
+    url_poster: https://image.tmdb.org/t/p/original/kj7GEkogWtLF9b4XcNwQSbHznRc.jpg
+
   749395: # Agatha and the Midnight Murders
     content_rating: 15
+
+  13064: # Airborne
+    url_poster: https://image.tmdb.org/t/p/original/4TPCzvOoQmmParPjgHCiqqiVYIJ.jpg
+
+  13595: # Airheads
+    url_poster: https://image.tmdb.org/t/p/original/4xPG8pPMyeoec48gKWbbC85EC8j.jpg
+
+  813: # Airplane!
+    url_poster: https://image.tmdb.org/t/p/original/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg
+
+  2665: # Airplane II - The Sequel
+    url_poster: https://image.tmdb.org/t/p/original/5nBnmNmmBCsdkB2uxPMcm1nfrnc.jpg
+
+  812: # Aladdin
+    url_poster: https://image.tmdb.org/t/p/original/tPnmqB4ERqRoSybfKrSd6EHT4hq.jpg
 
   348: # Alien
     sort_title: Alien 1
@@ -39,6 +65,12 @@ metadata:
   126889: # Alien: Covenant
     sort_title: Alien 6
 
+  891: # All the President's Men
+    url_poster: https://image.tmdb.org/t/p/original/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg
+
+  262504: # Allegiant
+    url_poster: https://image.tmdb.org/t/p/original/ijpRQOwZzGy0vb3Uqmk2Naug1C0.jpg
+
   410199: # ARQ
     url_poster: https://www.themoviedb.org/t/p/original/mU4VeXVK18JtCZsy7i0zczlA9p7.jpg
 
@@ -52,8 +84,20 @@ metadata:
   729623: # All Its Name Implies
     content_rating: 12
 
+  13199: # American Me
+    url_poster: https://image.tmdb.org/t/p/original/eeoK2gRfAxZyYn9SiBgAlzfTiBI.jpg
+
+  814: # An American Werewolf in London
+    url_poster: https://image.tmdb.org/t/p/original/1L1ST6bTVHUIDdYK0DS7SNxt4Yx.jpg
+
+  2887: # And the Band Played On
+    url_poster: https://image.tmdb.org/t/p/original/4fyZ6SZaZuerfZWaIp0niFW7Yar.jpg
+
   10514: # The Andromeda Strain
     url_poster: https://theposterdb.com/api/assets/76544
+
+  397520: # Anne of Green Gables (2016)
+    url_poster: https://image.tmdb.org/t/p/original/naohj9jmNggrodVingNs1veCwXJ.jpg
 
   494895: # Anne of Green Gables: The Good Stars
     title: Anne of Green Gables - The Good Stars
@@ -68,6 +112,15 @@ metadata:
   640146: # Ant-Man and the Wasp: Quantumania 
     url_poster: https://www.themoviedb.org/t/p/original/hp8WX1GpZBmziDGvIOW7IwFN4Gl.jpg
 
+  351339: # Anthropoid
+    url_poster: https://image.tmdb.org/t/p/original/5hUghRVVkBYufftfNQkGevY5AmE.jpg
+
+  606234: # Archive
+    url_poster: https://image.tmdb.org/t/p/original/kpinl6lLL43u23nk2toEvbJxeys.jpg
+
+  10974: # Armour of God
+    url_poster: https://image.tmdb.org/t/p/original/phCpGqCSBWJqutKxj73COACrlPt.jpg
+
   24428: # The Avengers
     url_poster: https://theposterdb.com/api/assets/9779
 
@@ -80,8 +133,14 @@ metadata:
   299536: # Avengers: Infinity War
     url_poster: https://theposterdb.com/api/assets/9794
 
+  629542: # The Bad Guys
+    url_poster: https://image.tmdb.org/t/p/original/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg
+
   537996: # The Ballad of Buster Scruggs
     url_poster: https://theposterdb.com/api/assets/284748
+
+  3170: # Bambi
+    url_poster: https://image.tmdb.org/t/p/original/AifKoUt09x7l0pdlhJZcv45GYTv.jpg
 
   913290: # Barbarian
     url_poster: https://theposterdb.com/api/assets/267452
@@ -89,11 +148,21 @@ metadata:
   749059: # Barbarian Utopia: Encounters on the Appalachian Trail
     content_rating: 14
 
+  268: # Batman (1989)
+    url_poster: https://image.tmdb.org/t/p/original/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg
+
   414906: # The Batman (2022)
     url_poster: https://theposterdb.com/api/assets/185105
 
   11548: # *batteries not included
     sort_title: Batteries Not Included
+    url_poster: https://image.tmdb.org/t/p/original/w5zjRAVPC7lJODxn3QxMewwaPgp.jpg
+
+  3176: # Battle Royale
+    url_poster: https://image.tmdb.org/t/p/original/aLGKAQKgzWpJ6egyWzzC11jXBRJ.jpg
+
+  283587: # Beasts of No Nation
+    url_poster: https://image.tmdb.org/t/p/original/1D4vcJmJc58WXarpRtwgd2do9Rg.jpg
 
   1685: # Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307

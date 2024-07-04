@@ -1,0 +1,36 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  5176: # 3:10 to Yuma
+    url_poster: https://image.tmdb.org/t/p/original/uIWc4IWT5eH87K07aIljGJwhL0u.jpg
+
+  11841: # The 36th Chamber of Shaolin
+    url_poster: https://image.tmdb.org/t/p/original/hv29eb8g7iCDr0WgAcDdwZinuoY.jpg
+
+  522016: # The 355
+    url_poster: https://image.tmdb.org/t/p/original/zxizwEPE8jhpbMgrFbwCztgvh2m.jpg
+
+  109410: # 42
+    url_poster: https://image.tmdb.org/t/p/original/iZ7jVGQWj3eBUdqwAPUlKk0BaS2.jpg
+
+  150: # 48 Hrs.
+    url_poster: https://image.tmdb.org/t/p/original/rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg
+
+  299687: # The 5th Wave
+    url_poster: https://theposterdb.com/api/assets/21584
+
+  1824: # 50 First Dates
+    url_poster: https://image.tmdb.org/t/p/original/lzUI2Cg7OMfcUNv3f7MywYNBjs6.jpg
