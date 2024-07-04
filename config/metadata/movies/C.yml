@@ -1,0 +1,150 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  11977: # Caddyshack
+    url_poster: https://theposterdb.com/api/assets/143409
+
+  14612: # Candleshoe
+    url_poster: https://image.tmdb.org/t/p/original/4S57nhmqZoQshtNBQ0C0rXLHZFa.jpg
+
+  11286: # The Cannonball Run
+    url_poster: https://theposterdb.com/api/assets/72226
+
+  271110: # Captain America: Civil War
+    sort_title: Captain America 3
+    url_poster: https://theposterdb.com/api/assets/9787
+
+  1771: # Captain America: The First Avenger
+    sort_title: Captain America 1
+    url_poster: https://theposterdb.com/api/assets/9778
+
+  100402: # Captain America: The Winter Soldier
+    sort_title: Captain America 2
+    url_poster: https://theposterdb.com/api/assets/9783
+
+  299537: # Captain Marvel
+    url_poster: https://theposterdb.com/api/assets/9796
+
+  643532: # The Card Counter
+    url_poster: https://image.tmdb.org/t/p/original/y5DNLVg0gPiGSkuK4yFc4fjQ42Q.jpg
+
+  34069: # Cargo
+    url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg
+
+  25769: # Carriers
+    url_poster: https://theposterdb.com/api/assets/105507
+
+  289: # Casablanca
+    url_poster: https://image.tmdb.org/t/p/original//5K7cOHoay2mZusSLezBOY0Qxh8a.jpg
+
+  12208: # Casino Royale (1967)
+    url_poster: https://theposterdb.com/api/assets/115689
+
+  36557: # Casino Royale (2006)
+    url_poster: https://theposterdb.com/api/assets/115684
+
+  10515: # Castle In The Sky
+    url_poster: https://theposterdb.com/api/assets/111923
+
+  412656: # Chaos Walking
+    url_poster: https://image.tmdb.org/t/p/original/6FzOcNh6hdn9MNsuqpR6o9jCucM.jpg
+
+  10694: # The Chase
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lEmGW4Fc9wMRLIKq6NRojZnTbdp.jpg
+
+  9693: # Children of Men
+    url_poster: https://image.tmdb.org/t/p/original/vpjPtqoWvaq82MPMAQquSLrwUeo.jpg
+
+  10823: # Children of the Corn
+    url_poster: https://theposterdb.com/api/assets/279826
+
+  226354: # The Christmas Candle
+    url_poster: https://image.tmdb.org/t/p/original/9KMU2ue8FSIA3GwJ0CSM1zXD1bc.jpg
+
+  13189: # A Christmas Carol (1984)
+    url_poster: https://image.tmdb.org/t/p/original/kGmpIkjVRWHQ97AiEXC0pLt5VtY.jpg
+
+  17979: # A Christmas Carol (2009)
+    url_poster: https://image.tmdb.org/t/p/original/xNwlAIdx1Ln28GRiQttUP9Gojy2.jpg
+
+  527435: # The Christmas Chronicles
+    url_poster: https://image.tmdb.org/t/p/original/5Il2EMSF2KecrUKZPuen6BZmaCP.jpg
+
+  654028: # The Christmas Chronicles - Part 2
+    url_poster: https://image.tmdb.org/t/p/original/6sG0kbEvAi3RRLcGGU5h8l3qAPa.jpg
+
+  411: # The Chronicles of Narnia - The Lion, The Witch and the Wardrobe
+    url_poster: https://image.tmdb.org/t/p/original/clfyMMg00OiowO5uupKpVKjRwmV.jpg
+
+  15: # Citizen Kane
+    url_poster: https://image.tmdb.org/t/p/original/gzYbXKwFMBBoE5lTtGsyLBYwvMs.jpg
+
+  902: # The City of Lost Children
+    url_poster: https://image.tmdb.org/t/p/original//whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg
+
+  9331: # Clear and Present Danger
+    url_poster: https://image.tmdb.org/t/p/original/6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg
+
+  840: # Close Encounters of the Third Kind
+    url_poster: https://image.tmdb.org/t/p/original/yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg
+
+  384521: # The Cloverfield Paradox
+    url_poster: https://theposterdb.com/api/assets/413423
+
+  2577: # Code 46
+    url_poster: https://image.tmdb.org/t/p/original/ijayvLrCAwOVizi9OY8LZWq5SRW.jpg
+
+  105490: # Color Me Obsessed - A Film About The Replacements
+    url_poster: https://image.tmdb.org/t/p/original/4XGaqMrrB2gU6CBcPF5zYrD7xOm.jpg
+
+  9602: # Coming to America
+    url_poster: https://image.tmdb.org/t/p/original/afbNzzh9JW6GEwuJW5vn4h1alVe.jpg
+
+  9612: # Coneheads
+    url_poster: https://theposterdb.com/api/assets/67311
+
+  561: # Constantine
+    url_poster: https://image.tmdb.org/t/p/original/cLFIWpYTNL6pfq92U74fAZoLdhB.jpg
+
+  39538: # Contagion
+    url_poster: https://theposterdb.com/api/assets/51763
+
+  11362: # The Count of Monte Cristo
+    url_poster: https://theposterdb.com/api/assets/117112
+
+  35659: # Countdown to Looking Glass
+    content_rating: 14
+
+  11839: # The Court Jester
+    url_poster: https://image.tmdb.org/t/p/original//pPCOAipDP0sm8SLChpTMBPdCiqB.jpg
+
+  29427: # The Crazies (2010)
+    url_poster: https://image.tmdb.org/t/p/original/ggtG9DZELyTtM2Y0DRJDOJa5iP8.jpg
+
+  16281: # Creepshow
+    url_poster: https://theposterdb.com/api/assets/108982
+
+  16288: # Creepshow 2
+    url_poster: https://www.themoviedb.org/t/p/original/rfPwZFtqGHiOvfMhN00sNyO2Umb.jpg
+
+  11655: # Cronos
+    url_poster: https://image.tmdb.org/t/p/original/bRX8au50CnhC8hXr8AbsCNdb96G.jpg
+
+  419835: # Crooked House
+    url_poster: https://image.tmdb.org/t/p/original/p9HMBZPxFNF3nd9s4ruPRwDgw6g.jpg
+
+  9495: # The Crow
+    url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg

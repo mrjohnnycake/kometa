@@ -164,8 +164,15 @@ metadata:
   283587: # Beasts of No Nation
     url_poster: https://image.tmdb.org/t/p/original/1D4vcJmJc58WXarpRtwgd2do9Rg.jpg
 
+  517088: # Being the Ricardos
+    url_poster: https://image.tmdb.org/t/p/original/72rqnytL05aqeEysXpRdIZoQt7l.jpg
+
   1685: # Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307
+
+  13667: # Better Off Dead...
+    title: Better Off Dead...
+    url_poster: https://image.tmdb.org/t/p/original/pHmbSkpxdB7jXozrovEfacArtW0.jpg
 
   96: # Beverly Hills Cop 2
     url_poster: https://www.themoviedb.org/t/p/original/yPXAvRwhstvr8gSmAb8sfJTCORS.jpg
@@ -182,8 +189,17 @@ metadata:
   501979: # Bill & Ted Face the Music
     sort_title: Bill and Ted 3
 
+  11017: # Billy Madison
+    url_poster: https://image.tmdb.org/t/p/original/1XV42Zu9taxluIKXMeV9OSpYCSq.jpg
+
+  865797: # Biosphere
+    url_poster: https://image.tmdb.org/t/p/original/2yqYQMibudBGrqP70mEcv7pNOQX.jpg
+
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
+
+  716258: # Black Box
+    url_poster: https://image.tmdb.org/t/p/original/ldlpTitpSTBINwgifzlRRXveXUF.jpg
 
   284054: # Black Panther
     url_poster: https://theposterdb.com/api/assets/9792
@@ -191,17 +207,29 @@ metadata:
   505642: # Black Panther: Wakanda Forever
     url_poster: https://theposterdb.com/api/assets/286152
 
+  756999: # The Black Phone
+    url_poster: https://image.tmdb.org/t/p/original/bxHZpV02OOu9vq3sb3MsOudEnYc.jpg
+
   497698: # Black Widow
     url_poster: https://theposterdb.com/api/assets/54982
 
+  11622: # Blast from the Past
+    url_poster: https://image.tmdb.org/t/p/original/qVN4bbVX2tzaNbAdEJT5eOPq26c.jpg
+
   8338: # Blindness
     url_poster: https://www.themoviedb.org/t/p/original/deBsx5IxyqCC217j3VY24TkkE0Z.jpg
+
+  613911: # Bliss
+    url_poster: https://image.tmdb.org/t/p/original/tbTiSr0v9g8Q34MIeIcT0o2vGus.jpg
 
   4722: # Body Snatchers
     url_poster: https://www.themoviedb.org/t/p/original/s8WdtuOBvfEsuPtbQVpNfEgd5aR.jpg
 
   20504: # The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
+
+  459151: # The Boss Baby - Family Business
+    url_poster: https://image.tmdb.org/t/p/original/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg
 
   2501: # The Bourne Identity
     sort_title: Bourne 1
@@ -219,8 +247,17 @@ metadata:
     sort_title: Bourne 3
     url_poster: https://theposterdb.com/api/assets/16467
 
+  14574: # The Boy in the Striped Pajamas
+    url_poster: https://image.tmdb.org/t/p/original/sLwYSEVVV3r047cjrpRAbGgNsfL.jpg
+
   62177: # Brave (2012)
     url_poster: https://theposterdb.com/api/assets/60698
+
+  197: # Braveheart
+    url_poster: https://image.tmdb.org/t/p/original/uE2Q9RaNBdJbAV1N67LhwCYluK0.jpg
+
+  2163: # Breakdown
+    url_poster: https://image.tmdb.org/t/p/original/ijHQZehrYKWXmr76ecjFSRyQKjv.jpg
 
   11064: # Brewster's Millions (1985)
     url_poster: https://www.themoviedb.org/t/p/original/7z5PMgpczjXDT5scdrlLt38mnKJ.jpg
@@ -231,11 +268,17 @@ metadata:
   22564: # Brian Regan: Standing Up
     content_rating: 12
 
+  1265: # Bridge to Terabithia
+    url_poster: https://image.tmdb.org/t/p/original/ndl20KnFfRrysKdGfGSpPZ5KZze.jpg
+
   10206: # Buffy the Vampire Slayer
     url_poster: https://www.themoviedb.org/t/p/original/q72hZtWIxmHuJASMGUWQSqujyxY.jpg
 
   287: # Bull Durham
     url_poster: https://theposterdb.com/api/assets/119865
+
+  718930: # Bullet Train
+    url_poster: https://image.tmdb.org/t/p/original/tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg
 
   11974: # The 'Burbs
     sort_title: Burbs
@@ -243,78 +286,3 @@ metadata:
 
   102780: # Byzantium
     url_poster: https://theposterdb.com/api/assets/93471
-
-  11977: # Caddyshack
-    url_poster: https://theposterdb.com/api/assets/143409
-
-  11286: # The Cannonball Run
-    url_poster: https://theposterdb.com/api/assets/72226
-
-  271110: # Captain America: Civil War
-    sort_title: Captain America 3
-    url_poster: https://theposterdb.com/api/assets/9787
-
-  1771: # Captain America: The First Avenger
-    sort_title: Captain America 1
-    url_poster: https://theposterdb.com/api/assets/9778
-
-  100402: # Captain America: The Winter Soldier
-    sort_title: Captain America 2
-    url_poster: https://theposterdb.com/api/assets/9783
-
-  299537: # Captain Marvel
-    url_poster: https://theposterdb.com/api/assets/9796
-
-  34069: # Cargo
-    url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg
-
-  25769: # Carriers
-    url_poster: https://theposterdb.com/api/assets/105507
-
-  289: # Casablanca
-    url_poster: https://image.tmdb.org/t/p/original//5K7cOHoay2mZusSLezBOY0Qxh8a.jpg
-
-  12208: # Casino Royale (1967)
-    url_poster: https://theposterdb.com/api/assets/115689
-
-  36557: # Casino Royale (2006)
-    url_poster: https://theposterdb.com/api/assets/115684
-
-  10515: # Castle In The Sky
-    url_poster: https://theposterdb.com/api/assets/111923
-
-  10694: # The Chase
-    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lEmGW4Fc9wMRLIKq6NRojZnTbdp.jpg
-
-  10823: # Children of the Corn
-    url_poster: https://theposterdb.com/api/assets/279826
-
-  902: # The City of Lost Children
-    url_poster: https://image.tmdb.org/t/p/original//whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg
-
-  384521: # The Cloverfield Paradox
-    url_poster: https://theposterdb.com/api/assets/413423
-
-  9612: # Coneheads
-    url_poster: https://theposterdb.com/api/assets/67311
-
-  39538: # Contagion
-    url_poster: https://theposterdb.com/api/assets/51763
-
-  11362: # The Count of Monte Cristo
-    url_poster: https://theposterdb.com/api/assets/117112
-
-  35659: # Countdown to Looking Glass
-    content_rating: 14
-
-  11839: # The Court Jester
-    url_poster: https://image.tmdb.org/t/p/original//pPCOAipDP0sm8SLChpTMBPdCiqB.jpg
-
-  16281: # Creepshow
-    url_poster: https://theposterdb.com/api/assets/108982
-
-  16288: # Creepshow 2
-    url_poster: https://www.themoviedb.org/t/p/original/rfPwZFtqGHiOvfMhN00sNyO2Umb.jpg
-
-  9495: # The Crow
-    url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg
