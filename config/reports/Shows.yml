@@ -1,7 +1,9 @@
 Marvel:
   Movies Missing (TMDb IDs):
-    912649: 'Venom: The Last Dance (2024)'
+    986056: Thunderbolts* (2025)
+    822119: 'Captain America: Brave New World (2025)'
     539972: Kraven the Hunter (2024)
+    912649: 'Venom: The Last Dance (2024)'
     533535: Deadpool & Wolverine (2024)
     1106299: 'The Spider Within: A Spider-Verse Story (2023)'
     634492: Madame Web (2024)
@@ -119,15 +121,18 @@ Marvel:
     36657: X-Men (2000)
     36647: Blade (1998)
     911916: 'Spider-Man: Beyond the Spider-Verse'
-    822119: 'Captain America: Brave New World (2025)'
-    986056: Thunderbolts* (2025)
     617127: Blade (2025)
     617126: The Fantastic Four (2025)
-    1003596: Avengers 5 (2026)
+    1003596: 'Avengers: Doomsday (2026)'
     1003598: 'Avengers: Secret Wars (2027)'
     1030022: Armor Wars
     912502: Untitled Shang-Chi Sequel
   Shows Missing (TVDb IDs):
+    393204: Ironheart
+    422712: 'Daredevil: Born Again'
+    443358: Eyes of Wakanda
+    412427: Your Friendly Neighborhood Spider-Man
+    412429: Agatha All Along
     412432: X-Men '97
     412431: Echo
     393203: Secret Invasion
@@ -159,7 +164,7 @@ Marvel:
     320558: Marvel's Inhumans
     329456: Marvel's Spider-Man
     326490: Marvel's The Defenders
-    330094: Marvel Future Avengers
+    330094: Future Avengers
     329035: Marvel's Ant-Man
     317953: Marvel's Iron Fist
     326174: Marvel's Rocket & Groot
@@ -220,10 +225,6 @@ Marvel:
     72216: Fantastic Four (1967)
     74996: The Marvel Super Heroes
     412428: Marvel Zombies
-    412427: Your Friendly Neighborhood Spider-Man
-    393204: Ironheart
-    412429: Agatha All Along
-    422712: 'Daredevil: Born Again'
     426606: Vision Quest
     428629: Wonder Man
 Star Wars:
@@ -247,6 +248,7 @@ Star Wars:
     420659: 'Star Wars: Tales of the Jedi'
     83268: 'Star Wars: The Clone Wars'
     448549: 'Star Wars: Tales of the Empire'
+    385376: 'Star Wars: The Bad Batch'
     393214: 'Star Wars: A Droid Story'
     393187: Ahsoka
     420600: 'Star Wars: Skeleton Crew'
@@ -273,8 +275,6 @@ United Kingdom:
     332531: At Home with Amy Sedaris
     313999: Atlanta
     364106: Avenue 5
-    410441: 'Bad Vegan: Fame. Fraud. Fugitives.'
-    392169: The Barbarian and the Troll
     333072: Barry
     80379: The Big Bang Theory
     401998: Black Bird
@@ -286,23 +286,22 @@ United Kingdom:
     419298: 'The Boss Baby: Back in the Crib'
     355567: The Boys
     81189: Breaking Bad
-    366668: Bridgerton
     278469: The Brink
     269586: Brooklyn Nine-Nine
     355784: Bumping Mics with Jeff Ross & Dave Attell
     298277: Bunk'd
     365026: Carnival Row
     71862: Chappelle's Show
-    268972: Chef's Table
     360893: Chernobyl
     296065: Childhood's End
     139941: Childrens Hospital
     332858: Cobra Kai
-    258310: Comedy Bang! Bang!
     94571: Community
+    331301: Comrade Detective
     307176: Cooked
     260586: Cosmos (2014)
     337302: Counterpart
+    76885: Cowboy Bebop
     417866: The Craftsman
     73344: The Critic
     409654: 'The Croods: Family Tree'
@@ -317,8 +316,6 @@ United Kingdom:
     322122: Decline and Fall
     304075: The Deep
     85190: Delocated
-    348545: 'Demon Slayer: Kimetsu no Yaiba'
-    82918: Diners, Drive-ins and Dives
     116291: Dinosaur Train
     295697: Documentary Now!
     78244: Dr. Katz, Professional Therapist
@@ -378,6 +375,7 @@ United Kingdom:
     249373: Jon Benjamin Has a Van
     354573: 'Jonestown: Terror in the Jungle'
     365066: 'Jurassic World: Camp Cretaceous'
+    440997: 'Jurassic World: Chaos Theory'
     74754: Kelsey Grammer Presents The Sketch Show
     255325: Key & Peele
     75303: The Kids in the Hall
@@ -395,6 +393,7 @@ United Kingdom:
     361753: The Mandalorian
     361834: Marvel's M.O.D.O.K.
     326791: The Marvelous Mrs. Maisel
+    451149: Me
     253696: MeatEater
     367226: Midnight Mass
     277954: Mike Tyson Mysteries
@@ -402,7 +401,6 @@ United Kingdom:
     78490: Monk
     389492: Monster
     368611: Moon Knight
-    402621: Moonhaven
     79302: Moral Orel
     267097: Mr & Mrs Murder
     277953: Mr. Pickles
@@ -430,9 +428,8 @@ United Kingdom:
     84912: Parks and Recreation
     411118: The Patient
     272472: Paw Patrol
-    391153: Peacemaker
     265766: Penny Dreadful
-    404510: The Pentaverate
+    415151: Percy Jackson and the Olympians
     349187: The Peripheral
     384186: Pieces of Her
     367559: The Plot Against America
@@ -445,7 +442,6 @@ United Kingdom:
     80351: Pushing Daisies
     397561: 'Q: Into the Storm'
     387115: The Queen's Gambit
-    366924: Reacher
     418968: The Really Loud House
     188401: Regular Show
     371884: Reservation Dogs
@@ -475,7 +471,6 @@ United Kingdom:
     359583: The Stand (2020)
     71470: 'Star Trek: The Next Generation'
     283468: Star Wars Rebels
-    385376: 'Star Wars: The Bad Batch'
     76996: The State
     366529: Station Eleven
     113981: Stephen King's It
@@ -486,21 +481,21 @@ United Kingdom:
     368210: Tales from the Loop
     383203: Ted Lasso
     74582: Teenage Mutant Ninja Turtles
+    442145: Terminator Zero
     372974: Them
     396326: The Thing About Pam
     409508: Three Pines
     274283: The Thundermans
     407475: Titletown High
-    368204: The Trevor Moore Show
     318201: 'Trollhunters: Tales of Arcadia'
     282420: Tumble Leaf
     408892: 'Turning Point: 9/11 and the War on Terror'
     421197: The U.S. and the Holocaust
-    402799: Uncoupled
     433006: Untold (2021)
     413304: The Villains of Valley View
     299327: W/ Bob & David
     337749: Waco
+    417549: 'The Walking Dead: Dead City'
     370139: War of the Worlds (2019)
     404833: The Watcher
     360733: Watchmen
@@ -509,6 +504,7 @@ United Kingdom:
     413655: We Need to Talk About Cosby
     398140: We Own This City
     397060: Wednesday
+    296762: Westworld
     358211: What We Do in the Shadows
     275517: When Calls the Heart
     80728: The Whitest Kids U'Know
@@ -547,8 +543,6 @@ South Korea:
     332531: At Home with Amy Sedaris
     313999: Atlanta
     364106: Avenue 5
-    410441: 'Bad Vegan: Fame. Fraud. Fugitives.'
-    392169: The Barbarian and the Troll
     333072: Barry
     73545: Battlestar Galactica
     80379: The Big Bang Theory
@@ -565,7 +559,6 @@ South Korea:
     419298: 'The Boss Baby: Back in the Crib'
     355567: The Boys
     81189: Breaking Bad
-    366668: Bridgerton
     278469: The Brink
     266398: Broadchurch
     269586: Brooklyn Nine-Nine
@@ -574,19 +567,19 @@ South Korea:
     255192: Call the Midwife
     365026: Carnival Row
     71862: Chappelle's Show
-    268972: Chef's Table
     405327: The Chelsea Detective
     360893: Chernobyl
     296065: Childhood's End
     139941: Childrens Hospital
     307831: Close to the Enemy
     332858: Cobra Kai
-    258310: Comedy Bang! Bang!
     94571: Community
+    331301: Comrade Detective
     418727: Constellation
     307176: Cooked
     260586: Cosmos (2014)
     337302: Counterpart
+    76885: Cowboy Bebop
     417866: The Craftsman
     279592: The Crimson Field
     73344: The Critic
@@ -602,10 +595,9 @@ South Korea:
     322122: Decline and Fall
     304075: The Deep
     85190: Delocated
-    348545: 'Demon Slayer: Kimetsu no Yaiba'
     397807: The Devil's Hour
-    82918: Diners, Drive-ins and Dives
     116291: Dinosaur Train
+    351291: A Discovery of Witches
     79285: Doc Martin
     78804: Doctor Who
     295697: Documentary Now!
@@ -676,6 +668,7 @@ South Korea:
     249373: Jon Benjamin Has a Van
     354573: 'Jonestown: Terror in the Jungle'
     365066: 'Jurassic World: Camp Cretaceous'
+    440997: 'Jurassic World: Chaos Theory'
     74754: Kelsey Grammer Presents The Sketch Show
     255325: Key & Peele
     75303: The Kids in the Hall
@@ -700,16 +693,18 @@ South Korea:
     410479: Magpie Murders
     414721: The Man Who Fell to Earth
     361753: The Mandalorian
+    288604: Mapp and Lucia (2014)
     361834: Marvel's M.O.D.O.K.
     326791: The Marvelous Mrs. Maisel
+    451149: Me
     253696: MeatEater
     367226: Midnight Mass
+    402728: The Midwich Cuckoos
     277954: Mike Tyson Mysteries
     422598: 'Monarch: Legacy of Monsters'
     78490: Monk
     389492: Monster
     368611: Moon Knight
-    402621: Moonhaven
     79302: Moral Orel
     267097: Mr & Mrs Murder
     277953: Mr. Pickles
@@ -742,9 +737,8 @@ South Korea:
     297963: Partners In Crime
     411118: The Patient
     272472: Paw Patrol
-    391153: Peacemaker
     265766: Penny Dreadful
-    404510: The Pentaverate
+    415151: Percy Jackson and the Olympians
     349187: The Peripheral
     329083: Philip K. Dick's Electric Dreams
     384186: Pieces of Her
@@ -759,7 +753,6 @@ South Korea:
     80351: Pushing Daisies
     397561: 'Q: Into the Storm'
     387115: The Queen's Gambit
-    366924: Reacher
     418968: The Really Loud House
     77150: Redwall
     188401: Regular Show
@@ -791,7 +784,6 @@ South Korea:
     359583: The Stand (2020)
     71470: 'Star Trek: The Next Generation'
     283468: Star Wars Rebels
-    385376: 'Star Wars: The Bad Batch'
     76996: The State
     366529: Station Eleven
     113981: Stephen King's It
@@ -802,23 +794,24 @@ South Korea:
     368210: Tales from the Loop
     383203: Ted Lasso
     74582: Teenage Mutant Ninja Turtles
+    442145: Terminator Zero
     80165: That Mitchell and Webb Look
     372974: Them
     396326: The Thing About Pam
     409508: Three Pines
     274283: The Thundermans
+    425453: Time Bandits
     407475: Titletown High
-    368204: The Trevor Moore Show
     318201: 'Trollhunters: Tales of Arcadia'
     282420: Tumble Leaf
     408892: 'Turning Point: 9/11 and the War on Terror'
     421197: The U.S. and the Holocaust
-    402799: Uncoupled
     433006: Untold (2021)
     333595: The Vietnam War (2017)
     413304: The Villains of Valley View
     299327: W/ Bob & David
     337749: Waco
+    417549: 'The Walking Dead: Dead City'
     370139: War of the Worlds (2019)
     404833: The Watcher
     360733: Watchmen
@@ -827,6 +820,7 @@ South Korea:
     413655: We Need to Talk About Cosby
     398140: We Own This City
     397060: Wednesday
+    296762: Westworld
     358211: What We Do in the Shadows
     275517: When Calls the Heart
     80728: The Whitest Kids U'Know
@@ -844,7 +838,6 @@ South Korea:
   - Dave Ramsey's Financial Peace University
 Emmys Best in Category Winners:
   Movies Missing (TMDb IDs):
-    1309657: The Bear
     576575: The Penguins of Madagascar (2009)
     26809: Prep & Landing (2009)
     712352: "Foster's Movie: Destination Imagination (2008)"
@@ -873,7 +866,9 @@ Emmys Best in Category Winners:
     241568: Death of a Salesman (1966)
     247555: Ages of Man (1966)
   Shows Missing (TVDb IDs):
+    434151: Blue Eye Samurai
     338186: Succession
+    403294: The Bear
     371028: Arcane
     305574: The Crown
     364007: Primal
@@ -970,9 +965,62 @@ Emmys Best in Category Winners:
     78415: The United States Steel Hour
     76468: Robert Montgomery Presents Your Lucky Strike Theatre
     70794: The Red Skelton Show
+Emmys 2024:
+  Movies Missing (TMDb IDs):
+    787781: Quiz Lady (2023)
+    1058650: 'Going to Mars: The Nikki Giovanni Project (2023)'
+    986355: Girls State (2024)
+    1115363: Taylor Mac's 24-Decade History of Popular Music (2023)
+    1273196: Jim Henson Idea Man (2024)
+    1265066: The Beach Boys (2024)
+    1221140: 'Dick Van Dyke: 98 Years of Magic (2023)'
+  Shows Missing (TVDb IDs):
+    403294: The Bear
+    401582: Hacks
+    361563: The Morning Show
+    305574: The Crown
+    428163: The Traitors (US)
+    434151: Blue Eye Samurai
+    392573: "ShÅ\x8Dgun"
+    417223: Baby Reindeer
+    419263: Love on the Spectrum U.S.
+    331431: Big Mouth
+    405882: The Idol (2023)
+    372727: RIPLEY
+    401513: How I Met Your Father
+    269599: Life Below Zero
+    250487: American Horror Story
+    76177: Saturday Night Live
+    85269: The Academy Awards
+    439773: Beckham
+    393187: Ahsoka
+    77075: Jeopardy!
+    396773: Mr. & Mrs. Smith (2024)
+    76573: Wheel of Fortune
+    340520: My Next Guest Needs No Introduction With David Letterman
+    408850: 'Adventure Time: Fionna & Cake'
+    396626: Clone High (2023)
+    425129: In The Know
+    421287: Scavengers Reign
+    441498: 'SILENT HILL: Ascension'
+    395685: Lessons in Chemistry
+    416744: Fallout
+    445876: Queens
+    415970: Palm Royale
+    259184: The Eric Andre Show
+    322466: Feud
+    449017: 'John Mulaney Presents: Everybody’s in L.A.'
+    71256: The Daily Show
+    247824: The Voice
+    403119: Welcome to Wrexham
+    439192: 'Only Murders in the Building: One Killer Question'
+    370853: Masters of the Air
+    100981: Shark Tank
+    426845: The Gentlemen
+    435035: Conan O'Brien Must Go
+    278518: Last Week Tonight with John Oliver
 Emmys 2023:
   Movies Missing (TMDb IDs):
-    1309657: The Bear
     1093247: 'John Mulaney: Baby J (2023)'
     913849: The Territory (2022)
     1028851: 'Beauty and the Beast: A 30th Celebration (2022)'
@@ -988,6 +1036,7 @@ Emmys 2023:
     1111889: 'Carol Burnett: 90 Years of Laughter + Love (2023)'
   Shows Missing (TVDb IDs):
     338186: Succession
+    403294: The Bear
     399838: BEEF
     402910: Abbott Elementary
     390430: The White Lotus
@@ -1064,6 +1113,7 @@ Emmys 2022:
     417835: Our Great National Parks
     393154: Schmigadoon!
     369301: The Great
+    366668: Bridgerton
     400690: Pam & Tommy
     364412: The Gilded Age
     332954: 'Carpool Karaoke: The Series'
@@ -1109,6 +1159,7 @@ Emmys 2021:
     349334: Calls (US)
     349358: The Conners
     396274: 'Lincoln: Divided We Stand'
+    366668: Bridgerton
     366433: A Black Lady Sketch Show
     85269: The Academy Awards
     332954: 'Carpool Karaoke: The Series'
@@ -1126,7 +1177,6 @@ Emmys 2020:
     585527: The Apollo (2019)
     638497: The Line (2019)
     549559: Apollo 11 (2019)
-    1297279: Forky Asks a Question
   Shows Missing (TVDb IDs):
     338186: Succession
     287247: Schitt's Creek
@@ -1216,63 +1266,22 @@ Emmys 2019:
     368032: Creating Saturday Night Live
     332954: 'Carpool Karaoke: The Series'
     324835: GLOW
-Emmys 2018:
-  Movies Missing (TMDb IDs):
-    520594: 'John Mulaney: Kid Gorgeous at Radio City (2018)'
-    495029: Jesus Christ Superstar Live in Concert (2018)
-    488223: 'Dave Chappelle: Equanimity (2017)'
-    428612: Strong Island (2017)
-    540480: 'Sesame Street: The Magical Wand Chase (2017)'
-    470819: Jane (2017)
-    439058: Hey Arnold! The Jungle Movie (2017)
-    497274: The Number on Great-Grandpa's Arm (2018)
-    453974: Wasted! The Story of Food Waste (2017)
-    405931: 'March of the Penguins 2: The Next Step (2017)'
-  Shows Missing (TVDb IDs):
-    289108: American Crime Story
-    261690: The Americans (2013)
-    305574: The Crown
-    339602: Seven Seconds
-    296762: Westworld
-    333801: Godless
-    311714: This Is Us
-    321239: The Handmaid's Tale
-    76177: Saturday Night Live
-    278518: Last Week Tonight with John Oliver
-    85002: RuPaul's Drag Race
-    341614: Queer Eye
-    310297: United Shades of America
-    345128: The Zen Diaries of Garry Shandling
-    342040: Wild Wild Country
-    264108: 'Anthony Bourdain: Parts Unknown'
-    75978: Family Guy
-    78956: So You Think You Can Dance
-    322399: Genius (2017)
-    71814: Will & Grace
-    269599: Life Below Zero
-    194751: Conan (2010)
-    152831: Adventure Time
-    346312: Mickey Mouse
-    270701: Steven Universe
-    275557: Broad City
-    330942: Blue Planet II
-    324835: GLOW
-    332954: 'Carpool Karaoke: The Series'
-    328690: The Alienist
-    77526: Star Trek
 Trakt Trending:
+  Shows Removed (TVDb IDs):
+    73871: Futurama
+    399959: Only Murders in the Building
   Shows Missing (TVDb IDs):
-    403294: The Bear
-    371572: House of the Dragon
-    393159: Dark Matter (2024)
-    436451: The Tale of Rose
+    364439: Emily in Paris
+    314087: The Grand Tour (2016)
+    372264: Slow Horses
     350665: The Rookie
-    393197: The Acolyte
-    427116: Supacell
+    371572: House of the Dragon
+    328686: SEAL Team
+    365700: Kaos
+    73762: Grey's Anatomy
+    371796: Industry
+    95011: Modern Family
+    75978: Family Guy
+    364928: Snowpiercer
     79168: Friends
     73255: House
-    95011: Modern Family
-    75710: Criminal Minds
-    415738: Presumed Innocent
-    438936: The Double
-    328711: 'Star Trek: Discovery'
