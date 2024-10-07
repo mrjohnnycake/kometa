@@ -126,6 +126,18 @@ metadata:
   10974: # Armour of God
     url_poster: https://image.tmdb.org/t/p/original/phCpGqCSBWJqutKxj73COACrlPt.jpg
 
+  816: # Austin Powers - International Man of Mystery
+    url_poster: https://theposterdb.com/api/assets/13970
+    sort_title: Austin Powers 1
+
+  817: # Austin Powers - The Spy Who Shagged Me
+    url_poster: https://theposterdb.com/api/assets/13971
+    sort_title: Austin Powers 2
+
+  818: # Austin Powers in Goldmember
+    url_poster: https://theposterdb.com/api/assets/13972
+    sort_title: Austin Powers 3
+
   19995: # Avatar
     url_poster: https://theposterdb.com/api/assets/481704
     sort_title: Avatar 1
@@ -249,7 +261,13 @@ metadata:
   497698: # Black Widow
     url_poster: https://theposterdb.com/api/assets/54982
 
-  11622: # Blast from the Past
+  78: # Blade Runner
+    url_poster: https://theposterdb.com/api/assets/50377
+
+  335984: # Blade Runner 2049
+    url_poster: https://theposterdb.com/api/assets/50378
+
+  11622: # Blast from the Pastd
     url_poster: https://image.tmdb.org/t/p/original/qVN4bbVX2tzaNbAdEJT5eOPq26c.jpg
 
   8338: # Blindness
@@ -264,8 +282,20 @@ metadata:
   20504: # The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
 
+  203833: # The Book Thief
+    url_poster: https://image.tmdb.org/t/p/original/wj4U5sMLcJMa3WR9CpRR9e2sdgZ.jpg
+
+  295693: # The Boss Baby
+    url_poster: https://image.tmdb.org/t/p/original/9MsQJKe4cUAGxc7R2NGaFQLqOPc.jpg
+    sort_title: Boss Baby 1
+
   459151: # The Boss Baby - Family Business
     url_poster: https://image.tmdb.org/t/p/original/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg
+    sort_title: Boss Baby 2
+
+  1045944: # The Boss Baby - Christmas Bonus
+    url_poster: https://image.tmdb.org/t/p/original/1ssbADNOpRy2pi8uORcpTILWgLJ.jpg
+    sort_title: Boss Baby 3
 
   2501: # The Bourne Identity
     sort_title: Bourne 1
@@ -298,11 +328,21 @@ metadata:
   11064: # Brewster's Millions (1985)
     url_poster: https://www.themoviedb.org/t/p/original/7z5PMgpczjXDT5scdrlLt38mnKJ.jpg
 
-  794095: # Brian Regan: On The Rocks
-    content_rating: 12
-
   22564: # Brian Regan: Standing Up
     content_rating: 12
+    sort_title: Brian Regan 2007
+
+  19626: # Brian Regan: The Epitome of Hyperbole
+    content_rating: 12
+    sort_title: Brian Regan 2008
+
+  486334: # Brian Regan: Nunchucks and Flamethrowers
+    content_rating: 12
+    sort_title: Brian Regan 2017
+
+  794095: # Brian Regan: On The Rocks
+    content_rating: 12
+    sort_title: Brian Regan 2021
 
   1265: # Bridge to Terabithia
     url_poster: https://image.tmdb.org/t/p/original/ndl20KnFfRrysKdGfGSpPZ5KZze.jpg
