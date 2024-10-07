@@ -14,6 +14,12 @@
 
 metadata:
 
+  76203: # 12 Years A Slave
+    url_poster: https://image.tmdb.org/t/p/original/xdANQijuNrJaw1HA61rDccME4Tm.jpg
+  
+  1562: # 28 Weeks Later
+    url_poster: https://image.tmdb.org/t/p/original/ja8nzgtzhJq0vtX3BJcnbceIxCF.jpg
+  
   5176: # 3:10 to Yuma
     url_poster: https://image.tmdb.org/t/p/original/uIWc4IWT5eH87K07aIljGJwhL0u.jpg
 

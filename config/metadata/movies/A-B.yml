@@ -96,6 +96,11 @@ metadata:
   10514: # The Andromeda Strain
     url_poster: https://theposterdb.com/api/assets/76544
 
+  943134: # The Animal Kingdom
+    url_poster: https://image.tmdb.org/t/p/original/39AiQnXlXOjoqBSkiUpTG80rXLw.jpg
+    audio_language: fr-FR
+    subtitle_language: en-US
+
   397520: # Anne of Green Gables (2016)
     url_poster: https://image.tmdb.org/t/p/original/naohj9jmNggrodVingNs1veCwXJ.jpg
 
@@ -121,6 +126,14 @@ metadata:
   10974: # Armour of God
     url_poster: https://image.tmdb.org/t/p/original/phCpGqCSBWJqutKxj73COACrlPt.jpg
 
+  19995: # Avatar
+    url_poster: https://theposterdb.com/api/assets/481704
+    sort_title: Avatar 1
+
+  76600: # Avatar - The Way of Water
+    url_poster: https://theposterdb.com/api/assets/481707
+    sort_title: Avatar 2
+
   24428: # The Avengers
     url_poster: https://theposterdb.com/api/assets/9779
 
@@ -132,6 +145,29 @@ metadata:
 
   299536: # Avengers: Infinity War
     url_poster: https://theposterdb.com/api/assets/9794
+
+  1029235: # Azrael
+    url_poster: https://image.tmdb.org/t/p/original/qpdFKDvJS7oLKTcBLXOaMwUESbs.jpg
+
+  13633: # Bad Boys (1983)
+    url_poster: https://image.tmdb.org/t/p/original/1LsllaWyeLQyRoFKNP97I2ZexAT.jpg
+    sort_title: Bad Boys 0
+
+  9737: # Bad Boys (1995)
+    url_poster: https://theposterdb.com/api/assets/43042
+    sort_title: Bad Boys 1
+
+  8961: # Bad Boys II
+    url_poster: https://theposterdb.com/api/assets/43043
+    sort_title: Bad Boys 2
+
+  38700: # Bad Boys for Life
+    url_poster: https://theposterdb.com/api/assets/43044
+    sort_title: Bad Boys 3
+
+  573435: # Bad Boys - Ride or Die
+    url_poster: https://theposterdb.com/api/assets/510340/view
+    sort_title: Bad Boys 4
 
   629542: # The Bad Guys
     url_poster: https://image.tmdb.org/t/p/original/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg
