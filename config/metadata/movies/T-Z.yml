@@ -134,6 +134,10 @@ metadata:
   36643: # The World Is Not Enough
     url_poster: https://theposterdb.com/api/assets/115682
 
+  4928: # The World, the Flesh and the Devil (1959)
+    url_poster: https://image.tmdb.org/t/p/original/uMB51OAkdrAx7r1dztvLub6RyPJ.jpg
+    content_rating: 16
+
   75506: # World Without End
     url_poster: https://image.tmdb.org/t/p/original//flvqHHFMBCks5Mlb4HWydUZcwbV.jpg
 

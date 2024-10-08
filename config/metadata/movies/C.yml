@@ -116,6 +116,12 @@ metadata:
   9612: # Coneheads
     url_poster: https://theposterdb.com/api/assets/67311
 
+  910365: # The Conference
+    url_poster: https://image.tmdb.org/t/p/original/7x5I7OhjBo6EO0TAvYMCgluYvdY.jpg
+    content_rating: 16
+    audio_language: de-DE
+    subtitle_language: en-US
+
   561: # Constantine
     url_poster: https://image.tmdb.org/t/p/original/cLFIWpYTNL6pfq92U74fAZoLdhB.jpg
 
