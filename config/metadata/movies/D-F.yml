@@ -17,8 +17,12 @@ metadata:
   7211: # Dan In Real Life
     url_poster: https://theposterdb.com/api/assets/113756
 
+  2666: # Dark City
+    url_poster: https://image.tmdb.org/t/p/original/4WRQwCnM70ddDaYmH4QBz01kB11.jpg
+
   1410: # Dark Star
     content_rating: 12
+    url_poster: https://image.tmdb.org/t/p/original/nybQ7cBbSlgCikFhpULiKCfJcuQ.jpg
 
   387: # Das Boot
     sort_title: Das Boot
@@ -64,11 +68,29 @@ metadata:
   601938: # David Cross: Oh, Come On
     sort_title: David Cross 5
 
+  923: # Dawn of the Dead (1978)
+    url_poster: https://image.tmdb.org/t/p/original/s72VCWVWZv2Pc8M60KnuqJsBN58.jpg
+
   924: # Dawn of the Dead (2004)
     url_poster: https://www.themoviedb.org/t/p/original/ttquyxStEEctzghtA2f4PUGprDr.jpg
 
+  8408: # Day of the Dead (1985)
+    url_poster: https://image.tmdb.org/t/p/original/xZMACQjw1CCZormdoB2Ea4P7krs.jpg
+
   10651: # The Dead Pool
     url_poster: https://theposterdb.com/api/assets/857
+
+  293660: # Deadpool
+    url_poster: https://theposterdb.com/api/assets/135779
+    sort_title: Deadpool 1
+
+  383498: # Deadpool 2
+    url_poster: https://theposterdb.com/api/assets/135780
+    sort_title: Deadpool 2
+
+  533535: # Deadpool & Wolverine
+    url_poster: https://theposterdb.com/api/assets/513321
+    sort_title: Deadpool 3
 
   505026: # Death on the Nile
     url_poster: https://theposterdb.com/api/assets/223827
@@ -76,11 +98,29 @@ metadata:
   36724: # The Decline of Western Civilization II
     url_poster: https://www.themoviedb.org/t/p/original/z0tv8cM9666wJIqen4eAkr23Hr9.jpg
 
+  11778: # The Deer Hunter
+    url_poster: https://image.tmdb.org/t/p/original/9IoJFxE18kD3zDx6v2MBGOYYrFH.jpg
+
   892: # Delicatessen
     url_poster: https://theposterdb.com/api/assets/167028
 
   9739: # Demolition Man
     url_poster: https://theposterdb.com/api/assets/67020
+
+  20352: # Despicable Me
+    url_poster: https://theposterdb.com/api/assets/138808
+
+  93456: # Despicable Me 2
+    url_poster: https://theposterdb.com/api/assets/138809
+
+  324852: # Despicable Me 3
+    url_poster: https://theposterdb.com/api/assets/138810
+
+  519182: # Despicable Me 4
+    url_poster: https://theposterdb.com/api/assets/528343
+
+  1433: # The Devil's Backbone
+    url_poster: https://image.tmdb.org/t/p/original/iP1z1aJzPnkP8FHg77TS7ukqoEZ.jpg
 
   681: # Diamonds Are Forever
     url_poster: https://theposterdb.com/api/assets/115669
@@ -102,6 +142,12 @@ metadata:
 
   984: # Dirty Harry
     url_poster: https://theposterdb.com/api/assets/852
+
+  14577: # Dirty Work
+    url_poster: https://image.tmdb.org/t/p/original/btYKWL9SP12nhkcw8EkMG3aFtga.jpg
+
+  376134: # The Discovery
+    url_poster: https://image.tmdb.org/t/p/original/nLIDouFvreSrs8xK62zuvpEPDw0.jpg
 
   284052: # Doctor Strange
     url_poster: https://theposterdb.com/api/assets/9788
