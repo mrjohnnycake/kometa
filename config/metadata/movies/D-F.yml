@@ -149,11 +149,20 @@ metadata:
   376134: # The Discovery
     url_poster: https://image.tmdb.org/t/p/original/nLIDouFvreSrs8xK62zuvpEPDw0.jpg
 
+  5257: # The Dish
+    url_poster: https://image.tmdb.org/t/p/original/4hyYzQkpvC4wfQsZ2fijzZ56FsO.jpg
+
+  10411: # The Distinguished Gentleman
+    url_poster: https://image.tmdb.org/t/p/original/ny722xPMhsY6JlRmQQjLZs7JP0S.jpg
+
   284052: # Doctor Strange
     url_poster: https://theposterdb.com/api/assets/9788
 
   453395: # Doctor Strange in the Multiverse of Madness
     url_poster: https://theposterdb.com/api/assets/234599
+
+  1832: # Dogma
+    url_poster: https://theposterdb.com/api/assets/331272
 
   470942: # Don't Break Down: A Film About Jawbreaker
     content_rating: 15
@@ -167,11 +176,29 @@ metadata:
   935: # Dr. Strangelove
     url_poster: https://theposterdb.com/api/assets/214759
 
+  10023: # Dragnet
+    url_poster: https://image.tmdb.org/t/p/original/77H17YDeHoJCHebpfGF1rY3Dfof.jpg
+
   24099: # Dreamscape
     url_poster: https://theposterdb.com/api/assets/33713
 
+  8467: # Dumb and Dumber
+    url_poster: https://image.tmdb.org/t/p/original/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg
+
+  10719: # Elf
+    url_poster: https://image.tmdb.org/t/p/original/oOleziEempUPu96jkGs0Pj6tKxj.jpg
+
+  614934: # Elvis
+    url_poster: https://image.tmdb.org/t/p/original/qBOKWqAFbveZ4ryjJJwbie6tXkQ.jpg
+
+  862965: # Emily the Criminal
+    url_poster: https://image.tmdb.org/t/p/original/hFuynYYxZIiWR4cRlwzmteH2diL.jpg
+
   4523: # Enchanted
     url_poster: https://theposterdb.com/api/assets/6258
+
+  853: # Enemy at the Gates
+    url_poster: https://image.tmdb.org/t/p/original/m8B0mWL7NuFe6b9rdZBVmHFnEQK.jpg
 
   10649: # The Enforcer
     url_poster: https://theposterdb.com/api/assets/855
@@ -179,17 +206,35 @@ metadata:
   476549: # Escape From Mr. Lemoncello's Library
     content_rating: 8
 
+  601: # E.T. the Extra-Terrestrial
+    url_poster: https://image.tmdb.org/t/p/original/pEKStszBzTZCvR0H4tosjqxmE7X.jpg
+
   524434: # Eternals
     url_poster: https://theposterdb.com/api/assets/153775
 
   554603: # The Eugenics Crusade
     content_rating: 13
 
+  8413: # Event Horizon
+    url_poster: https://image.tmdb.org/t/p/original/cHoeg3gAD5w63Et5DImY1Jb7HaO.jpg
+
+  2320: # Executive Decision
+    url_poster: https://image.tmdb.org/t/p/original/ad2bXNH8M3BI0YYWQ8f31qWiuk0.jpg
+
+  754: # Face/Off
+    url_poster: https://image.tmdb.org/t/p/original/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg
+
   9276: # The Faculty
     url_poster: https://theposterdb.com/api/assets/33949
 
+  746036: # The Fall Guy
+    url_poster: https://image.tmdb.org/t/p/original/wfBuFUFnYr6o05S98EkAkYou7S7.jpg
+
   5994: # The Family Man
     url_poster: https://www.themoviedb.org/t/p/original/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg
+
+  101519: # A Fantastic Fear of Everything
+    url_poster: https://image.tmdb.org/t/p/original/sMZyKSo8b47VW1h2zjjGUZIefV1.jpg
 
   436305: # The Farthest
     url_poster: https://theposterdb.com/api/assets/21494
@@ -221,14 +266,38 @@ metadata:
   699: # For Your Eyes Only
     url_poster: https://theposterdb.com/api/assets/115674
 
+  830: # Forbidden Planet
+    url_poster: https://image.tmdb.org/t/p/original/faWaEdEC6EbBL7M0PbUISbxTM1j.jpg
+
+  9870: # Forgetting Sarah Marshall
+    url_poster: https://image.tmdb.org/t/p/original/d4elOzyhNWVlxpG7BwigrumkFTe.jpg
+
+  37495: # Four Lions
+    url_poster: https://image.tmdb.org/t/p/original/x4JzaRPXBs9wiHCe3e3ymXWuwfd.jpg
+
   983406: # Fourth of July
     content_rating: 17
+
+  12149: # Frailty
+    url_poster: https://image.tmdb.org/t/p/original/yBXrSxXoGkyexS3ysUOxEpE2P94.jpg
 
   539892: # Freaks
     url_poster: https://theposterdb.com/api/assets/163349
 
+  551804: # Freaky
+    url_poster: https://image.tmdb.org/t/p/original/3MhBQLHBWUigh9ZJ2xV5KeHn8hq.jpg
+
+  542178: # The French Dispatch
+    url_poster: https://image.tmdb.org/t/p/original/6JXR3KJH5roiBCjWFt09xfgxHZc.jpg
+
   10559: # Frequency
     url_poster: https://theposterdb.com/api/assets/108800
 
+  58151: # Fright Night (2011)
+    url_poster: https://image.tmdb.org/t/p/original/xOCYCTU3MKuPpxIUcGzG52ZEBbm.jpg
+
   657: # From Russia With Love
     url_poster: https://theposterdb.com/api/assets/115664
+
+  786892: # Furiosa - A Mad Max Saga
+    url_poster: https://image.tmdb.org/t/p/original/1pyWL29UkXYF2rlM2PZ339PM2QN.jpg
