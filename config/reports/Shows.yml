@@ -4,6 +4,7 @@ Marvel:
     822119: 'Captain America: Brave New World (2025)'
     539972: Kraven the Hunter (2024)
     912649: 'Venom: The Last Dance (2024)'
+    1359227: 'LEGO Marvel Avengers: Mission Demolition (2024)'
     533535: Deadpool & Wolverine (2024)
     1106299: 'The Spider Within: A Spider-Verse Story (2023)'
     634492: Madame Web (2024)
@@ -24,7 +25,6 @@ Marvel:
     899249: 'LEGO Marvel Avengers: Loki in Training (2021)'
     580489: 'Venom: Let There Be Carnage (2021)'
     566525: Shang-Chi and the Legend of the Ten Rings (2021)
-    1305111: Deadpool and Korg React (2021)
     497698: Black Widow (2021)
     340102: The New Mutants (2020)
     622230: 'LEGO Marvel Spider-Man: Vexed by Venom (2019)'
@@ -121,12 +121,11 @@ Marvel:
     36657: X-Men (2000)
     36647: Blade (1998)
     911916: 'Spider-Man: Beyond the Spider-Verse'
-    617127: Blade (2025)
+    617127: Blade
     617126: The Fantastic Four (2025)
     1003596: 'Avengers: Doomsday (2026)'
     1003598: 'Avengers: Secret Wars (2027)'
     1030022: Armor Wars
-    912502: Untitled Shang-Chi Sequel
   Shows Missing (TVDb IDs):
     393204: Ironheart
     422712: 'Daredevil: Born Again'
@@ -137,12 +136,14 @@ Marvel:
     412431: Echo
     393203: Secret Invasion
     415084: Marvel's Moon Girl and Devil Dinosaur
+    425475: 'Midnight Suns: Prequel Shorts'
     368613: 'She-Hulk: Attorney at Law'
     393201: I Am Groot
     393207: Baymax!
     368612: Ms. Marvel
     402834: Super Crooks
     367146: Hawkeye (2021)
+    361835: Marvel's Hit-Monkey
     367147: What If…?
     404491: Marvel's Spidey and His Amazing Friends
     362472: Loki
@@ -256,10 +257,10 @@ Star Wars:
     393190: 'Star Wars: Visions'
 United Kingdom:
   Shows Filtered (TVDb IDs):
-    301824: 11.22.63
-    384429: '1899'
-    79488: 30 Rock
     405898: '9/11: One Day in America'
+    301824: 11.22.63
+    79488: 30 Rock
+    384429: '1899'
     402879: Accused (2023)
     76081: Adventures of the Gummi Bears
     72668: The Adventures of Tintin
@@ -272,11 +273,9 @@ United Kingdom:
     110381: Archer
     390936: Archive 81
     72173: Arrested Development
-    332531: At Home with Amy Sedaris
     313999: Atlanta
     364106: Avenue 5
     333072: Barry
-    80379: The Big Bang Theory
     401998: Black Bird
     353546: Bluey
     194031: Bob's Burgers
@@ -292,6 +291,7 @@ United Kingdom:
     298277: Bunk'd
     365026: Carnival Row
     71862: Chappelle's Show
+    70626: Charmed
     360893: Chernobyl
     296065: Childhood's End
     139941: Childrens Hospital
@@ -316,16 +316,14 @@ United Kingdom:
     322122: Decline and Fall
     304075: The Deep
     85190: Delocated
-    116291: Dinosaur Train
     295697: Documentary Now!
     78244: Dr. Katz, Professional Therapist
     75931: DuckTales
     77129: Dungeons & Dragons
     73429: Eerie, Indiana
-    79334: Eureka
+    364439: Emily in Paris
     347033: Evil Genius
     280619: The Expanse
-    396116: Exterminate All the Brutes
     367329: The Family
     290853: Fear the Walking Dead
     332353: Final Space
@@ -338,14 +336,15 @@ United Kingdom:
     366972: Foundation
     76085: Fraggle Rock
     76321: Freaks and Geeks
-    401003: From
     80646: Frontline
     73871: Futurama
     77780: 'G.I. Joe: A Real American Hero'
+    208561: 'G.I. Joe: Renegades'
     121361: Game of Thrones
     415658: Gaslit
     76568: Gilmore Girls
     72990: Good Morning, Miss Bliss
+    289855: Good Witch
     259972: Gravity Falls
     163611: The Green Room with Paul Provenza
     414982: 'Gremlins: Secrets of the Mogwai'
@@ -355,8 +354,6 @@ United Kingdom:
     397444: Hellbound
     284114: Henry Danger
     412421: History of the World, Part II
-    361835: Hit-Monkey
-    388071: How To with John Wilson
     434298: Human Footprint
     79992: Human Giant
     372081: Hunters (2020)
@@ -394,15 +391,14 @@ United Kingdom:
     361834: Marvel's M.O.D.O.K.
     326791: The Marvelous Mrs. Maisel
     451149: Me
-    253696: MeatEater
     367226: Midnight Mass
     277954: Mike Tyson Mysteries
+    95011: Modern Family
     422598: 'Monarch: Legacy of Monsters'
     78490: Monk
     389492: Monster
     368611: Moon Knight
     79302: Moral Orel
-    267097: Mr & Mrs Murder
     277953: Mr. Pickles
     72965: Mr. Show
     414643: Murderville
@@ -428,6 +424,7 @@ United Kingdom:
     84912: Parks and Recreation
     411118: The Patient
     272472: Paw Patrol
+    417648: The Penguin
     265766: Penny Dreadful
     415151: Percy Jackson and the Olympians
     349187: The Peripheral
@@ -443,7 +440,6 @@ United Kingdom:
     397561: 'Q: Into the Storm'
     387115: The Queen's Gambit
     418968: The Really Loud House
-    188401: Regular Show
     371884: Reservation Dogs
     368166: Resident Alien
     268435: The Restless Bell
@@ -451,6 +447,8 @@ United Kingdom:
     357223: The Righteous Gemstones
     74481: Road to Avonlea
     75734: Robot Chicken
+    145061: Salem's Lot
+    153321: Salem's Lot (2004)
     350941: Salt Fat Acid Heat
     366211: The Sandman
     414682: The Santa Clauses
@@ -475,10 +473,10 @@ United Kingdom:
     366529: Station Eleven
     113981: Stephen King's It
     305288: Stranger Things
-    392740: Surface
     355837: Sweet Tooth
     417718: Swimming with Sharks
     368210: Tales from the Loop
+    446180: Teacup
     383203: Ted Lasso
     74582: Teenage Mutant Ninja Turtles
     442145: Terminator Zero
@@ -486,8 +484,6 @@ United Kingdom:
     396326: The Thing About Pam
     409508: Three Pines
     274283: The Thundermans
-    407475: Titletown High
-    318201: 'Trollhunters: Tales of Arcadia'
     282420: Tumble Leaf
     408892: 'Turning Point: 9/11 and the War on Terror'
     421197: The U.S. and the Holocaust
@@ -518,10 +514,10 @@ United Kingdom:
   - Dave Ramsey's Financial Peace University
 South Korea:
   Shows Filtered (TVDb IDs):
-    301824: 11.22.63
-    384429: '1899'
-    79488: 30 Rock
     405898: '9/11: One Day in America'
+    301824: 11.22.63
+    79488: 30 Rock
+    384429: '1899'
     72663: Accused (2010)
     402879: Accused (2023)
     76081: Adventures of the Gummi Bears
@@ -540,12 +536,11 @@ South Korea:
     110381: Archer
     390936: Archive 81
     72173: Arrested Development
-    332531: At Home with Amy Sedaris
     313999: Atlanta
     364106: Avenue 5
     333072: Barry
     73545: Battlestar Galactica
-    80379: The Big Bang Theory
+    360336: The Bay (2019)
     70680: Big Train
     401998: Black Bird
     253463: Black Mirror
@@ -567,7 +562,7 @@ South Korea:
     255192: Call the Midwife
     365026: Carnival Row
     71862: Chappelle's Show
-    405327: The Chelsea Detective
+    70626: Charmed
     360893: Chernobyl
     296065: Childhood's End
     139941: Childrens Hospital
@@ -596,7 +591,6 @@ South Korea:
     304075: The Deep
     85190: Delocated
     397807: The Devil's Hour
-    116291: Dinosaur Train
     351291: A Discovery of Witches
     79285: Doc Martin
     78804: Doctor Who
@@ -607,10 +601,9 @@ South Korea:
     77129: Dungeons & Dragons
     308129: The Durrells
     73429: Eerie, Indiana
-    79334: Eureka
+    364439: Emily in Paris
     347033: Evil Genius
     280619: The Expanse
-    396116: Exterminate All the Brutes
     367329: The Family
     265834: Father Brown
     290853: Fear the Walking Dead
@@ -625,16 +618,16 @@ South Korea:
     366972: Foundation
     76085: Fraggle Rock
     76321: Freaks and Geeks
-    401003: From
     80646: Frontline
     73871: Futurama
     77780: 'G.I. Joe: A Real American Hero'
+    208561: 'G.I. Joe: Renegades'
     121361: Game of Thrones
     415658: Gaslit
     76568: Gilmore Girls
-    397765: The Girl Before
     362152: The Goes Wrong Show
     72990: Good Morning, Miss Bliss
+    289855: Good Witch
     286058: Grantchester
     259972: Gravity Falls
     163611: The Green Room with Paul Provenza
@@ -643,12 +636,9 @@ South Korea:
     393105: Headspace Guide to Meditation
     399841: Headspace Guide to Sleep
     284114: Henry Danger
-    274775: Hinterland
     412421: History of the World, Part II
-    361835: Hit-Monkey
     294973: Home Fires (2015)
     248503: The Hour (2011)
-    388071: How To with John Wilson
     434298: Human Footprint
     79992: Human Giant
     372081: Hunters (2020)
@@ -683,30 +673,27 @@ South Korea:
     114701: The League
     354175: 'LEGO Jurassic World: Legend of Isla Nublar'
     336460: Little Women (2017)
-    409547: The Long Call
     80731: Long Way Down
     75233: Long Way Round
     376752: Long Way Up
     331821: The Looming Tower
     367506: 'The Lord of the Rings: The Rings of Power'
     357864: Lovecraft Country
-    410479: Magpie Murders
     414721: The Man Who Fell to Earth
     361753: The Mandalorian
     288604: Mapp and Lucia (2014)
     361834: Marvel's M.O.D.O.K.
     326791: The Marvelous Mrs. Maisel
     451149: Me
-    253696: MeatEater
     367226: Midnight Mass
     402728: The Midwich Cuckoos
     277954: Mike Tyson Mysteries
+    95011: Modern Family
     422598: 'Monarch: Legacy of Monsters'
     78490: Monk
     389492: Monster
     368611: Moon Knight
     79302: Moral Orel
-    267097: Mr & Mrs Murder
     277953: Mr. Pickles
     72965: Mr. Show
     72476: The Muppet Show
@@ -737,6 +724,7 @@ South Korea:
     297963: Partners In Crime
     411118: The Patient
     272472: Paw Patrol
+    417648: The Penguin
     265766: Penny Dreadful
     415151: Percy Jackson and the Olympians
     349187: The Peripheral
@@ -755,7 +743,6 @@ South Korea:
     387115: The Queen's Gambit
     418968: The Really Loud House
     77150: Redwall
-    188401: Regular Show
     371884: Reservation Dogs
     368166: Resident Alien
     268435: The Restless Bell
@@ -764,6 +751,8 @@ South Korea:
     74481: Road to Avonlea
     75734: Robot Chicken
     73033: Rosemary & Thyme
+    145061: Salem's Lot
+    153321: Salem's Lot (2004)
     350941: Salt Fat Acid Heat
     366211: The Sandman
     414682: The Santa Clauses
@@ -774,7 +763,6 @@ South Korea:
     353366: The Shivering Truth
     403245: Silo
     71663: The Simpsons
-    410363: Sister Boniface Mysteries
     102461: The Sketch Show
     379403: Smiling Friends
     246451: Sports Show with Norm Macdonald
@@ -788,10 +776,10 @@ South Korea:
     366529: Station Eleven
     113981: Stephen King's It
     305288: Stranger Things
-    392740: Surface
     355837: Sweet Tooth
     417718: Swimming with Sharks
     368210: Tales from the Loop
+    446180: Teacup
     383203: Ted Lasso
     74582: Teenage Mutant Ninja Turtles
     442145: Terminator Zero
@@ -801,8 +789,6 @@ South Korea:
     409508: Three Pines
     274283: The Thundermans
     425453: Time Bandits
-    407475: Titletown High
-    318201: 'Trollhunters: Tales of Arcadia'
     282420: Tumble Leaf
     408892: 'Turning Point: 9/11 and the War on Terror'
     421197: The U.S. and the Holocaust
@@ -831,7 +817,6 @@ South Korea:
     390537: The Woman in the House Across the Street from the Girl in the Window
     78891: Wonder Showzen
     415503: Worst Roommate Ever
-    267890: WPC 56
     399731: Yellowjackets
     295677: You, Me and the Apocalypse
   Shows Filtered:
@@ -840,10 +825,9 @@ Emmys Best in Category Winners:
   Movies Missing (TMDb IDs):
     576575: The Penguins of Madagascar (2009)
     26809: Prep & Landing (2009)
-    712352: "Foster's Movie: Destination Imagination (2008)"
+    712352: "Foster's Home for Imaginary Friends: Destination Imagination (2008)"
     432266: "Camp Lazlo: Where's Lazlo? (2007)"
     19493: 'Hornblower: The Even Chance (1998)'
-    616173: From the Earth to the Moon
     2405: Joseph (1995)
     505320: 'David Macaulay: Roman City (1994)'
     81667: Will Vinton's Claymation Easter (1992)
@@ -866,6 +850,8 @@ Emmys Best in Category Winners:
     241568: Death of a Salesman (1966)
     247555: Ages of Man (1966)
   Shows Missing (TVDb IDs):
+    392573: "ShÅ\x8Dgun"
+    401582: Hacks
     434151: Blue Eye Samurai
     338186: Succession
     403294: The Bear
@@ -877,7 +863,6 @@ Emmys Best in Category Winners:
     321239: The Handmaid's Tale
     237831: Veep
     281643: Over the Garden Wall
-    95011: Modern Family
     269613: Fargo
     75897: South Park
     247897: Homeland
@@ -912,6 +897,7 @@ Emmys Best in Category Winners:
     72116: Ally McBeal
     73226: The Practice
     77811: Frasier
+    77831: From the Earth to the Moon
     72368: Law & Order
     76329: Prime Suspect
     72880: Pinky and the Brain
@@ -967,6 +953,7 @@ Emmys Best in Category Winners:
     70794: The Red Skelton Show
 Emmys 2024:
   Movies Missing (TMDb IDs):
+    1255883: 'Alex Edelman: Just for Us (2024)'
     787781: Quiz Lady (2023)
     1058650: 'Going to Mars: The Nikki Giovanni Project (2023)'
     986355: Girls State (2024)
@@ -975,18 +962,22 @@ Emmys 2024:
     1265066: The Beach Boys (2024)
     1221140: 'Dick Van Dyke: 98 Years of Magic (2023)'
   Shows Missing (TVDb IDs):
-    403294: The Bear
+    392573: "ShÅ\x8Dgun"
     401582: Hacks
+    417223: Baby Reindeer
+    403294: The Bear
+    270633: True Detective
     361563: The Morning Show
     305574: The Crown
+    269613: Fargo
+    372727: RIPLEY
+    372264: Slow Horses
+    71256: The Daily Show
     428163: The Traitors (US)
     434151: Blue Eye Samurai
-    392573: "ShÅ\x8Dgun"
-    417223: Baby Reindeer
     419263: Love on the Spectrum U.S.
     331431: Big Mouth
     405882: The Idol (2023)
-    372727: RIPLEY
     401513: How I Met Your Father
     269599: Life Below Zero
     250487: American Horror Story
@@ -1010,15 +1001,14 @@ Emmys 2024:
     259184: The Eric Andre Show
     322466: Feud
     449017: 'John Mulaney Presents: Everybody’s in L.A.'
-    71256: The Daily Show
     247824: The Voice
     403119: Welcome to Wrexham
+    278518: Last Week Tonight with John Oliver
     439192: 'Only Murders in the Building: One Killer Question'
     370853: Masters of the Air
     100981: Shark Tank
     426845: The Gentlemen
     435035: Conan O'Brien Must Go
-    278518: Last Week Tonight with John Oliver
 Emmys 2023:
   Movies Missing (TMDb IDs):
     1093247: 'John Mulaney: Baby J (2023)'
@@ -1040,6 +1030,7 @@ Emmys 2023:
     399838: BEEF
     402910: Abbott Elementary
     390430: The White Lotus
+    445455: Chronicles Of Jessica Wu
     428163: The Traitors (US)
     331431: Big Mouth
     392720: Blindspotting
@@ -1114,7 +1105,7 @@ Emmys 2022:
     393154: Schmigadoon!
     369301: The Great
     366668: Bridgerton
-    400690: Pam & Tommy
+    400690: Pam and Tommy
     364412: The Gilded Age
     332954: 'Carpool Karaoke: The Series'
     303438: Full Frontal with Samantha Bee
@@ -1267,21 +1258,18 @@ Emmys 2019:
     332954: 'Carpool Karaoke: The Series'
     324835: GLOW
 Trakt Trending:
-  Shows Removed (TVDb IDs):
-    73871: Futurama
-    399959: Only Murders in the Building
   Shows Missing (TVDb IDs):
-    364439: Emily in Paris
-    314087: The Grand Tour (2016)
-    372264: Slow Horses
-    350665: The Rookie
-    371572: House of the Dragon
-    328686: SEAL Team
-    365700: Kaos
-    73762: Grey's Anatomy
-    371796: Industry
-    95011: Modern Family
-    75978: Family Guy
-    364928: Snowpiercer
+    426866: The Day of the Jackal
+    401003: FROM
+    371028: Arcane
+    341164: Yellowstone (2018)
+    388589: Lioness
+    334769: Day and Night
+    80379: The Big Bang Theory
+    367118: 'Dune: Prophecy'
     79168: Friends
+    79349: Dexter
+    367138: 'Star Trek: Lower Decks'
     73255: House
+    73762: Grey's Anatomy
+    75978: Family Guy
