@@ -1,325 +1,325 @@
-[2024-12-08 05:00:58,223] [kometa.py:267]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,224] [kometa.py:268]             [INFO]     |                                                                                                    |
-[2024-12-08 05:00:58,224] [kometa.py:269]             [INFO]     |                   __  ___  ______    ___  ___   _______  __________    ___                         |
-[2024-12-08 05:00:58,224] [kometa.py:270]             [INFO]     |                  |  |/  / /  __  \  |   \/   | |   ____||          |  /   \                        |
-[2024-12-08 05:00:58,224] [kometa.py:271]             [INFO]     |                  |  '  / |  |  |  | |  \  /  | |  |__   `---|  |---` /  ^  \                       |
-[2024-12-08 05:00:58,224] [kometa.py:272]             [INFO]     |                  |    <  |  |  |  | |  |\/|  | |   __|      |  |    /  /_\  \                      |
-[2024-12-08 05:00:58,224] [kometa.py:273]             [INFO]     |                  |  .  \ |  `--`  | |  |  |  | |  |____     |  |   /  _____  \                     |
-[2024-12-08 05:00:58,224] [kometa.py:274]             [INFO]     |                  |__|\__\ \______/  |__|  |__| |_______|    |__|  /__/     \__\                    |
-[2024-12-08 05:00:58,224] [kometa.py:275]             [INFO]     |                                                                                                    |
-[2024-12-08 05:00:58,225] [kometa.py:281]             [INFO]     |     Version: 2.1.0 (Docker: master)                                                                |
-[2024-12-08 05:00:58,306] [kometa.py:284]             [INFO]     |     Platform: Linux-5.10.0-33-amd64-x86_64-with-glibc2.28                                          |
-[2024-12-08 05:00:58,306] [kometa.py:285]             [INFO]     |     Total Memory: 8 GB                                                                             |
-[2024-12-08 05:00:58,306] [kometa.py:286]             [INFO]     |     Available Memory: 6 GB                                                                         |
-[2024-12-08 05:00:58,306] [kometa.py:317]             [DEBUG]    |====================================================================================================|
-[2024-12-08 05:00:58,306] [kometa.py:318]             [DEBUG]    | Run Command: kometa.py                                                                             |
-[2024-12-08 05:00:58,306] [kometa.py:322]             [DEBUG]    | --config (KOMETA_CONFIG): None                                                                     |
-[2024-12-08 05:00:58,306] [kometa.py:322]             [DEBUG]    | --times (KOMETA_TIMES): "05:00"                                                                    |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --run (KOMETA_RUN): False                                                                          |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --tests (KOMETA_TESTS): False                                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --debug (KOMETA_DEBUG): False                                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --trace (KOMETA_TRACE): False                                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --log-requests (KOMETA_LOG_REQUESTS): False                                                        |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --timeout (KOMETA_TIMEOUT): 180                                                                    |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --no-verify-ssl (KOMETA_NO_VERIFY_SSL): False                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --collections-only (KOMETA_COLLECTIONS_ONLY): False                                                |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --metadata-only (KOMETA_METADATA_ONLY): False                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --playlists-only (KOMETA_PLAYLISTS_ONLY): False                                                    |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --operations-only (KOMETA_OPERATIONS_ONLY): False                                                  |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --overlays-only (KOMETA_OVERLAYS_ONLY): False                                                      |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --run-collections (KOMETA_RUN_COLLECTIONS): None                                                   |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --run-libraries (KOMETA_RUN_LIBRARIES): None                                                       |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --run-files (KOMETA_RUN_FILES): None                                                               |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --ignore-schedules (KOMETA_IGNORE_SCHEDULES): False                                                |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --ignore-ghost (KOMETA_IGNORE_GHOST): False                                                        |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --delete-collections (KOMETA_DELETE_COLLECTIONS): False                                            |
-[2024-12-08 05:00:58,307] [kometa.py:322]             [DEBUG]    | --delete-labels (KOMETA_DELETE_LABELS): False                                                      |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --resume (KOMETA_RESUME): None                                                                     |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --no-countdown (KOMETA_NO_COUNTDOWN): False                                                        |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --no-missing (KOMETA_NO_MISSING): False                                                            |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --no-report (KOMETA_NO_REPORT): False                                                              |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --read-only-config (KOMETA_READ_ONLY_CONFIG): False                                                |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --divider (KOMETA_DIVIDER): "="                                                                    |
-[2024-12-08 05:00:58,308] [kometa.py:322]             [DEBUG]    | --width (KOMETA_WIDTH): 100                                                                        |
-[2024-12-08 05:00:58,308] [kometa.py:323]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,308] [kometa.py:329]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,308] [kometa.py:329]             [INFO]     |                                         Starting 05:00 Run                                         |
-[2024-12-08 05:00:58,308] [kometa.py:329]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,308] [config.py:144]             [INFO]     | Locating config...                                                                                 |
-[2024-12-08 05:00:58,308] [config.py:150]             [INFO]     | Using //config/config.yml as config                                                                |
-[2024-12-08 05:00:58,309] [config.py:191]             [DEBUG]    |========================================= Redacted Config ==========================================|
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    | libraries:                                                                                         |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    | ########################################                                                           |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    | #   MUST MATCH THE PLEX LIBRARY NAME   #                                                           |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    | ########################################                                                           |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,309] [config.py:193]             [DEBUG]    |   Movies:                                                                                          |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/movies/                                                            |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     - folder: //config/collections/movies/                                                         |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/movies/                                                     |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |       overlay_files: //config/overlays/movies/                                                     |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |       remove_overlays: true                                                                        |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         PG: 12                                                                                     |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         PG-13: 13                                                                                  |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         TV-14: 15                                                                                  |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         NR: 17                                                                                     |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         Not Rated: 17                                                                              |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |         R: 18                                                                                      |
-[2024-12-08 05:00:58,310] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Movies.yml                                                        |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |   Music:                                                                                           |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/music/                                                             |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/music/                                                      |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Music.yml                                                         |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |   Shows:                                                                                           |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/shows/                                                             |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     - folder: //config/collections/shows/                                                          |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |     - default: country                                                                             |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |         use_other: false                                                                           |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |         use_separator: false                                                                       |
-[2024-12-08 05:00:58,311] [config.py:193]             [DEBUG]    |         sep_style: purple                                                                          |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         include:                                                                                   |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         - gb                                                                                       |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         - kr                                                                                       |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         sort_by: title.asc                                                                         |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |     - default: emmy                                                                                |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         collection_order: alpha                                                                    |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         data:                                                                                      |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |           starting: current_year-5                                                                 |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |           ending: current_year                                                                     |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |     - default: trakt                                                                               |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         use_collected: false                                                                       |
-[2024-12-08 05:00:58,312] [config.py:193]             [DEBUG]    |         use_popular: false                                                                         |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         use_recommended: false                                                                     |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         use_watched: false                                                                         |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         limit: 20                                                                                  |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_library_trending: true                                                             |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_home_trending: false                                                               |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_shared_trending: true                                                              |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |     - default: basic                                                                               |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         use_episodes: false                                                                        |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         use_released: true                                                                         |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         in_the_last_released: 120                                                                  |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_library_released: true                                                             |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_home_released: false                                                               |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         visible_shared_released: false                                                             |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |       settings:                                                                                    |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         asset_directory: config/assets/shows                                                       |
-[2024-12-08 05:00:58,313] [config.py:193]             [DEBUG]    |         asset_folders: true                                                                        |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         overlay_files: //config/overlays/shows/                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         remove_overlays: true                                                                      |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-Y: 4                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-Y7: 7                                                                                   |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-G: 7                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-PG: 12                                                                                  |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-14: 14                                                                                  |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |         TV-MA: 18                                                                                  |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Shows.yml                                                         |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    | playlist_files:                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    | - file: //config/playlists/video.yml                                                               |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    | settings:                                                                                          |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |   cache: true                                                                                      |
-[2024-12-08 05:00:58,314] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   asset_folders: true                                                                              |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   asset_depth: 5                                                                                   |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   create_asset_folders: true                                                                       |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   prioritize_assets: true                                                                          |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   dimensional_asset_rename: false                                                                  |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   download_url_assets: true                                                                        |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   show_missing_season_assets: true                                                                 |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   show_missing_episode_assets: false                                                               |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   show_asset_not_needed: true                                                                      |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   sync_mode: append                                                                                |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   minimum_items: 2                                                                                 |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   default_collection_order:                                                                        |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   delete_below_minimum: true                                                                       |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   delete_not_scheduled: false                                                                      |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   run_again_delay: 2                                                                               |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   missing_only_released: false                                                                     |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   only_filter_missing: false                                                                       |
-[2024-12-08 05:00:58,315] [config.py:193]             [DEBUG]    |   show_unmanaged: true                                                                             |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   show_filtered: false                                                                             |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   show_options: false                                                                              |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   show_missing: false                                                                              |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   show_missing_assets: true                                                                        |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   save_report: true                                                                                |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   tvdb_language: eng                                                                               |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   ignore_ids:                                                                                      |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   ignore_imdb_ids:                                                                                 |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   item_refresh_delay: 0                                                                            |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   playlist_sync_to_user:                                                                           |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   playlist_report: false                                                                           |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   verify_ssl: true                                                                                 |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   custom_repo:                                                                                     |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   check_nightly: false                                                                             |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   show_unconfigured: true                                                                          |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   playlist_exclude_users:                                                                          |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   run_order:                                                                                       |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   - operations                                                                                     |
-[2024-12-08 05:00:58,316] [config.py:193]             [DEBUG]    |   - metadata                                                                                       |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   - collections                                                                                    |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   - overlays                                                                                       |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   overlay_artwork_filetype: jpg                                                                    |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   overlay_artwork_quality:                                                                         |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   asset_directory:                                                                                 |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    | webhooks:                            # Can be individually specified per library as well           |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   error: (redacted)                                                                                |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   version:                                                                                         |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   run_start:                                                                                       |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   run_end:                                                                                         |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   changes: (redacted)                                                                              |
-[2024-12-08 05:00:58,317] [config.py:193]             [DEBUG]    |   delete: (redacted)                                                                               |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    | plex:                                                                                              |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   timeout: 60                                                                                      |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   clean_bundles: false                                                                             |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   empty_trash: false                                                                               |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   optimize: false                                                                                  |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   verify_ssl:                                                                                      |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   db_cache:                                                                                        |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    | tmdb:                                                   # REQUIRED for the script to run           |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
-[2024-12-08 05:00:58,318] [config.py:193]             [DEBUG]    |   language: en                                                                                     |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   region:                                                                                          |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    | trakt:                                                                                             |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   client_id: (redacted)                                                                            |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   client_secret: (redacted)                                                                        |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   pin:                                                                                             |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |   authorization:                          # everything below is autofilled by the script           |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |     access_token: (redacted)                                                                       |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |     token_type: Bearer                                                                             |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |     expires_in: 7889238                                                                            |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |     refresh_token: (redacted)                                                                      |
-[2024-12-08 05:00:58,319] [config.py:193]             [DEBUG]    |     scope: public                                                                                  |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |     created_at: 1726488648                                                                         |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | mdblist:                                                                                           |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | gotify:                                                                                            |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | # radarr:                                                                                          |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
-[2024-12-08 05:00:58,320] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/movies                                                                    |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   monitor: true                                                                                  |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   availability: announced                                                                        |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   radarr_path:                                                                                   |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | # sonarr:                                                                                          |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
-[2024-12-08 05:00:58,321] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/shows                                                                     |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   monitor: all                                                                                   |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   language_profile: English                                                                      |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   series_type: standard                                                                          |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   season_folder: true                                                                            |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   cutoff_search: false                                                                           |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   sonarr_path:                                                                                   |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
-[2024-12-08 05:00:58,322] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
-[2024-12-08 05:00:58,322] [config.py:194]             [DEBUG]    |                                                                                                    |
-[2024-12-08 05:00:58,351] [config.py:522]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,352] [cache.py:17]               [INFO]     | Initializing cache database at //config/config.cache                                               |
-[2024-12-08 05:00:58,353] [config.py:530]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,353] [config.py:547]             [INFO]     | notifiarr attribute not found                                                                      |
-[2024-12-08 05:00:58,353] [config.py:551]             [INFO]     | Connecting to Gotify...                                                                            |
-[2024-12-08 05:00:58,479] [gotify.py:15]              [INFO]     | Gotify Version: 2.6.1                                                                              |
-[2024-12-08 05:00:58,479] [config.py:563]             [INFO]     | Gotify Connection Successful                                                                       |
-[2024-12-08 05:00:58,479] [config.py:585]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,479] [config.py:590]             [INFO]     | Connecting to TMDb...                                                                              |
-[2024-12-08 05:00:58,679] [config.py:599]             [INFO]     | TMDb Connection Successful                                                                         |
-[2024-12-08 05:00:58,679] [config.py:603]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,679] [config.py:620]             [INFO]     | omdb attribute not found                                                                           |
-[2024-12-08 05:00:58,679] [config.py:622]             [INFO]     |====================================================================================================|
-[2024-12-08 05:00:58,679] [config.py:626]             [INFO]     | Connecting to MDBList...                                                                           |
-[2024-12-08 05:01:01,463] [config.py:632]             [INFO]     | MDBList Connection Successful                                                                      |
-[2024-12-08 05:01:01,463] [config.py:642]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,463] [config.py:646]             [INFO]     | Connecting to Trakt...                                                                             |
-[2024-12-08 05:01:01,693] [config.py:660]             [INFO]     | Trakt Connection Successful                                                                        |
-[2024-12-08 05:01:01,693] [config.py:664]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,693] [config.py:685]             [INFO]     | mal attribute not found                                                                            |
-[2024-12-08 05:01:01,693] [config.py:717]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,693] [config.py:726]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,694] [config.py:727]             [INFO]     | Reading in Playlist Files                                                                          |
-[2024-12-08 05:01:01,694] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,694] [util.py:329]               [INFO]     | Reading file: //config/playlists/video.yml                                                         |
-[2024-12-08 05:01:01,694] [meta.py:71]                [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,694] [meta.py:72]                [INFO]     | Loading Playlist File File: //config/playlists/video.yml                                           |
-[2024-12-08 05:01:01,694] [meta.py:73]                [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,697] [meta.py:161]               [DEBUG]    | File Loaded From: //config/playlists/video.yml                                                     |
-[2024-12-08 05:01:01,697] [meta.py:2234]              [INFO]     | Playlist File Loaded Successfully                                                                  |
-[2024-12-08 05:01:01,841] [config.py:753]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,841] [config.py:755]             [INFO]     | Connecting to Plex Libraries...                                                                    |
-[2024-12-08 05:01:01,841] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,842] [config.py:826]             [INFO]     |                                        Movies Configuration                                        |
-[2024-12-08 05:01:01,842] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:01,842] [config.py:827]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,842] [config.py:828]             [INFO]     | Connecting to Movies Library...                                                                    |
-[2024-12-08 05:01:01,842] [config.py:871]             [INFO]     |===================================== Operation Configuration ======================================|
-[2024-12-08 05:01:01,842] [config.py:875]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,842] [config.py:876]             [INFO]     | Operation 1/1                                                                                      |
-[2024-12-08 05:01:01,842] [config.py:878]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
-[2024-12-08 05:01:01,842] [config.py:878]             [INFO]     |     content_rating_mapper: {'PG': 12, 'PG-13': 13, 'TV-14': 15, 'NR': 17, 'Not Rated': 17, 'R': 18} |
-[2024-12-08 05:01:01,842] [config.py:1013]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,843] [config.py:1014]            [INFO]     | Reading in Collection Files                                                                        |
-[2024-12-08 05:01:01,843] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,843] [util.py:348]               [INFO]     | Reading folder: //config/collections/movies/                                                       |
-[2024-12-08 05:01:01,843] [config.py:1028]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,843] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
-[2024-12-08 05:01:01,843] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,843] [util.py:348]               [INFO]     | Reading folder: //config/metadata/movies/                                                          |
-[2024-12-08 05:01:01,844] [config.py:1151]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,844] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
-[2024-12-08 05:01:01,845] [library.py:141]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:01,845] [library.py:143]            [INFO]     | Using Asset Directory: //config/assets/movies/                                                     |
-[2024-12-08 05:01:04,949] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
-[2024-12-08 05:01:04,960] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:21,711] [kometa.py:267]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,711] [kometa.py:268]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:21,711] [kometa.py:269]             [INFO]     |                   __  ___  ______    ___  ___   _______  __________    ___                         |
+[2024-12-14 05:00:21,711] [kometa.py:270]             [INFO]     |                  |  |/  / /  __  \  |   \/   | |   ____||          |  /   \                        |
+[2024-12-14 05:00:21,711] [kometa.py:271]             [INFO]     |                  |  '  / |  |  |  | |  \  /  | |  |__   `---|  |---` /  ^  \                       |
+[2024-12-14 05:00:21,711] [kometa.py:272]             [INFO]     |                  |    <  |  |  |  | |  |\/|  | |   __|      |  |    /  /_\  \                      |
+[2024-12-14 05:00:21,711] [kometa.py:273]             [INFO]     |                  |  .  \ |  `--`  | |  |  |  | |  |____     |  |   /  _____  \                     |
+[2024-12-14 05:00:21,711] [kometa.py:274]             [INFO]     |                  |__|\__\ \______/  |__|  |__| |_______|    |__|  /__/     \__\                    |
+[2024-12-14 05:00:21,712] [kometa.py:275]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:21,712] [kometa.py:281]             [INFO]     |     Version: 2.1.0 (Docker: master)                                                                |
+[2024-12-14 05:00:21,791] [kometa.py:284]             [INFO]     |     Platform: Linux-5.10.0-33-amd64-x86_64-with-glibc2.28                                          |
+[2024-12-14 05:00:21,791] [kometa.py:285]             [INFO]     |     Total Memory: 8 GB                                                                             |
+[2024-12-14 05:00:21,792] [kometa.py:286]             [INFO]     |     Available Memory: 6 GB                                                                         |
+[2024-12-14 05:00:21,792] [kometa.py:317]             [DEBUG]    |====================================================================================================|
+[2024-12-14 05:00:21,792] [kometa.py:318]             [DEBUG]    | Run Command: kometa.py                                                                             |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --config (KOMETA_CONFIG): None                                                                     |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --times (KOMETA_TIMES): "05:00"                                                                    |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --run (KOMETA_RUN): False                                                                          |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --tests (KOMETA_TESTS): False                                                                      |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --debug (KOMETA_DEBUG): False                                                                      |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --trace (KOMETA_TRACE): False                                                                      |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --log-requests (KOMETA_LOG_REQUESTS): False                                                        |
+[2024-12-14 05:00:21,792] [kometa.py:322]             [DEBUG]    | --timeout (KOMETA_TIMEOUT): 180                                                                    |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --no-verify-ssl (KOMETA_NO_VERIFY_SSL): False                                                      |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --collections-only (KOMETA_COLLECTIONS_ONLY): False                                                |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --metadata-only (KOMETA_METADATA_ONLY): False                                                      |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --playlists-only (KOMETA_PLAYLISTS_ONLY): False                                                    |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --operations-only (KOMETA_OPERATIONS_ONLY): False                                                  |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --overlays-only (KOMETA_OVERLAYS_ONLY): False                                                      |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --run-collections (KOMETA_RUN_COLLECTIONS): None                                                   |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --run-libraries (KOMETA_RUN_LIBRARIES): None                                                       |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --run-files (KOMETA_RUN_FILES): None                                                               |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --ignore-schedules (KOMETA_IGNORE_SCHEDULES): False                                                |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --ignore-ghost (KOMETA_IGNORE_GHOST): False                                                        |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --delete-collections (KOMETA_DELETE_COLLECTIONS): False                                            |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --delete-labels (KOMETA_DELETE_LABELS): False                                                      |
+[2024-12-14 05:00:21,793] [kometa.py:322]             [DEBUG]    | --resume (KOMETA_RESUME): None                                                                     |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --no-countdown (KOMETA_NO_COUNTDOWN): False                                                        |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --no-missing (KOMETA_NO_MISSING): False                                                            |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --no-report (KOMETA_NO_REPORT): False                                                              |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --read-only-config (KOMETA_READ_ONLY_CONFIG): False                                                |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --divider (KOMETA_DIVIDER): "="                                                                    |
+[2024-12-14 05:00:21,794] [kometa.py:322]             [DEBUG]    | --width (KOMETA_WIDTH): 100                                                                        |
+[2024-12-14 05:00:21,794] [kometa.py:323]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,794] [kometa.py:329]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,794] [kometa.py:329]             [INFO]     |                                         Starting 05:00 Run                                         |
+[2024-12-14 05:00:21,794] [kometa.py:329]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,794] [config.py:144]             [INFO]     | Locating config...                                                                                 |
+[2024-12-14 05:00:21,794] [config.py:150]             [INFO]     | Using //config/config.yml as config                                                                |
+[2024-12-14 05:00:21,795] [config.py:191]             [DEBUG]    |========================================= Redacted Config ==========================================|
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    | libraries:                                                                                         |
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    | ########################################                                                           |
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    | #   MUST MATCH THE PLEX LIBRARY NAME   #                                                           |
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    | ########################################                                                           |
+[2024-12-14 05:00:21,795] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |   Movies:                                                                                          |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/movies/                                                            |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     - folder: //config/collections/movies/                                                         |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/movies/                                                     |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |       overlay_files: //config/overlays/movies/                                                     |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |       remove_overlays: true                                                                        |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2024-12-14 05:00:21,796] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         PG: 12                                                                                     |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         PG-13: 13                                                                                  |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         TV-14: 15                                                                                  |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         NR: 17                                                                                     |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         Not Rated: 17                                                                              |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |         R: 18                                                                                      |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Movies.yml                                                        |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |   Music:                                                                                           |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/music/                                                             |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |     settings:                                                                                      |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |       asset_directory: //config/assets/music/                                                      |
+[2024-12-14 05:00:21,797] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Music.yml                                                         |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |   Shows:                                                                                           |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |     metadata_files:                                                                                |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |     - folder: //config/metadata/shows/                                                             |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |     collection_files:                                                                              |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |     - folder: //config/collections/shows/                                                          |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |     - default: country                                                                             |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         use_other: false                                                                           |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         use_separator: false                                                                       |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         sep_style: purple                                                                          |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         include:                                                                                   |
+[2024-12-14 05:00:21,798] [config.py:193]             [DEBUG]    |         - gb                                                                                       |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         - kr                                                                                       |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         sort_by: title.asc                                                                         |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |     - default: emmy                                                                                |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         collection_order: alpha                                                                    |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         data:                                                                                      |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |           starting: current_year-5                                                                 |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |           ending: current_year                                                                     |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |     - default: trakt                                                                               |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         use_collected: false                                                                       |
+[2024-12-14 05:00:21,799] [config.py:193]             [DEBUG]    |         use_popular: false                                                                         |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         use_recommended: false                                                                     |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         use_watched: false                                                                         |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         limit: 20                                                                                  |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         visible_library_trending: true                                                             |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         visible_home_trending: false                                                               |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         visible_shared_trending: true                                                              |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |     - default: basic                                                                               |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |       template_variables:                                                                          |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         use_episodes: false                                                                        |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         use_released: true                                                                         |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         in_the_last_released: 120                                                                  |
+[2024-12-14 05:00:21,800] [config.py:193]             [DEBUG]    |         visible_library_released: true                                                             |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         visible_home_released: false                                                               |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         visible_shared_released: false                                                             |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |       settings:                                                                                    |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         asset_directory: config/assets/shows                                                       |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         asset_folders: true                                                                        |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         overlay_files: //config/overlays/shows/                                                    |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         remove_overlays: true                                                                      |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |     operations:                                                                                    |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         TV-Y: 4                                                                                    |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         TV-Y7: 7                                                                                   |
+[2024-12-14 05:00:21,801] [config.py:193]             [DEBUG]    |         TV-G: 7                                                                                    |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |         TV-PG: 12                                                                                  |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |         TV-14: 14                                                                                  |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |         TV-MA: 18                                                                                  |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |     report_path: /config/reports/Shows.yml                                                         |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    | playlist_files:                                                                                    |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    | - file: //config/playlists/video.yml                                                               |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    | settings:                                                                                          |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |   cache: true                                                                                      |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |   asset_folders: true                                                                              |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |   asset_depth: 5                                                                                   |
+[2024-12-14 05:00:21,802] [config.py:193]             [DEBUG]    |   create_asset_folders: true                                                                       |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   prioritize_assets: true                                                                          |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   dimensional_asset_rename: false                                                                  |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   download_url_assets: true                                                                        |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   show_missing_season_assets: true                                                                 |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   show_missing_episode_assets: false                                                               |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   show_asset_not_needed: true                                                                      |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   sync_mode: append                                                                                |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   minimum_items: 2                                                                                 |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   default_collection_order:                                                                        |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   delete_below_minimum: true                                                                       |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   delete_not_scheduled: false                                                                      |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   run_again_delay: 2                                                                               |
+[2024-12-14 05:00:21,803] [config.py:193]             [DEBUG]    |   missing_only_released: false                                                                     |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   only_filter_missing: false                                                                       |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   show_unmanaged: true                                                                             |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   show_filtered: false                                                                             |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   show_options: false                                                                              |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   show_missing: false                                                                              |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   show_missing_assets: true                                                                        |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   save_report: true                                                                                |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   tvdb_language: eng                                                                               |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   ignore_ids:                                                                                      |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   ignore_imdb_ids:                                                                                 |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   item_refresh_delay: 0                                                                            |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   playlist_sync_to_user:                                                                           |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   playlist_report: false                                                                           |
+[2024-12-14 05:00:21,804] [config.py:193]             [DEBUG]    |   verify_ssl: true                                                                                 |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   custom_repo:                                                                                     |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   check_nightly: false                                                                             |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   show_unconfigured: true                                                                          |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   playlist_exclude_users:                                                                          |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   run_order:                                                                                       |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   - operations                                                                                     |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   - metadata                                                                                       |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   - collections                                                                                    |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   - overlays                                                                                       |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   overlay_artwork_filetype: jpg                                                                    |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   overlay_artwork_quality:                                                                         |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |   asset_directory:                                                                                 |
+[2024-12-14 05:00:21,805] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    | webhooks:                            # Can be individually specified per library as well           |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   error: (redacted)                                                                                |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   version:                                                                                         |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   run_start:                                                                                       |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   run_end:                                                                                         |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   changes: (redacted)                                                                              |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   delete: (redacted)                                                                               |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    | plex:                                                                                              |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   timeout: 60                                                                                      |
+[2024-12-14 05:00:21,806] [config.py:193]             [DEBUG]    |   clean_bundles: false                                                                             |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   empty_trash: false                                                                               |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   optimize: false                                                                                  |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   verify_ssl:                                                                                      |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   db_cache:                                                                                        |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    | tmdb:                                                   # REQUIRED for the script to run           |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   language: en                                                                                     |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   region:                                                                                          |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    | trakt:                                                                                             |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   client_id: (redacted)                                                                            |
+[2024-12-14 05:00:21,807] [config.py:193]             [DEBUG]    |   client_secret: (redacted)                                                                        |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |   pin:                                                                                             |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |   authorization:                          # everything below is autofilled by the script           |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     access_token: (redacted)                                                                       |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     token_type: Bearer                                                                             |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     expires_in: 7889238                                                                            |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     refresh_token: (redacted)                                                                      |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     scope: public                                                                                  |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |     created_at: 1726488648                                                                         |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    | mdblist:                                                                                           |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,808] [config.py:193]             [DEBUG]    | gotify:                                                                                            |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    |   token: (redacted)                                                                                |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | # radarr:                                                                                          |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/movies                                                                    |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   monitor: true                                                                                  |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   availability: announced                                                                        |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2024-12-14 05:00:21,809] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   radarr_path:                                                                                   |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | # sonarr:                                                                                          |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   add_missing: false                                                                             |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   add_existing: false                                                                            |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   root_folder_path: S:/shows                                                                     |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   monitor: all                                                                                   |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2024-12-14 05:00:21,810] [config.py:193]             [DEBUG]    | #   language_profile: English                                                                      |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   series_type: standard                                                                          |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   season_folder: true                                                                            |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   tag:                                                                                           |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   search: false                                                                                  |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   cutoff_search: false                                                                           |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   sonarr_path:                                                                                   |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   plex_path:                                                                                     |
+[2024-12-14 05:00:21,811] [config.py:193]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2024-12-14 05:00:21,811] [config.py:194]             [DEBUG]    |                                                                                                    |
+[2024-12-14 05:00:21,838] [config.py:522]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,839] [cache.py:17]               [INFO]     | Initializing cache database at //config/config.cache                                               |
+[2024-12-14 05:00:21,840] [config.py:530]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,840] [config.py:547]             [INFO]     | notifiarr attribute not found                                                                      |
+[2024-12-14 05:00:21,840] [config.py:551]             [INFO]     | Connecting to Gotify...                                                                            |
+[2024-12-14 05:00:21,963] [gotify.py:15]              [INFO]     | Gotify Version: 2.6.1                                                                              |
+[2024-12-14 05:00:21,963] [config.py:563]             [INFO]     | Gotify Connection Successful                                                                       |
+[2024-12-14 05:00:21,963] [config.py:585]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:21,963] [config.py:590]             [INFO]     | Connecting to TMDb...                                                                              |
+[2024-12-14 05:00:22,140] [config.py:599]             [INFO]     | TMDb Connection Successful                                                                         |
+[2024-12-14 05:00:22,140] [config.py:603]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:22,140] [config.py:620]             [INFO]     | omdb attribute not found                                                                           |
+[2024-12-14 05:00:22,141] [config.py:622]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:22,141] [config.py:626]             [INFO]     | Connecting to MDBList...                                                                           |
+[2024-12-14 05:00:25,257] [config.py:632]             [INFO]     | MDBList Connection Successful                                                                      |
+[2024-12-14 05:00:25,257] [config.py:642]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,257] [config.py:646]             [INFO]     | Connecting to Trakt...                                                                             |
+[2024-12-14 05:00:25,732] [config.py:660]             [INFO]     | Trakt Connection Successful                                                                        |
+[2024-12-14 05:00:25,732] [config.py:664]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,733] [config.py:685]             [INFO]     | mal attribute not found                                                                            |
+[2024-12-14 05:00:25,733] [config.py:717]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,733] [config.py:726]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,733] [config.py:727]             [INFO]     | Reading in Playlist Files                                                                          |
+[2024-12-14 05:00:25,733] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,733] [util.py:329]               [INFO]     | Reading file: //config/playlists/video.yml                                                         |
+[2024-12-14 05:00:25,733] [meta.py:71]                [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,733] [meta.py:72]                [INFO]     | Loading Playlist File File: //config/playlists/video.yml                                           |
+[2024-12-14 05:00:25,733] [meta.py:73]                [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,736] [meta.py:161]               [DEBUG]    | File Loaded From: //config/playlists/video.yml                                                     |
+[2024-12-14 05:00:25,736] [meta.py:2234]              [INFO]     | Playlist File Loaded Successfully                                                                  |
+[2024-12-14 05:00:25,872] [config.py:753]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,872] [config.py:755]             [INFO]     | Connecting to Plex Libraries...                                                                    |
+[2024-12-14 05:00:25,872] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,872] [config.py:826]             [INFO]     |                                        Movies Configuration                                        |
+[2024-12-14 05:00:25,872] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:25,872] [config.py:827]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,873] [config.py:828]             [INFO]     | Connecting to Movies Library...                                                                    |
+[2024-12-14 05:00:25,873] [config.py:871]             [INFO]     |===================================== Operation Configuration ======================================|
+[2024-12-14 05:00:25,873] [config.py:875]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,873] [config.py:876]             [INFO]     | Operation 1/1                                                                                      |
+[2024-12-14 05:00:25,873] [config.py:878]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
+[2024-12-14 05:00:25,873] [config.py:878]             [INFO]     |     content_rating_mapper: {'PG': 12, 'PG-13': 13, 'TV-14': 15, 'NR': 17, 'Not Rated': 17, 'R': 18} |
+[2024-12-14 05:00:25,873] [config.py:1013]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,874] [config.py:1014]            [INFO]     | Reading in Collection Files                                                                        |
+[2024-12-14 05:00:25,874] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,874] [util.py:348]               [INFO]     | Reading folder: //config/collections/movies/                                                       |
+[2024-12-14 05:00:25,874] [config.py:1028]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,874] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-12-14 05:00:25,874] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,874] [util.py:348]               [INFO]     | Reading folder: //config/metadata/movies/                                                          |
+[2024-12-14 05:00:25,875] [config.py:1151]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,875] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-12-14 05:00:25,876] [library.py:141]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:25,876] [library.py:143]            [INFO]     | Using Asset Directory: //config/assets/movies/                                                     |
+[2024-12-14 05:00:29,026] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
+[2024-12-14 05:00:29,029] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -350,7 +350,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -364,7 +364,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -392,9 +392,9 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:04,968] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:29,038] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -425,7 +425,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -439,7 +439,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -467,7 +467,7 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eb150>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c1eaf50>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -479,24 +479,24 @@
                                                                  |     raise Failed("Plex Error: Plex URL is probably invalid")                                       |
                                                                  | modules.util.Failed: Plex Error: Plex URL is probably invalid                                      |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:04,976] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
-[2024-12-08 05:01:04,976] [config.py:1190]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,977] [config.py:1191]            [INFO]     | Movies Library Connection Failed                                                                   |
-[2024-12-08 05:01:04,977] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:04,977] [config.py:826]             [INFO]     |                                        Music Configuration                                         |
-[2024-12-08 05:01:04,977] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:04,977] [config.py:827]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,977] [config.py:828]             [INFO]     | Connecting to Music Library...                                                                     |
-[2024-12-08 05:01:04,977] [config.py:1028]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,977] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
-[2024-12-08 05:01:04,977] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,977] [util.py:348]               [INFO]     | Reading folder: //config/metadata/music/                                                           |
-[2024-12-08 05:01:04,978] [config.py:1151]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,978] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
-[2024-12-08 05:01:04,979] [library.py:141]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:04,979] [library.py:143]            [INFO]     | Using Asset Directory: //config/assets/music/                                                      |
-[2024-12-08 05:01:08,069] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
-[2024-12-08 05:01:08,070] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:29,047] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
+[2024-12-14 05:00:29,047] [config.py:1190]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,048] [config.py:1191]            [INFO]     | Movies Library Connection Failed                                                                   |
+[2024-12-14 05:00:29,048] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:29,048] [config.py:826]             [INFO]     |                                        Music Configuration                                         |
+[2024-12-14 05:00:29,048] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:29,048] [config.py:827]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,048] [config.py:828]             [INFO]     | Connecting to Music Library...                                                                     |
+[2024-12-14 05:00:29,048] [config.py:1028]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,048] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-12-14 05:00:29,048] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,048] [util.py:348]               [INFO]     | Reading folder: //config/metadata/music/                                                           |
+[2024-12-14 05:00:29,049] [config.py:1151]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,049] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-12-14 05:00:29,050] [library.py:141]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:29,050] [library.py:143]            [INFO]     | Using Asset Directory: //config/assets/music/                                                      |
+[2024-12-14 05:00:32,145] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
+[2024-12-14 05:00:32,147] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -527,7 +527,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -541,7 +541,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -569,9 +569,9 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:08,078] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:32,154] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -602,7 +602,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -616,7 +616,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -644,7 +644,7 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7f10>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0c2c7d10>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -656,43 +656,43 @@
                                                                  |     raise Failed("Plex Error: Plex URL is probably invalid")                                       |
                                                                  | modules.util.Failed: Plex Error: Plex URL is probably invalid                                      |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:08,087] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
-[2024-12-08 05:01:08,088] [config.py:1190]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,088] [config.py:1191]            [INFO]     | Music Library Connection Failed                                                                    |
-[2024-12-08 05:01:08,088] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:08,088] [config.py:826]             [INFO]     |                                        Shows Configuration                                         |
-[2024-12-08 05:01:08,088] [config.py:826]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:08,088] [config.py:827]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,088] [config.py:828]             [INFO]     | Connecting to Shows Library...                                                                     |
-[2024-12-08 05:01:08,088] [config.py:871]             [INFO]     |===================================== Operation Configuration ======================================|
-[2024-12-08 05:01:08,089] [config.py:875]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,089] [config.py:876]             [INFO]     | Operation 1/1                                                                                      |
-[2024-12-08 05:01:08,089] [config.py:878]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
-[2024-12-08 05:01:08,089] [config.py:878]             [INFO]     |     content_rating_mapper: {'TV-Y': 4, 'TV-Y7': 7, 'TV-G': 7, 'TV-PG': 12, 'TV-14': 14, 'TV-MA': 18} |
-[2024-12-08 05:01:08,089] [config.py:1013]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,089] [config.py:1014]            [INFO]     | Reading in Collection Files                                                                        |
-[2024-12-08 05:01:08,089] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,089] [util.py:348]               [INFO]     | Reading folder: //config/collections/shows/                                                        |
-[2024-12-08 05:01:08,089] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,089] [util.py:329]               [INFO]     | Reading default: country                                                                           |
-[2024-12-08 05:01:08,089] [util.py:368]               [INFO]     | Template Variables: {'use_other': False, 'use_separator': False, 'sep_style': 'purple', 'collection_mode': 'hide', 'include': ['gb', 'kr'], 'sort_by': 'title.asc'} |
-[2024-12-08 05:01:08,089] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,090] [util.py:329]               [INFO]     | Reading default: emmy                                                                              |
-[2024-12-08 05:01:08,090] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'collection_order': 'alpha', 'data': {'starting': 'current_year-5', 'ending': 'current_year'}} |
-[2024-12-08 05:01:08,090] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,090] [util.py:329]               [INFO]     | Reading default: trakt                                                                             |
-[2024-12-08 05:01:08,090] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_collected': False, 'use_popular': False, 'use_recommended': False, 'use_watched': False, 'limit': 20, 'visible_library_trending': True, 'visible_home_trending': False, 'visible_shared_trending': True} |
-[2024-12-08 05:01:08,090] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,090] [util.py:329]               [INFO]     | Reading default: basic                                                                             |
-[2024-12-08 05:01:08,090] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_episodes': False, 'use_released': True, 'in_the_last_released': 120, 'visible_library_released': True, 'visible_home_released': False, 'visible_shared_released': False} |
-[2024-12-08 05:01:08,090] [config.py:1028]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,090] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
-[2024-12-08 05:01:08,090] [util.py:324]               [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,090] [util.py:348]               [INFO]     | Reading folder: //config/metadata/shows/                                                           |
-[2024-12-08 05:01:08,090] [config.py:1151]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:08,091] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
-[2024-12-08 05:01:11,189] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
-[2024-12-08 05:01:11,191] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:32,162] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
+[2024-12-14 05:00:32,162] [config.py:1190]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,162] [config.py:1191]            [INFO]     | Music Library Connection Failed                                                                    |
+[2024-12-14 05:00:32,162] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:32,163] [config.py:826]             [INFO]     |                                        Shows Configuration                                         |
+[2024-12-14 05:00:32,163] [config.py:826]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:32,163] [config.py:827]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,163] [config.py:828]             [INFO]     | Connecting to Shows Library...                                                                     |
+[2024-12-14 05:00:32,163] [config.py:871]             [INFO]     |===================================== Operation Configuration ======================================|
+[2024-12-14 05:00:32,163] [config.py:875]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,163] [config.py:876]             [INFO]     | Operation 1/1                                                                                      |
+[2024-12-14 05:00:32,163] [config.py:878]             [INFO]     |     mass_content_rating_update: mdb_commonsense                                                    |
+[2024-12-14 05:00:32,163] [config.py:878]             [INFO]     |     content_rating_mapper: {'TV-Y': 4, 'TV-Y7': 7, 'TV-G': 7, 'TV-PG': 12, 'TV-14': 14, 'TV-MA': 18} |
+[2024-12-14 05:00:32,163] [config.py:1013]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [config.py:1014]            [INFO]     | Reading in Collection Files                                                                        |
+[2024-12-14 05:00:32,164] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [util.py:348]               [INFO]     | Reading folder: //config/collections/shows/                                                        |
+[2024-12-14 05:00:32,164] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [util.py:329]               [INFO]     | Reading default: country                                                                           |
+[2024-12-14 05:00:32,164] [util.py:368]               [INFO]     | Template Variables: {'use_other': False, 'use_separator': False, 'sep_style': 'purple', 'collection_mode': 'hide', 'include': ['gb', 'kr'], 'sort_by': 'title.asc'} |
+[2024-12-14 05:00:32,164] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [util.py:329]               [INFO]     | Reading default: emmy                                                                              |
+[2024-12-14 05:00:32,164] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'collection_order': 'alpha', 'data': {'starting': 'current_year-5', 'ending': 'current_year'}} |
+[2024-12-14 05:00:32,164] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [util.py:329]               [INFO]     | Reading default: trakt                                                                             |
+[2024-12-14 05:00:32,164] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_collected': False, 'use_popular': False, 'use_recommended': False, 'use_watched': False, 'limit': 20, 'visible_library_trending': True, 'visible_home_trending': False, 'visible_shared_trending': True} |
+[2024-12-14 05:00:32,164] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,164] [util.py:329]               [INFO]     | Reading default: basic                                                                             |
+[2024-12-14 05:00:32,164] [util.py:368]               [INFO]     | Template Variables: {'collection_mode': 'hide', 'use_episodes': False, 'use_released': True, 'in_the_last_released': 120, 'visible_library_released': True, 'visible_home_released': False, 'visible_shared_released': False} |
+[2024-12-14 05:00:32,165] [config.py:1028]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,165] [config.py:1029]            [INFO]     | Reading in Metadata Files                                                                          |
+[2024-12-14 05:00:32,165] [util.py:324]               [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,165] [util.py:348]               [INFO]     | Reading folder: //config/metadata/shows/                                                           |
+[2024-12-14 05:00:32,165] [config.py:1151]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:32,165] [config.py:1152]            [INFO]     |======================================== Plex Configuration ========================================|
+[2024-12-14 05:00:35,265] [plex.py:502]               [INFO]     | Plex Error: Plex connection attempt returned 'ConnectionError' or 'ParseError'                     |
+[2024-12-14 05:00:35,267] [plex.py:503]               [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -723,7 +723,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -737,7 +737,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -765,9 +765,9 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:11,199] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:35,275] [config.py:1188]            [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn     |
                                                                  |     sock = connection.create_connection(                                                           |
                                                                  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                           |
@@ -798,7 +798,7 @@
                                                                  |                 ^^^^^^^^^^^^^^^^                                                                   |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 214, in _new_conn     |
                                                                  |     raise NewConnectionError(                                                                      |
-                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host |
+                                                                 | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host |
                                                                  |                                                                                                    |
                                                                  | The above exception was the direct cause of the following exception:                               |
                                                                  |                                                                                                    |
@@ -812,7 +812,7 @@
                                                                  |   File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment     |
                                                                  |     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]                  |
                                                                  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                            |
-                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -840,7 +840,7 @@
                                                                  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                            |
                                                                  |   File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 700, in send           |
                                                                  |     raise ConnectionError(e, request=request)                                                      |
-                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae0732b1d0>: Failed to establish a new connection: [Errno 113] No route to host')) |
+                                                                 | requests.exceptions.ConnectionError: HTTPConnectionPool(redacted): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fae07333090>: Failed to establish a new connection: [Errno 113] No route to host')) |
                                                                  |                                                                                                    |
                                                                  | During handling of the above exception, another exception occurred:                                |
                                                                  |                                                                                                    |
@@ -852,16 +852,16 @@
                                                                  |     raise Failed("Plex Error: Plex URL is probably invalid")                                       |
                                                                  | modules.util.Failed: Plex Error: Plex URL is probably invalid                                      |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:11,209] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
-[2024-12-08 05:01:11,209] [config.py:1190]            [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,209] [config.py:1191]            [INFO]     | Shows Library Connection Failed                                                                    |
-[2024-12-08 05:01:11,209] [config.py:1280]            [INFO]     |====================================================================================================|
-[2024-12-08 05:01:11,212] [config.py:1294]            [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:35,285] [config.py:1189]            [ERROR]    | Plex Error: Plex URL is probably invalid                                                           |
+[2024-12-14 05:00:35,285] [config.py:1190]            [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,285] [config.py:1191]            [INFO]     | Shows Library Connection Failed                                                                    |
+[2024-12-14 05:00:35,285] [config.py:1280]            [INFO]     |====================================================================================================|
+[2024-12-14 05:00:35,288] [config.py:1294]            [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "/modules/config.py", line 1287, in __init__                                                |
                                                                  |     raise Failed("Config Error: No libraries were found in config")                                |
                                                                  | modules.util.Failed: Config Error: No libraries were found in config                               |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:11,442] [kometa.py:335]             [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2024-12-14 05:00:35,525] [kometa.py:335]             [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "//kometa.py", line 333, in start                                                           |
                                                                  |     config = ConfigFile(my_requests, default_dir, attrs, secret_args)                              |
                                                                  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                              |
@@ -869,22 +869,22 @@
                                                                  |     raise Failed("Config Error: No libraries were found in config")                                |
                                                                  | modules.util.Failed: Config Error: No libraries were found in config                               |
                                                                  |                                                                                                    |
-[2024-12-08 05:01:11,443] [kometa.py:336]             [CRITICAL] | Config Error: No libraries were found in config                                                    |
-[2024-12-08 05:01:11,443] [kometa.py:344]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,443] [kometa.py:419]             [INFO]     |========================================== Error Summary ===========================================|
-[2024-12-08 05:01:11,443] [kometa.py:421]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,443] [kometa.py:422]             [INFO]     | Count | Message                                                                                    |
-[2024-12-08 05:01:11,443] [kometa.py:423]             [INFO]     |=======|============================================================================================|
-[2024-12-08 05:01:11,444] [kometa.py:425]             [INFO]     |     3 | Plex Error: Plex URL is probably invalid                                                   |
-[2024-12-08 05:01:11,444] [kometa.py:426]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,444] [kometa.py:419]             [INFO]     |========================================= Critical Summary =========================================|
-[2024-12-08 05:01:11,444] [kometa.py:421]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,444] [kometa.py:422]             [INFO]     | Count | Message                                                                                    |
-[2024-12-08 05:01:11,444] [kometa.py:423]             [INFO]     |=======|============================================================================================|
-[2024-12-08 05:01:11,444] [kometa.py:425]             [INFO]     |     1 | Config Error: No libraries were found in config                                            |
-[2024-12-08 05:01:11,444] [kometa.py:426]             [INFO]     |                                                                                                    |
-[2024-12-08 05:01:11,444] [kometa.py:431]             [INFO]     |====================================================================================================|
-[2024-12-08 05:01:11,444] [kometa.py:431]             [INFO]     |                                         Finished 05:00 Run                                         |
-[2024-12-08 05:01:11,444] [kometa.py:431]             [INFO]     |                                           Version: 2.1.0                                           |
-[2024-12-08 05:01:11,444] [kometa.py:431]             [INFO]     |                          Finished: 05:01:11 2024-12-08 Run Time: 0:00:13                           |
-[2024-12-08 05:01:11,444] [kometa.py:431]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:35,525] [kometa.py:336]             [CRITICAL] | Config Error: No libraries were found in config                                                    |
+[2024-12-14 05:00:35,526] [kometa.py:344]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,526] [kometa.py:419]             [INFO]     |========================================== Error Summary ===========================================|
+[2024-12-14 05:00:35,526] [kometa.py:421]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,526] [kometa.py:422]             [INFO]     | Count | Message                                                                                    |
+[2024-12-14 05:00:35,526] [kometa.py:423]             [INFO]     |=======|============================================================================================|
+[2024-12-14 05:00:35,527] [kometa.py:425]             [INFO]     |     3 | Plex Error: Plex URL is probably invalid                                                   |
+[2024-12-14 05:00:35,527] [kometa.py:426]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,527] [kometa.py:419]             [INFO]     |========================================= Critical Summary =========================================|
+[2024-12-14 05:00:35,527] [kometa.py:421]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,527] [kometa.py:422]             [INFO]     | Count | Message                                                                                    |
+[2024-12-14 05:00:35,527] [kometa.py:423]             [INFO]     |=======|============================================================================================|
+[2024-12-14 05:00:35,527] [kometa.py:425]             [INFO]     |     1 | Config Error: No libraries were found in config                                            |
+[2024-12-14 05:00:35,527] [kometa.py:426]             [INFO]     |                                                                                                    |
+[2024-12-14 05:00:35,527] [kometa.py:431]             [INFO]     |====================================================================================================|
+[2024-12-14 05:00:35,527] [kometa.py:431]             [INFO]     |                                         Finished 05:00 Run                                         |
+[2024-12-14 05:00:35,527] [kometa.py:431]             [INFO]     |                                           Version: 2.1.0                                           |
+[2024-12-14 05:00:35,527] [kometa.py:431]             [INFO]     |                          Finished: 05:00:35 2024-12-14 Run Time: 0:00:13                           |
+[2024-12-14 05:00:35,528] [kometa.py:431]             [INFO]     |====================================================================================================|
