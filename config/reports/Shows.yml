@@ -122,14 +122,13 @@ Marvel:
     36647: Blade (1998)
     911916: 'Spider-Man: Beyond the Spider-Verse'
     617127: Blade
-    617126: The Fantastic Four (2025)
+    617126: 'The Fantastic Four: First Steps (2025)'
     1003596: 'Avengers: Doomsday (2026)'
     1003598: 'Avengers: Secret Wars (2027)'
     1030022: Armor Wars
   Shows Missing (TVDb IDs):
     393204: Ironheart
     422712: 'Daredevil: Born Again'
-    443358: Eyes of Wakanda
     412427: Your Friendly Neighborhood Spider-Man
     412429: Agatha All Along
     412432: X-Men '97
@@ -145,7 +144,7 @@ Marvel:
     367146: Hawkeye (2021)
     361835: Marvel's Hit-Monkey
     367147: What If…?
-    404491: Marvel's Spidey and His Amazing Friends
+    404491: Spidey and His Amazing Friends
     362472: Loki
     362496: The Falcon and The Winter Soldier
     362392: WandaVision
@@ -228,6 +227,7 @@ Marvel:
     412428: Marvel Zombies
     426606: Vision Quest
     428629: Wonder Man
+    443358: Eyes of Wakanda
 Star Wars:
   Movies Missing (TMDb IDs):
     1110063: 'Star Wars: Dawn of the Jedi'
@@ -250,7 +250,6 @@ Star Wars:
     83268: 'Star Wars: The Clone Wars'
     448549: 'Star Wars: Tales of the Empire'
     385376: 'Star Wars: The Bad Batch'
-    393214: 'Star Wars: A Droid Story'
     393187: Ahsoka
     420600: 'Star Wars: Skeleton Crew'
     351575: Star Wars Resistance
@@ -268,6 +267,7 @@ United Kingdom:
     394924: And Just Like That...
     393189: Andor
     81843: The Andromeda Strain
+    77754: The Andy Griffith Show
     284182: ANZAC Girls
     256520: The Aquabats! Super Show!
     110381: Archer
@@ -276,6 +276,7 @@ United Kingdom:
     313999: Atlanta
     364106: Avenue 5
     333072: Barry
+    367624: Basketball or Nothing
     401998: Black Bird
     353546: Bluey
     194031: Bob's Burgers
@@ -402,6 +403,7 @@ United Kingdom:
     277953: Mr. Pickles
     72965: Mr. Show
     414643: Murderville
+    305074: My Hero Academia
     75397: My Name Is Earl
     74806: Mystery Science Theater 3000
     72938: The New Yankee Workshop
@@ -492,6 +494,7 @@ United Kingdom:
     299327: W/ Bob & David
     337749: Waco
     417549: 'The Walking Dead: Dead City'
+    427202: 'The Walking Dead: The Ones Who Live'
     370139: War of the Worlds (2019)
     404833: The Watcher
     360733: Watchmen
@@ -531,6 +534,7 @@ South Korea:
     299855: And Then There Were None
     393189: Andor
     81843: The Andromeda Strain
+    77754: The Andy Griffith Show
     284182: ANZAC Girls
     256520: The Aquabats! Super Show!
     110381: Archer
@@ -539,6 +543,7 @@ South Korea:
     313999: Atlanta
     364106: Avenue 5
     333072: Barry
+    367624: Basketball or Nothing
     73545: Battlestar Galactica
     360336: The Bay (2019)
     70680: Big Train
@@ -698,6 +703,7 @@ South Korea:
     72965: Mr. Show
     72476: The Muppet Show
     414643: Murderville
+    305074: My Hero Academia
     319539: My Mother and Other Strangers
     75397: My Name Is Earl
     74806: Mystery Science Theater 3000
@@ -794,10 +800,12 @@ South Korea:
     421197: The U.S. and the Holocaust
     433006: Untold (2021)
     333595: The Vietnam War (2017)
+    267149: The Village (2013)
     413304: The Villains of Valley View
     299327: W/ Bob & David
     337749: Waco
     417549: 'The Walking Dead: Dead City'
+    427202: 'The Walking Dead: The Ones Who Live'
     370139: War of the Worlds (2019)
     404833: The Watcher
     360733: Watchmen
@@ -823,11 +831,13 @@ South Korea:
   - Dave Ramsey's Financial Peace University
 Emmys Best in Category Winners:
   Movies Missing (TMDb IDs):
-    576575: The Penguins of Madagascar (2009)
     26809: Prep & Landing (2009)
     712352: "Foster's Home for Imaginary Friends: Destination Imagination (2008)"
     432266: "Camp Lazlo: Where's Lazlo? (2007)"
     19493: 'Hornblower: The Even Chance (1998)'
+    37065: 'Hornblower: The Duchess and the Devil (1999)'
+    35494: 'Hornblower: The Examination for Lieutenant (1998)'
+    37067: 'Hornblower: The Frogs and the Lobsters (1999)'
     2405: Joseph (1995)
     505320: 'David Macaulay: Roman City (1994)'
     81667: Will Vinton's Claymation Easter (1992)
@@ -850,21 +860,22 @@ Emmys Best in Category Winners:
     241568: Death of a Salesman (1966)
     247555: Ages of Man (1966)
   Shows Missing (TVDb IDs):
-    392573: "ShÅ\x8Dgun"
-    401582: Hacks
     434151: Blue Eye Samurai
-    338186: Succession
+    401582: Hacks
+    392573: "ShÅ\x8Dgun"
     403294: The Bear
+    338186: Succession
     371028: Arcane
-    305574: The Crown
     364007: Primal
+    305574: The Crown
     287247: Schitt's Creek
     314614: Fleabag
-    321239: The Handmaid's Tale
     237831: Veep
+    321239: The Handmaid's Tale
     281643: Over the Garden Wall
     269613: Fargo
     75897: South Park
+    85075: The Penguins of Madagascar
     247897: Homeland
     80337: Mad Men
     85539: The Pacific
@@ -872,17 +883,17 @@ Emmys Best in Category Winners:
     81547: John Adams
     75299: The Sopranos
     81129: Broken Trail
-    76290: '24'
     73244: The Office (US)
+    76290: '24'
     79758: Elizabeth I
-    73739: Lost
-    73663: Everybody Loves Raymond
     72244: 'Star Wars: Clone Wars'
+    73663: Everybody Loves Raymond
+    73739: Lost
     75164: Samurai Jack
     79311: Angels in America
+    126501: Chased by Dinosaurs
     72521: The West Wing
     78224: Taken
-    126501: Chased by Dinosaurs
     78854: Walking with Beasts
     79168: Friends
     74205: Band of Brothers
@@ -945,6 +956,7 @@ Emmys Best in Category Winners:
     75258: The Fugitive
     72322: The Jack Benny Program
     76433: Alcoa Theatre
+    425011: Goodyear Theatre
     73114: Playhouse 90
     76688: The Phil Silvers Show
     76483: Producers' Showcase
@@ -953,34 +965,29 @@ Emmys Best in Category Winners:
     70794: The Red Skelton Show
 Emmys 2024:
   Movies Missing (TMDb IDs):
-    1255883: 'Alex Edelman: Just for Us (2024)'
-    787781: Quiz Lady (2023)
     1058650: 'Going to Mars: The Nikki Giovanni Project (2023)'
     986355: Girls State (2024)
     1115363: Taylor Mac's 24-Decade History of Popular Music (2023)
     1273196: Jim Henson Idea Man (2024)
     1265066: The Beach Boys (2024)
+    787781: Quiz Lady (2023)
     1221140: 'Dick Van Dyke: 98 Years of Magic (2023)'
+    1255883: 'Alex Edelman: Just for Us (2024)'
   Shows Missing (TVDb IDs):
-    392573: "ShÅ\x8Dgun"
-    401582: Hacks
-    417223: Baby Reindeer
-    403294: The Bear
-    270633: True Detective
-    361563: The Morning Show
-    305574: The Crown
-    269613: Fargo
-    372727: RIPLEY
-    372264: Slow Horses
-    71256: The Daily Show
-    428163: The Traitors (US)
     434151: Blue Eye Samurai
+    403294: The Bear
+    392573: "ShÅ\x8Dgun"
+    417223: Baby Reindeer
     419263: Love on the Spectrum U.S.
     331431: Big Mouth
     405882: The Idol (2023)
+    372727: RIPLEY
     401513: How I Met Your Father
     269599: Life Below Zero
+    401582: Hacks
     250487: American Horror Story
+    305574: The Crown
+    361563: The Morning Show
     76177: Saturday Night Live
     85269: The Academy Awards
     439773: Beckham
@@ -988,30 +995,34 @@ Emmys 2024:
     77075: Jeopardy!
     396773: Mr. & Mrs. Smith (2024)
     76573: Wheel of Fortune
+    428163: The Traitors (US)
     340520: My Next Guest Needs No Introduction With David Letterman
-    408850: 'Adventure Time: Fionna & Cake'
     396626: Clone High (2023)
-    425129: In The Know
+    408850: 'Adventure Time: Fionna & Cake'
     421287: Scavengers Reign
+    425129: In The Know
     441498: 'SILENT HILL: Ascension'
-    395685: Lessons in Chemistry
+    270633: True Detective
+    395685: Lessons In Chemistry
     416744: Fallout
-    445876: Queens
+    445876: Queens (2024)
     415970: Palm Royale
     259184: The Eric Andre Show
     322466: Feud
-    449017: 'John Mulaney Presents: Everybody’s in L.A.'
     247824: The Voice
     403119: Welcome to Wrexham
+    449017: 'John Mulaney Presents: Everybody’s in L.A.'
+    71256: The Daily Show
     278518: Last Week Tonight with John Oliver
     439192: 'Only Murders in the Building: One Killer Question'
     370853: Masters of the Air
     100981: Shark Tank
     426845: The Gentlemen
+    269613: Fargo
+    372264: Slow Horses
     435035: Conan O'Brien Must Go
 Emmys 2023:
   Movies Missing (TMDb IDs):
-    1093247: 'John Mulaney: Baby J (2023)'
     913849: The Territory (2022)
     1028851: 'Beauty and the Beast: A 30th Celebration (2022)'
     1058699: 'STILL: A Michael J. Fox Movie (2023)'
@@ -1024,13 +1035,12 @@ Emmys 2023:
     957457: Moonage Daydream (2022)
     1050281: 'Elton John Live: Farewell from Dodger Stadium (2022)'
     1111889: 'Carol Burnett: 90 Years of Laughter + Love (2023)'
+    1093247: 'John Mulaney: Baby J (2023)'
   Shows Missing (TVDb IDs):
-    338186: Succession
-    403294: The Bear
-    399838: BEEF
-    402910: Abbott Elementary
-    390430: The White Lotus
     445455: Chronicles Of Jessica Wu
+    403294: The Bear
+    390430: The White Lotus
+    399838: BEEF
     428163: The Traitors (US)
     331431: Big Mouth
     392720: Blindspotting
@@ -1038,6 +1048,7 @@ Emmys 2023:
     396600: 100 Foot Wave
     403119: Welcome to Wrexham
     371893: We're Here
+    338186: Succession
     76177: Saturday Night Live
     424152: The 1619 Project
     371572: House of the Dragon
@@ -1047,13 +1058,14 @@ Emmys 2023:
     85002: RuPaul's Drag Race
     394655: 'Stanley Tucci: Searching for Italy'
     393190: 'Star Wars: Visions'
+    402910: Abbott Elementary
     368612: Ms. Marvel
     434285: 'Working: What We Do All Day'
+    425204: 'Queen Charlotte: A Bridgerton Story'
     416580: Daisy Jones and The Six
     369301: The Great
-    425204: 'Queen Charlotte: A Bridgerton Story'
-    366433: A Black Lady Sketch Show
     70812: Night Court
+    366433: A Black Lady Sketch Show
     409559: Guillermo del Toro's Cabinet of Curiosities
     278518: Last Week Tonight with John Oliver
     387817: Five Days at Memorial
@@ -1071,23 +1083,20 @@ Emmys 2022:
     420821: "Chip 'n Dale: Rescue Rangers (2022)"
     952326: 'Jerrod Carmichael: Rothaniel (2022)'
   Shows Missing (TVDb IDs):
-    338186: Succession
-    360261: Euphoria (US)
-    401582: Hacks
-    390716: Dopesick
-    363024: The Dropout
-    402910: Abbott Elementary
-    278518: Last Week Tonight with John Oliver
-    390430: The White Lotus
-    76177: Saturday Night Live
-    371028: Arcane
-    416823: Lizzo’s Watch Out for the Big Grrrls
     361644: State of the Union
+    371028: Arcane
+    402910: Abbott Elementary
+    338186: Succession
+    390430: The White Lotus
     419263: Love on the Spectrum U.S.
     367147: What If…?
+    360261: Euphoria (US)
+    390716: Dopesick
     401513: How I Met Your Father
     396600: 100 Foot Wave
     269599: Life Below Zero
+    416823: Lizzo’s Watch Out for the Big Grrrls
+    401582: Hacks
     289108: American Crime Story
     371893: We're Here
     405144: 'The Beatles: Get Back'
@@ -1095,24 +1104,26 @@ Emmys 2022:
     419734: George Carlin's American Dream
     85002: RuPaul's Drag Race
     394655: 'Stanley Tucci: Searching for Italy'
-    357888: Love, Death & Robots
     413188: 'The Boys Presents: Diabolical'
+    357888: Love, Death & Robots
+    363024: The Dropout
     247824: The Voice
     371980: Severance
     377143: Legendary
     362004: Home Before Dark
     417835: Our Great National Parks
     393154: Schmigadoon!
-    369301: The Great
     366668: Bridgerton
     400690: Pam and Tommy
+    369301: The Great
     364412: The Gilded Age
     332954: 'Carpool Karaoke: The Series'
     303438: Full Frontal with Samantha Bee
     341614: Queer Eye
+    278518: Last Week Tonight with John Oliver
+    76177: Saturday Night Live
 Emmys 2021:
   Movies Missing (TMDb IDs):
-    759721: "Stephen Colbert's Election Night 2020: Democracy's Last Stand: Building Back America Great Again Better 2020 (2020)"
     728928: 76 Days (2020)
     747349: Dolly Parton's Christmas on the Square (2020)
     664280: 'David Attenborough: A Life on Our Planet (2020)'
@@ -1124,31 +1135,31 @@ Emmys 2021:
     656690: The Social Dilemma (2020)
     730009: 'The Bee Gees: How Can You Mend a Broken Heart (2020)'
     556574: Hamilton (2020)
+    759721: "Stephen Colbert's Election Night 2020: Democracy's Last Stand: Building Back America Great Again Better 2020 (2020)"
   Shows Missing (TVDb IDs):
-    305574: The Crown
-    401582: Hacks
-    377886: Halston
-    370112: Mare of Easttown
-    278518: Last Week Tonight with John Oliver
-    371798: I May Destroy You
-    76177: Saturday Night Live
-    364007: Primal
-    85002: RuPaul's Drag Race
     373202: Mapleworth Murders
+    364007: Primal
+    305574: The Crown
+    85002: RuPaul's Drag Race
     331431: Big Mouth
     79590: Dancing with the Stars
     382438: Country Comfort
     269599: Life Below Zero
     346026: Pose
+    76177: Saturday Night Live
     359265: Sherman's Showcase
     351030: The Masked Singer (US)
+    401582: Hacks
     393225: Secrets of the Whales
     362392: WandaVision
     394655: 'Stanley Tucci: Searching for Italy'
     357888: Love, Death & Robots
+    377886: Halston
+    370112: Mare of Easttown
     367633: The Good Lord Bird
     349334: Calls (US)
     349358: The Conners
+    371798: I May Destroy You
     396274: 'Lincoln: Divided We Stand'
     366668: Bridgerton
     366433: A Black Lady Sketch Show
@@ -1156,33 +1167,24 @@ Emmys 2021:
     332954: 'Carpool Karaoke: The Series'
     328711: 'Star Trek: Discovery'
     341614: Queer Eye
+    278518: Last Week Tonight with John Oliver
     280035: "RuPaul's Drag Race: Untucked!"
 Emmys 2020:
   Movies Missing (TMDb IDs):
-    530723: Bad Education (2019)
-    657148: 'Live in Front of a Studio Audience: "All in the Family" and "Good Times" (2019)'
-    624932: 'Dave Chappelle: Sticks & Stones (2019)'
     621729: The Cave (2019)
     677639: 'We Are the Dream: The Kids of the Oakland MLK Oratorical Fest (2020)'
     565716: American Factory (2019)
+    624932: 'Dave Chappelle: Sticks & Stones (2019)'
     585527: The Apollo (2019)
     638497: The Line (2019)
     549559: Apollo 11 (2019)
+    657148: 'Live in Front of a Studio Audience: "All in the Family" and "Good Times" (2019)'
+    530723: Bad Education (2019)
   Shows Missing (TVDb IDs):
-    338186: Succession
-    287247: Schitt's Creek
-    360261: Euphoria (US)
-    354972: I Know This Much Is True
-    361563: The Morning Show
-    367230: Mrs. America
-    311714: This Is Us
-    76177: Saturday Night Live
-    278518: Last Week Tonight with John Oliver
-    85002: RuPaul's Drag Race
-    376122: Unorthodox
-    341614: Queer Eye
-    374441: Cheer (2020)
     376944: '#FreeRayshawn'
+    287247: Schitt's Creek
+    338186: Succession
+    85002: RuPaul's Drag Race
     331431: Big Mouth
     361549: 'The Dark Crystal: Age of Resistance'
     363815: Zoey's Extraordinary Playlist
@@ -1190,11 +1192,17 @@ Emmys 2020:
     305165: The Ranch
     269599: Life Below Zero
     281511: black-ish
+    360261: Euphoria (US)
     351030: The Masked Singer (US)
+    376122: Unorthodox
+    374441: Cheer (2020)
+    76177: Saturday Night Live
+    311714: This Is Us
     319252: 'Leah Remini: Scientology and the Aftermath'
     364007: Primal
     384060: Create Together
     289590: Mr. Robot
+    354972: I Know This Much Is True
     365186: Godfather of Harlem
     368452: "Inside Bill's Brain: Decoding Bill Gates"
     318363: One Day at a Time (2017)
@@ -1202,74 +1210,81 @@ Emmys 2020:
     359251: Seven Worlds, One Planet
     375503: Hollywood (2020)
     305574: The Crown
+    278518: Last Week Tonight with John Oliver
     321239: The Handmaid's Tale
     364093: 'Star Trek: Picard'
+    368115: Forky Asks a Question
     332954: 'Carpool Karaoke: The Series'
     314986: Insecure
     260449: Vikings
+    341614: Queer Eye
     161511: Shameless (US)
+    361563: The Morning Show
+    367230: Mrs. America
     372566: "Don't F**k with Cats: Hunting an Internet Killer"
 Emmys 2019:
   Movies Missing (TMDb IDs):
-    569547: 'Black Mirror: Bandersnatch (2018)'
-    563708: Springsteen On Broadway (2018)
-    529531: 'Hannah Gadsby: Nanette (2018)'
-    602495: "Live in Front of a Studio Audience: Norman Lear's \"All in the Family\" and \"The Jeffersons\" (2019)"
-    580110: 'Carpool Karaoke: When Corden Met McCartney Live From Liverpool (2018)'
-    493099: RBG (2018)
     492638: The Sentence (2018)
+    493099: RBG (2018)
     562742: 'When You Wish Upon a Pickle: A Sesame Street Special (2018)'
     515042: Free Solo (2018)
+    563708: Springsteen On Broadway (2018)
     594404: 'Leaving Neverland: ProSieben Spezial (2019)'
     559418: Age of Sail (2018)
+    1388033: Killing Eve (2018)
     557648: Rent (2019)
     586775: Aretha! A Grammy Celebration for the Queen of Soul (2019)
     1176797: The Late Late Show Carpool Karaoke Primetime Special 2019 (2019)
+    569547: 'Black Mirror: Bandersnatch (2018)'
+    602495: "Live in Front of a Studio Audience: Norman Lear's \"All in the Family\" and \"The Jeffersons\" (2019)"
+    580110: 'Carpool Karaoke: When Corden Met McCartney Live From Liverpool (2018)'
+    529531: 'Hannah Gadsby: Nanette (2018)'
   Shows Missing (TVDb IDs):
-    314614: Fleabag
-    346026: Pose
-    340959: Killing Eve
-    360388: When They See Us
-    357907: Fosse/Verdon
-    336770: A Very English Scandal
-    354765: The Act
-    321239: The Handmaid's Tale
-    278518: Last Week Tonight with John Oliver
-    85002: RuPaul's Drag Race
-    76177: Saturday Night Live
-    338186: Succession
-    341614: Queer Eye
-    310297: United Shades of America
-    355229: Our Planet (2019)
-    264108: 'Anthony Bourdain: Parts Unknown'
     361644: State of the Union
+    314614: Fleabag
+    360388: When They See Us
+    341614: Queer Eye
     75978: Family Guy
     295777: Crazy Ex-Girlfriend
     325623: World of Dance
     305165: The Ranch
     269599: Life Below Zero
     356640: Russian Doll
+    85002: RuPaul's Drag Race
+    76177: Saturday Night Live
+    355229: Our Planet (2019)
+    321239: The Handmaid's Tale
+    357907: Fosse/Verdon
     356574: Carmen Sandiego
     357888: Love, Death & Robots
+    264108: 'Anthony Bourdain: Parts Unknown'
+    346026: Pose
     351269: Patriot Act with Hasan Minhaj
     318363: One Day at a Time (2017)
+    338186: Succession
+    310297: United Shades of America
+    278518: Last Week Tonight with John Oliver
     328711: 'Star Trek: Discovery'
     368032: Creating Saturday Night Live
     332954: 'Carpool Karaoke: The Series'
     324835: GLOW
+    336770: A Very English Scandal
+    354765: The Act
 Trakt Trending:
   Shows Missing (TVDb IDs):
-    426866: The Day of the Jackal
-    401003: FROM
-    371028: Arcane
+    371980: Severance
     341164: Yellowstone (2018)
-    388589: Lioness
-    334769: Day and Night
-    80379: The Big Bang Theory
-    367118: 'Dune: Prophecy'
-    79168: Friends
+    426866: The Day of the Jackal
+    350665: The Rookie
+    270408: Outlander
+    397424: Landman
+    439306: Guardians of The Dafeng
+    428066: American Primeval
+    420543: The Traitors (UK)
+    430769: The Agency (2024)
     79349: Dexter
-    367138: 'Star Trek: Lower Decks'
-    73255: House
+    420600: 'Star Wars: Skeleton Crew'
+    80379: The Big Bang Theory
+    401003: FROM
+    417478: Alpha Males
     73762: Grey's Anatomy
-    75978: Family Guy
