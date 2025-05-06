@@ -67,10 +67,10 @@ collections:
     imdb_list: https://www.imdb.com/list/ls069064647/
     summary: A science fiction film series based on the novel of the same name by Suzanne Collins. The film series takes place in a dystopian post-apocalyptic future in the nation of Panem, featuring the protagonist, Katniss Everdeen.
 
-  Indiana Jones:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/105678}
-    imdb_list: https://www.imdb.com/list/ls027779939/?sort=release_date,asc&st_dt=&mode=detail&page=1
-    summary: The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archaeologist Dr. Henry Walton "Indiana" Jones.
+  #Indiana Jones:
+    #template: {name: Franchise, poster: https://theposterdb.com/api/assets/105678}
+    #imdb_list: https://www.imdb.com/list/ls027779939/?sort=release_date,asc&st_dt=&mode=detail&page=1
+    #summary: The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archaeologist Dr. Henry Walton "Indiana" Jones.
 
   Jack Ryan:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/150542}
@@ -87,10 +87,10 @@ collections:
     imdb_list: https://www.imdb.com/list/ls039269245/
     summary: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series.
 
-  Middle Earth:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/115119}
-    imdb_list: https://www.imdb.com/list/ls055713151/?sort=release_date,asc&st_dt=&mode=detail&page=1
-    summary: The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work.
+  #Middle Earth:
+    #template: {name: Franchise, poster: https://theposterdb.com/api/assets/115119}
+    #imdb_list: https://www.imdb.com/list/ls055713151/?sort=release_date,asc&st_dt=&mode=detail&page=1
+    #summary: The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work.
 
   Mission Impossible:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/49297}
@@ -128,10 +128,10 @@ collections:
     trakt_list: https://trakt.tv/users/strangerer/lists/star-trek?sort=released,desc
     summary: Star Trek is a science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry.
 
-  Star Wars:
-    template: {name: Franchise, poster: https://theposterdb.com/api/assets/58758}
-    trakt_list: https://trakt.tv/users/goatdilji/lists/star-wars?sort=released,desc
-    summary: Star Wars is an American epic space-opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
+  #Star Wars:
+    #template: {name: Franchise, poster: https://theposterdb.com/api/assets/58758}
+    #trakt_list: https://trakt.tv/users/goatdilji/lists/star-wars?sort=released,desc
+    #summary: Star Wars is an American epic space-opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
 
   Three Flavours Cornetto:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
